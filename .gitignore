@@ -2,6 +2,7 @@
 *.suo
 *.raw
 *.ttf
+*.dmd
 *.md2
 *.mtl
 *.obj
