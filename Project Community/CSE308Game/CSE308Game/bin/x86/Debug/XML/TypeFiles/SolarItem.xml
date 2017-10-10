@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+<Data Restitution="0" Density="500" Friction="1" fixedRotation="false"/>
+  <Images>
+    <Image width="50" height="50">solar</Image>
+    </Images>
+  <States>
+  <State name="_">0</State>
+    </States>
+	<Shape ShapeType="Polygon" type="Static">
+	<Vertex>1,0</Vertex>
+	<Vertex>1,1</Vertex>
+	<Vertex>0,1</Vertex>
+	<Vertex>0,0</Vertex>
+	</Shape>
+</XnaContent>

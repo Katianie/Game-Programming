@@ -1,0 +1,42 @@
+<Conversation value="Thanks for coming through with these solar panels, they will be perfect. The great thing about solar panels is that they can store energy for later use like when its dark outside. Not to mention the free electricity from the sun. Do you still have time to help out?">
+<Responses>
+	<Response type="Convo" value="Sure, I'd be glad to help.">
+		<Conversation value="Thanks for everything, we should only need this and then we can actually build the array. We need 1 capacitor to help hold the energy the solar panels take in. Let me know when you have it." >
+			<Responses>
+				<Response type="Event" value="Accept Quest">
+					<Events>
+						<Event eventName="Accept_Current_Quest" eventValue="Pit Fall"/>
+					</Events>
+				</Response>			
+			</Responses>
+		</Conversation>
+	</Response>
+	<Response type="Convo" value="What do you need?">
+		<Conversation value="We need 1 capacitor to help hold the energy the solar panels take in. Come find me when your done." >
+			<Responses>
+				<Response type="Event" value="Accept Quest">
+					<Events>
+						<Event eventName="Accept_Current_Quest" eventValue="Pit Fall"/>
+					</Events>
+				</Response>	
+			</Responses>
+		</Conversation>
+	</Response>
+<!--	<Response type="Convo" value="Has anyone ever been as far as decided to be there then look more like?">
+		<Conversation value="....Yes, I have been as far and then decided to ask you to get me 1 capacitor for my dam solar panel array. DON'T COME BACK TILL YOU HAVE WHAT I NEED!" >
+			<Responses>
+				<Response type="Event" value="Accept Quest">
+					<Events>
+						<Event eventName="Accept_Current_Quest" eventValue="EcoGuy2"/>
+					</Events>
+				</Response>	
+			</Responses>
+		</Conversation>
+	</Response>-->
+	<Response type="Event" value="Sorry, Not right now (exit).">
+		<Events>
+			<Event eventName="Exit_ConversationSet" eventValue="nil" />
+		</Events>
+	</Response>
+</Responses>
+</Conversation>

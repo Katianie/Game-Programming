@@ -1,0 +1,10 @@
+<AIFile>
+<FontToUse value="EcoGuyVoice" />
+<ConversationList>
+<ConversationFile name="default" next="Vac">XML\Conversations\EcoGuyMonkeyConvo.xml</ConversationFile>
+<ConversationFile name="Vac" next="ecoGuyConvo1">XML\Conversations\EcoGuyVaccineConvo.xml</ConversationFile>
+<ConversationFile name="ecoGuyConvo1" next="ecoGuyConvo2">XML\Conversations\ecoguyconvo1.xml</ConversationFile>
+<ConversationFile name="ecoGuyConvo2" >XML\Conversations\ecoguyconvo2.xml</ConversationFile>
+<ConversationFile name="ecoGuyConvo3">XML\Conversations\ecoguyconvo3.xml</ConversationFile>
+</ConversationList>
+</AIFile>

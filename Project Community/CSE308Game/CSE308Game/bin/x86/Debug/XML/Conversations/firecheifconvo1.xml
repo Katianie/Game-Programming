@@ -1,0 +1,42 @@
+<Conversation value="Hey I heard from the Police Chief that you've been doing some great work for the town. I could use your help if you have the time. ">
+<Responses>
+	<Response type="Convo" value="Sure, I'd love to.">
+		<Conversation value="Thank you so much, I need 10 fire hoses. The ones we do have have a ton of holes in them and will not work." >
+			<Responses>
+				<Response type="Event" value="Accept Quest">
+					<Events>
+						<Event eventName="Accept_Current_Quest" eventValue="FireCheif1"/>
+					</Events>
+				</Response>			
+			</Responses>
+		</Conversation>
+	</Response>
+	<Response type="Convo" value="That's what I'm here to do right?">
+		<Conversation value="Haha, very cool. I need 10 fire hoses. The ones we do have have a ton of holes in them and will not work." >
+			<Responses>
+				<Response type="Event" value="Accept Quest">
+					<Events>
+						<Event eventName="Accept_Current_Quest" eventValue="FireCheif1"/>
+					</Events>
+				</Response>	
+			</Responses>
+		</Conversation>
+	</Response>
+	<Response type="Convo" value="Yea I guess...">
+		<Conversation value="...I need 10 fire hoses. Come back when you get em." >
+			<Responses>
+				<Response type="Event" value="Accept Quest">
+					<Events>
+						<Event eventName="Accept_Current_Quest" eventValue="FireCheif1"/>
+					</Events>
+				</Response>	
+			</Responses>
+		</Conversation>
+	</Response>
+	<Response type="Event" value="Sorry, Not right now (exit).">
+		<Events>
+			<Event eventName="Exit_ConversationSet" eventValue="nil" />
+		</Events>
+	</Response>
+</Responses>
+</Conversation> 

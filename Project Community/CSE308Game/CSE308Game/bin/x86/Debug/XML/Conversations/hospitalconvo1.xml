@@ -1,0 +1,137 @@
+<Conversation value="Look we have a lot going on here, people are dying don't waste my time">
+<Responses>
+	<Response type="Convo" value="Of course, how can I help you.">
+		<Conversation value="Thank you, I don't really run into capable people anymore. I have a lot of sick patients here and I don't have time to go into town to get supplies, can you help me?" >
+			<Responses>
+				<Response type="Convo" value="Yes sir!">
+					<Conversation value="That's exactly the kind of enthusiasm I'm looking for, all right I'm going to need 15 bandages for these patients. You can get bandages by first getting raw cotton from the Cotton Farmer and then convert them into bandages. Please hurry, these people are losing blood!" >
+						<Responses>
+							<Response type="Event" value="Accept Quest">
+								<Events>
+									<Event eventName="Accept_Current_Quest" eventValue="Doctor1"/>
+								</Events>
+							</Response>
+							<Response type="Event" value="Here you go!">
+								<Events>
+									<Event eventName="TakeItems" eventValue="Cotton,15"/>
+									<Event eventName="Quest_Completed_Return" eventValue="Main"/>
+									<Event eventName="GiveItems" eventValue="Krugerrand,100" />
+								</Events>
+							</Response>
+						</Responses>
+					</Conversation>
+				</Response>
+				<Response type="Convo" value="Sure whatcha need?">
+					<Conversation value="Ok you seem like you might actually want to help. I'm going to need 15 bandages for these patients. You can get bandages by first getting raw cotton from the Cotton Farmer and then convert them into bandages. Please hurry, these people are losing blood!" >
+						<Responses>
+							<Response type="Event" value="Accept Quest">
+								<Events>
+									<Event eventName="Accept_Current_Quest" eventValue="Doctor1"/>
+								</Events>
+							</Response>
+								<Response type="Event" value="Here you go!">
+								<Events>
+									<Event eventName="TakeItems" eventValue="Cotton,15"/>
+									<Event eventName="Quest_Completed_Return" eventValue="Main" />
+									<Event eventName="GiveItems" eventValue="Krugerrand,100" />
+								</Events>
+							</Response>	
+						</Responses>
+					</Conversation>
+				</Response>
+				<Response type="Convo"  value="It seems like a bit much, um I dunno.">
+					<Conversation value="All right then you're no good to me at all just leave..." >
+						<Responses>
+							<Response type="Event" value="Yeah whatever (exit).">
+								<Events>
+									<Event eventName="Exit_ConversationSet" eventValue="nil" />
+								</Events>
+							</Response>
+						</Responses>
+					</Conversation>
+				</Response>
+				<!--<Response type="Convo"  value="uhhh................">
+					<Conversation value="All right then you're no good to me at all just leave..." >
+						<Responses>
+							<Response type="Event" value="Yeah whatever (exit).">
+								<Events>
+									<Event eventName="Exit_ConversationSet" eventValue="nil" />
+								</Events>
+							</Response>
+						</Responses>
+					</Conversation>
+				</Response>-->
+			</Responses>
+		</Conversation>
+	</Response>
+	<Response type="Convo" value="I think I can help.">
+		<Conversation value="You think??? Listen buddy I don't have time for people who can only help halfway. I'm working on a very serious chemical compound that can save many people from alot of the horrible diseases floating around here. I need a lot of supplies for this. Are you in Mr.I think?" >
+			<Responses>
+				<Response type="Convo" value="Yes sir!">
+					<Conversation value="That's exactly the kind of enthusiasm I'm looking for, all right I'm going to need 15 bandages for these patients. You can get bandages by first getting raw cotton from the Cotton Farmer and then convert them into bandages. Please hurry, these people are losing blood!" >
+						<Responses>
+							<Response type="Event" value="Accept Quest">
+								<Events>
+									<Event eventName="Accept_Current_Quest" eventValue="Doctor1"/>
+								</Events>
+							</Response>
+							<Response type="Event" value="Here you go!">
+								<Events>
+									<Event eventName="TakeItems" eventValue="Cotton,15"/>
+									<Event eventName="Quest_Completed_Return" eventValue="Main"/>
+									<Event eventName="GiveItems" eventValue="Krugerrand,100" />
+								</Events>
+							</Response>
+						</Responses>
+					</Conversation>
+				</Response>
+				<Response type="Convo" value="Sure whatcha need?">
+					<Conversation value="Ok you seem like you might actually want to help. I'm going to need 15 bandages for these patients. You can get bandages by first getting raw cotton from the Cotton Farmer and then convert them into bandages. Please hurry, these people are losing blood!" >
+						<Responses>
+							<Response type="Event" value="Accept Quest">
+								<Events>
+									<Event eventName="Accept_Current_Quest" eventValue="Doctor1"/>
+								</Events>
+							</Response>
+							<Response type="Event" value="Here you go!">
+								<Events>
+									<Event eventName="TakeItems" eventValue="Cotton,15"/>
+									<Event eventName="Quest_Completed_Return" eventValue="Main"/>
+									<Event eventName="GiveItems" eventValue="Krugerrand,100" />
+								</Events>
+							</Response>
+						</Responses>
+					</Conversation>
+				</Response>
+				<Response type="Convo"  value="It seems like a bit much, um I dunno.">
+					<Conversation value="All right then you're no good to me at all just leave..." >
+						<Responses>
+							<Response type="Event" value="Yeah whatever (exit).">
+								<Events>
+									<Event eventName="Exit_ConversationSet" eventValue="nil" />
+								</Events>
+							</Response>
+						</Responses>
+					</Conversation>
+				</Response>
+				<!--<Response type="Convo"  value="uhhh................">
+					<Conversation value="All right then you're no good to me at all just leave..." >
+						<Responses>
+							<Response type="Event" value="Yeah whatever (exit).">
+								<Events>
+									<Event eventName="Exit_ConversationSet" eventValue="nil" />
+								</Events>
+							</Response>
+						</Responses>
+					</Conversation>
+				</Response>-->
+			</Responses>
+		</Conversation>
+	</Response>
+	<Response type="Event" value="Yeah whatever (exit).">
+		<Events>
+			<Event eventName="Exit_ConversationSet" eventValue="nil" />
+		</Events>
+	</Response>
+</Responses>
+</Conversation>

@@ -1,0 +1,84 @@
+<GameWorld> 
+
+  <BackGround >BackGrounds\tower</BackGround>
+  <Gravity>0,8</Gravity>
+   <Edges>
+		<Bottom type="hfkj" value="3,4" />
+		<Left type="lhkjgj" value="Main" />
+		<Top type="DoAnythiing" value="3,4" />
+		<Right type="hgkjghj" value="Main" />
+  </Edges>
+    <CheckPoints>
+	<CheckPoint xLoc="3" yLoc="76" />
+  </CheckPoints>
+ <Entities>
+ 			<Entity type ="Player"   locationX ="4" locationY="77"  />
+			
+							<Entity type ="PillItem" locationX ="1" locationY="76.5"  />
+							<Entity type ="PillItem" locationX ="9.5" locationY="75"  />
+							<Entity type ="PillItem" locationX ="2" locationY="61.7"  />
+							<Entity type ="PillItem" locationX ="5" locationY="61"  />
+							<Entity type ="PillItem" locationX ="110" locationY="3"  />
+			
+			
+			
+			<Entity type ="PlacedBarBuilding"   locationX ="0" locationY="79"   />
+			<Entity type ="PlacedBarBuilding"   locationX ="1" locationY="79"   />
+			<Entity type ="PlacedBarBuilding"   locationX ="2" locationY="79"   />
+			<Entity type ="PlacedBarBuilding"   locationX ="3" locationY="79"   />
+			<Entity type ="PlacedBarBuilding"   locationX ="4" locationY="79"   />
+			<Entity type ="PlacedBarBuilding"   locationX ="5" locationY="79"   />
+			<Entity type ="PlacedBarBuilding"   locationX ="6" locationY="79"   />
+			<Entity type ="PlacedBarBuilding"   locationX ="7" locationY="79"   />
+			<Entity type ="PlacedBarBuilding"   locationX ="8" locationY="79"   />
+			<Entity type ="PlacedBarBuilding"   locationX ="9" locationY="79"   />
+			<Entity type ="PlacedBarBuilding"   locationX ="10" locationY="79"   />
+			<Entity type ="PlacedBarBuilding"   locationX ="11" locationY="79"   />
+			<Entity type ="PlacedBarBuilding"   locationX ="12" locationY="79"   />		
+
+			<Entity type ="PlacedBarBuilding"   locationX ="0" locationY="77.2"   />
+			<Entity type ="PlacedBarBuilding"   locationX =".8" locationY="77.2"   />
+			<Entity type ="PlacedBarBuilding"   locationX ="1.6" locationY="77.2"   />
+			
+						<Entity type ="PlacedBarBuilding"   locationX ="4" locationY="75.5"   />
+			<Entity type ="PlacedBarBuilding"   locationX ="4.8" locationY="75.5"   />
+			<Entity type ="PlacedBarBuilding"   locationX ="7" locationY="75"   />
+			<Entity type ="PlacedBarBuilding"   locationX ="7.8" locationY="75"   />
+			
+						<Entity type ="PlacedBarBuilding"   locationX ="9" locationY="76"   />
+			<Entity type ="PlacedBarBuilding"   locationX ="9.8" locationY="76"   />
+			
+			<Entity type ="PlacedBarBuilding"   locationX ="10" locationY="74"   />
+			<Entity type ="PlacedBarBuilding"   locationX ="10.8" locationY="74"   />
+			
+						<Entity type ="PlacedBarBuilding"   locationX ="7" locationY="72.5"   />
+			<Entity type ="PlacedBarBuilding"   locationX ="7.8" locationY="72.5"   />
+			
+									<Entity type ="PlacedBarBuilding"   locationX ="5" locationY="71"   />
+			<Entity type ="PlacedBarBuilding"   locationX ="5.8" locationY="71"   />
+				<Entity  type ="CatcherBlock"   locationX ="1" locationY="71" aiName="MovingPlatform" aiArgs="1,0,200,0,2,30,0,0,200,0,-2,60,0,0" />	
+
+
+
+			<Entity type ="PlacedBarBuilding"   locationX ="5" locationY="65"   />
+			<Entity type ="PlacedBarBuilding"   locationX ="5.8" locationY="65"   />
+				<Entity  type ="CatcherBlock"   locationX ="7" locationY="65" aiName="MovingPlatform" aiArgs="7,0,300,0,2,30,0,0,300,0,-2,60,0,0" />	
+
+			<Entity type ="PlacedBarBuilding"   locationX ="5" locationY="62"   />
+			<Entity type ="PlacedBarBuilding"   locationX ="5.8" locationY="62"   />	
+
+			<Entity type ="PlacedBarBuilding"   locationX ="5" locationY="58"   />
+			<Entity type ="PlacedBarBuilding"   locationX ="5.8" locationY="58"   />	
+
+			<Entity type ="PlacedBarBuilding"   locationX ="2" locationY="57"   />
+				<Entity type ="PlacedBarBuilding"   locationX ="2.8" locationY="57"   />
+
+			<Entity type ="ExitBuilding"   locationX ="4" locationY="56"  aiName="Gateway" aiArgs="Drugz and Thugz,168,2" />				
+</Entities>
+<Joints>
+		</Joints>
+<NoPlayerCollision>123,ff</NoPlayerCollision>
+<Non-CollidingPairs>
+	<Pair id1="catcher6" id2="srb1" />
+</Non-CollidingPairs>
+ </GameWorld>

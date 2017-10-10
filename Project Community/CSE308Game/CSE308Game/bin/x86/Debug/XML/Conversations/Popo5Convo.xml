@@ -1,0 +1,34 @@
+<Conversation value="What do you want?">
+	<Responses>
+		<Response type="Convo" value="Will you join the police?">
+			<Conversation value="Well the murder rate is kind of high, it would be nice to have a gun again:  Worldwide there were 6.9 homicides per 100,00 people in 2010.  In honduras this number is a lot higher, roughly how many people were murdered there in 2010?" >
+				<Responses>
+					<Response type="Event" value="86 per 100,000">
+						<Events>
+							<Event eventName="Join_Police" eventValue="nien"/>
+							<Event eventName="GiveItem" eventValue="FWPD Employee Contract"/>
+							<Event eventName="TakeItem" eventValue="Police Badge"/>
+						</Events>
+					</Response>
+					<Response type="Event" value="203 per 100,00">
+			<Events>
+				<Event eventName="Exit_ConversationSet" eventValue="nil" />
+				<Event eventName="FloatText" eventValue="Wrong!" />
+			</Events>
+					</Response>
+					<Response type="Event" value="29 per 100,000">
+			<Events>
+				<Event eventName="Exit_ConversationSet" eventValue="nil" />
+				<Event eventName="FloatText" eventValue="Wrong!" />
+			</Events>
+					</Response>
+				</Responses>
+			</Conversation>
+		</Response>
+		<Response type="Event" value="Nevermind.">
+			<Events>
+				<Event eventName="Exit_ConversationSet" eventValue="nil" />
+			</Events>
+		</Response>
+	</Responses>
+</Conversation>

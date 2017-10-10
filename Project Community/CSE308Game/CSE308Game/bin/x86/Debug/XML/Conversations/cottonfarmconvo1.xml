@@ -1,0 +1,113 @@
+<Conversation value="I have so much cotton here but I don't have the man power to harvest it all in time.">
+<Responses>
+	<Response type="Convo" value="I'd be more than happy to help out">
+		<Conversation value="Thank you so much! If you hadn't come along I would be looking at quite a loss. Now are you really able to help out?" >
+			<Responses>
+				<Response type="Convo" value="Absolutely!">
+					<Conversation value="Haven't seen enthusiasm like that around these parts in quite some time. I need you to go out by the barn and build something to catch the cotton as I throw it down." >
+						<Responses>
+							<Response type="Event" value="Accept Quest">
+							<Events>
+								<Event eventName="Accept_Current_Quest" eventValue="Cotton Catch"/>
+								<Event eventName="Instruct" eventValue="Place the board with with B. Rotate it with Q and E.  Catch as much as possible."/>
+								</Events>
+							</Response>
+						</Responses>
+					</Conversation>
+				</Response>
+				<Response type="Convo" value="Is the day long?">
+					<Conversation value="I like your style boy, tell you what,  I need you to go out by the barn and build something to catch the cotton as I throw it down." >
+						<Responses>
+							<Response type="Event" value="Accept Quest">
+							<Events>
+								<Event eventName="Accept_Current_Quest" eventValue="Cotton Catch"/>
+																<Event eventName="Instruct" eventValue="Place the board with with B. Rotate it with Q and E.  Catch as much as possible."/>
+								</Events>
+							</Response>
+						</Responses>
+					</Conversation>
+				</Response>
+				<Response type="Convo" value="I don't think I can do it right now.">
+					<Conversation value="I'll be here if you change your mind." >
+						<Responses>
+							<Response type="Event" value="Yeah whatever (exit).">
+							<Events>
+								<Event eventName="Exit_ConversationSet" eventValue="nil" />
+								</Events>
+							</Response>
+						</Responses>
+					</Conversation>
+				</Response>
+				<Response type="Convo" value="I can count to potato!">
+					<Conversation value="Uhhh, ok well I guess I'll see ya." >
+						<Responses>
+							<Response type="Event" value="Herp Derp (exit).">
+							<Events>
+								<Event eventName="Exit_ConversationSet" eventValue="nil" />
+								</Events>
+							</Response>
+						</Responses>
+					</Conversation>
+				</Response>
+			</Responses>
+		</Conversation>
+	</Response>
+	<Response type="Convo" value="Whats in it for me?">
+		<Conversation value="I might be able to give you something for your trouble. Go out into the field and gather as much cotton as you can. Don't come back unless your done." >
+			<Responses>
+				<Response type="Convo" value="Absolutely!">
+					<Conversation value="Haven't seen enthusiasm like that around these parts in quite some time.  I need you to go out by the barn and build something to catch the cotton as I throw it down.." >
+						<Responses>
+							<Response type="Event" value="Accept Quest">
+							<Events>
+								<Event eventName="Accept_Current_Quest" eventValue="Cotton Catch"/>
+													<Event eventName="Instruct" eventValue="Place the board with with B. Rotate it with Q and E.  Catch as much as possible."/>
+								</Events>
+							</Response>
+						</Responses>
+					</Conversation>
+				</Response>
+				<Response type="Convo" value="Is the day long?">
+					<Conversation value="I like your style boy, tell you what,  I need you to go out by the barn and build something to catch the cotton as I throw it down." >
+						<Responses>
+							<Response type="Event" value="Accept Quest">
+							<Events>
+								<Event eventName="Accept_Current_Quest" eventValue="Cotton Catch"/>
+												<Event eventName="Instruct" eventValue="Place the board with with B. Rotate it with Q and E.  Catch as much as possible."/>
+								</Events>
+							</Response>
+						</Responses>
+					</Conversation>
+				</Response>
+				<Response type="Convo" value="I don't think I can do it right now.">
+					<Conversation value="I'll be here if you change your mind." >
+						<Responses>
+							<Response type="Event" value="Yeah whatever (exit).">
+							<Events>
+								<Event eventName="Exit_ConversationSet" eventValue="nil" />
+								</Events>
+							</Response>
+						</Responses>
+					</Conversation>
+				</Response>
+				<Response type="Convo" value="I can count to potato!">
+					<Conversation value="Uhhh, ok well I guess I'll see ya." >
+						<Responses>
+							<Response type="Event" value="Herp Derp (exit).">
+							<Events>
+								<Event eventName="Exit_ConversationSet" eventValue="nil" />
+								</Events>
+							</Response>
+						</Responses>
+					</Conversation>
+				</Response>
+			</Responses>
+		</Conversation>
+	</Response>
+	<Response type="Event" value="Sorry I'm busy at the moment. (exit).">
+	<Events>
+		<Event eventName="Exit_ConversationSet" eventValue="nil" />
+		</Events>
+	</Response>
+</Responses>
+</Conversation>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+<Data Restitution=".5" Density="4" Friction="0" fixedRotation="false"/>
+  <Images>
+    <Image width="150" height="150">GameTiles\monkey</Image>
+    </Images>
+  <States>
+	<State name="Standing Down">0</State>
+    <State name="Standing Up">0</State>
+	<State name="Standing Left">0</State>
+	<State name="Standing Right">0</State>
+	<State name="Walking Down">0</State>
+	<State name="Walking Up">0</State>
+	<State name="Walking Left">0</State>
+	<State name="Walking Right">0</State>
+			  </States>
+	<Shape ShapeType="Polygon" type="Dynamic">
+	<Vertex>.73,.2</Vertex>
+	<Vertex>.83,.83</Vertex>
+	<Vertex>.2,1</Vertex>
+	<Vertex>0.073,0.1</Vertex>
+	</Shape>
+</XnaContent>

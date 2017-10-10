@@ -1,0 +1,1716 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Entities</name>
+    </assembly>
+    <members>
+        <member name="T:Entities.World.PictureSideScrollGameWorld">
+            <summary>
+            Gameworld that uses an image as a fixed background.
+            </summary>
+            <Owner>Justin Dale</Owner>
+        </member>
+        <member name="T:Entities.World.GameWorld">
+            <summary>
+            Represents a single place in the game where, a world if you will.
+            </summary>
+            <Owner>Justin Dale</Owner>
+        </member>
+        <member name="M:Entities.World.GameWorld.#ctor(Microsoft.Xna.Framework.Game,System.Single,System.Single,System.Int32,System.String)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="_game"></param>
+        </member>
+        <member name="M:Entities.World.GameWorld.getGame">
+            <summary>
+            Gets the main game object
+            </summary>
+            <returns>the game</returns>
+        </member>
+        <member name="M:Entities.World.GameWorld.getEntities">
+            <summary>
+            Returns a list of all entities in this gameworld.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Entities.World.GameWorld.update(Microsoft.Xna.Framework.GameTime)">
+            <summary>
+            Update the gameworld
+            </summary>
+            <param name="gameTime">GameTime</param>
+        </member>
+        <member name="M:Entities.World.GameWorld.draw(Microsoft.Xna.Framework.Graphics.SpriteBatch)">
+            <summary>
+            Draw the game world
+            </summary>
+            <param name="sb">Sprite Batch to draw with</param>
+        </member>
+        <member name="M:Entities.World.GameWorld.resetWorld">
+            <summary>
+            Resets the game world.
+            Removes and reloads all entities.
+            </summary>
+        </member>
+        <member name="M:Entities.World.GameWorld.AddBody(Microsoft.Xna.Framework.Vector2,Entities.World.Entity)">
+            <summary>
+            Add physical body to this world
+            </summary>
+            <param name="position">Starting position</param>
+            <param name="ent">Entity of body</param>
+            <returns></returns>
+        </member>
+        <member name="M:Entities.World.GameWorld.AddBody(Microsoft.Xna.Framework.Vector2,Entities.World.EntityType,Entities.World.Entity)">
+            <summary>
+            Add physical body to this world
+            </summary>
+            <param name="position">Starting position</param>
+            <param name="ent">Entity of body</param>
+            <returns></returns>
+        </member>
+        <member name="M:Entities.World.GameWorld.addEntity(Entities.World.Entity,System.String)">
+            <summary>
+            add entity to this world
+            </summary>
+            <param name="entity"></param>
+        </member>
+        <member name="M:Entities.World.GameWorld.removeEntity(Entities.World.Entity)">
+            <summary>
+            Removes the entity from the game world and destroys its body
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Entities.World.GameWorld.joinBodies_Distance(Box2D.XNA.Body,Box2D.XNA.Body)">
+            <summary>
+            Creates a distance joint between two bodies
+            </summary>
+            <param name="b1"></param>
+            <param name="b2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Entities.World.GameWorld.joinBodies_Prismatic(Box2D.XNA.Body,Box2D.XNA.Body,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2)">
+            <summary>
+            Creates a distance joint between two bodies
+            </summary>
+            <param name="b1"></param>
+            <param name="b2"></param>
+            <param name="anchor"></param>
+            <param name="axis"></param>
+        </member>
+        <member name="M:Entities.World.GameWorld.joinBodies_Prismatic(Box2D.XNA.Body,Box2D.XNA.Body,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2,System.Single,System.Single,System.Single)">
+            <summary>
+            Creates a distance joint between two bodies
+            </summary>
+            <param name="b1"></param>
+            <param name="b2"></param>
+            <param name="anchor"></param>
+            <param name="axis"></param>
+            <param name="uppertranslation"></param>
+            <param name="lowertranslation"></param>
+            <param name="motorspeed"></param>
+        </member>
+        <member name="M:Entities.World.GameWorld.joinBodies_Rotate(Box2D.XNA.Body,Box2D.XNA.Body,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2,System.Single)">
+            <summary>
+            Creates a distance joint between two bodies
+            </summary>
+            <param name="b1"></param>
+            <param name="b2"></param>
+            <param name="anchor"></param>
+            <param name="limits"></param>
+            <param name="motor"></param>
+        </member>
+        <member name="M:Entities.World.GameWorld.joinBodies_Weld(Box2D.XNA.Body,Box2D.XNA.Body,Microsoft.Xna.Framework.Vector2,System.Boolean)">
+            <summary>
+            Creates a distance joint between two bodies
+            </summary>
+            <param name="b1"></param>
+            <param name="b2"></param>
+            <param name="anchor"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Entities.World.GameWorld.joinBodies_Pulley(Box2D.XNA.Body,Box2D.XNA.Body,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2,System.Single)">
+            <summary>
+            Creates a distance joint between two bodies
+            </summary>
+            <param name="b1"></param>
+            <param name="b2"></param>
+            <param name="gAnchor1"></param>
+            <param name="gAnchor2"></param>
+            <param name="ratio"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Entities.World.GameWorld.loadGameWorld(System.String)">
+            <summary>
+            Load method
+            </summary>
+            <param name="filename">File to load from</param>
+        </member>
+        <member name="M:Entities.World.GameWorld.loadEntity(System.Xml.XmlTextReader)">
+            <summary>
+            Creates a distance joint between two bodies
+            </summary>
+            <param name="reader"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Entities.World.GameWorld.loadNonEntity(System.Xml.XmlTextReader)">
+            <summary>
+            Loads a non entity
+            </summary>
+            <param name="reader"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Entities.World.GameWorld.loadJoint(System.Xml.XmlTextReader)">
+            <summary>
+            Loads a joint from file
+            </summary>
+            <param name="reader"></param>
+        </member>
+        <member name="M:Entities.World.GameWorld.addBounds(Entities.Event[])">
+            <summary>
+            Adds edges bounding the world
+            </summary>
+        </member>
+        <member name="M:Entities.World.GameWorld.readEdgeEvents(System.Xml.XmlReader)">
+            <summary>
+            Reads in the collide events for the edges
+            </summary>
+            <param name="reader"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Entities.World.GameWorld.collidesWithPlayer(System.String)">
+            <summary>
+            Returns false if the id has been black listed from colliding with player
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Entities.World.GameWorld.loadAI(Entities.World.Entity,System.String,System.String)">
+            <summary>
+            Loads the ai's from file
+            </summary>
+            <param name="e"></param>
+            <param name="name"></param>
+            <param name="file"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Entities.World.GameWorld.deleteAllEntities">
+            <summary>
+            Deletes all entities from this world and anything related to entities is reset.
+            </summary>
+        </member>
+        <member name="M:Entities.World.GameWorld.loadEntitesFromFile">
+            <summary>
+            Just load the entities from a world file. (For resetting)
+            </summary>
+        </member>
+        <member name="M:Entities.World.GameWorld.getCheckPoint(Microsoft.Xna.Framework.Vector2)">
+            <summary>
+            Returns the first checkpoint before the given pos
+            </summary>
+            <param name="pos"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Entities.World.PictureSideScrollGameWorld.#ctor(Microsoft.Xna.Framework.Game,System.Single,System.Single,System.Int32,System.String)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="_game"></param>
+            <param name="width"></param>
+            <param name="height"></param>
+            <param name="tileWidth"></param>
+            <param name="_name"></param>
+        </member>
+        <member name="M:Entities.World.PictureSideScrollGameWorld.draw(Microsoft.Xna.Framework.Graphics.SpriteBatch)">
+            <summary>
+            Draws the image instead of a tiled layer
+            </summary>
+            <param name="sb"></param>
+        </member>
+        <member name="M:Entities.World.PictureSideScrollGameWorld.update(Microsoft.Xna.Framework.GameTime)">
+            <summary>
+            Update
+            </summary>
+            <param name="gameTime"></param>
+        </member>
+        <member name="M:Entities.World.PictureSideScrollGameWorld.loadGameWorld(System.String)">
+            <summary>
+            Loads the picture gameworld
+            </summary>
+            <param name="filename"></param>
+        </member>
+        <member name="T:Entities.AI.PolygonNode">
+            <summary>
+            Representation of an area of space in a map.  
+            These compose a nav mesh or a path through a nav mesh.
+            </summary>
+            <Owner>Justin Dale</Owner>
+        </member>
+        <member name="M:Entities.AI.PolygonNode.#ctor(Microsoft.Xna.Framework.Rectangle)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="rect"></param>
+        </member>
+        <member name="M:Entities.AI.PolygonNode.initNode(System.Collections.Generic.List{System.Collections.Generic.List{Entities.AI.PolygonNode}})">
+            <summary>
+            Link this node with all of the given nodes.
+            </summary>
+            <param name="listOfPolygonLists">List of adjacent nodes</param>
+        </member>
+        <member name="M:Entities.AI.PolygonNode.removeNode(Entities.AI.PolygonNode)">
+            <summary>
+            Removes an adjacent node from this node.
+            </summary>
+            <param name="pn">Node to remove</param>
+            <returns>True if it was in the list, false otherwise.</returns>
+        </member>
+        <member name="M:Entities.AI.PolygonNode.addNode(Entities.AI.PolygonNode)">
+            <summary>
+            Adds an adjacent node from this node.
+            </summary>
+            <param name="pn">Node to add</param>
+            <returns>True</returns>
+        </member>
+        <member name="M:Entities.AI.PolygonNode.getAdjacentNodes">
+            <summary>
+            Get adjacent nodes as array.
+            </summary>
+            <returns>PolygonNode[]</returns>
+        </member>
+        <member name="M:Entities.AI.PolygonNode.inPolygon(Microsoft.Xna.Framework.Point)">
+            <summary>
+            Check if Point is in the polygon.
+            </summary>
+            <param name="p">Point to check.</param>
+            <returns>True if inside polygon.</returns>
+        </member>
+        <member name="M:Entities.AI.PolygonNode.inPolygon(Microsoft.Xna.Framework.Vector2)">
+            <summary>
+            Check if Vector is in the polygon.
+            </summary>
+            <param name="v">Vector to check</param>
+            <returns>True if inside polygon.</returns>
+        </member>
+        <member name="M:Entities.AI.PolygonNode.inPolygon(Microsoft.Xna.Framework.Rectangle)">
+            <summary>
+            Checks if the rectangle overlaps this polygon
+            </summary>
+            <param name="r">Rectangle to check</param>
+            <returns>True if they intersect.</returns>
+        </member>
+        <member name="M:Entities.AI.PolygonNode.GetHashCode">
+            <summary>
+            Hashcode function.
+            </summary>
+            <returns>Hashcode for this PolygonNode</returns>
+        </member>
+        <member name="M:Entities.AI.PolygonNode.linkPolygons(Entities.AI.PolygonNode,Entities.AI.PolygonNode)">
+            <summary>
+            Adds each node to the other's adjacency list.
+            </summary>
+            <param name="p1">First node.</param>
+            <param name="p2">Second node.</param>
+        </member>
+        <member name="M:Entities.AI.PolygonNode.areTheseAdjacent(Entities.AI.PolygonNode,Entities.AI.PolygonNode)">
+            <summary>
+            Check if two PolygonNodes are adjacent.
+            </summary>
+            <param name="p1">First Node</param>
+            <param name="p2">Second Node</param>
+            <returns>True if they are next to each other.</returns>
+        </member>
+        <member name="M:Entities.AI.PolygonNode.getConnectionPoint(Entities.AI.PolygonNode,Entities.AI.PolygonNode)">
+            <summary>
+            This is not really working it should be the point
+            that one should pass through between to polygons.
+            </summary>
+            <param name="pn1">First Polygon</param>
+            <param name="pn2">Second Polygon</param>
+            <returns>the sweet spot</returns>
+        </member>
+        <member name="T:Entities.AI.DrugAddictAI">
+            <summary>
+            Class for drug addict enemy ai.  Randomly walks back and forth in 2D sidescroller.
+            </summary>
+        </member>
+        <member name="T:Entities.AI.AIBase">
+            <summary>
+            Base class for all NPC's
+            </summary>
+            <Owner>Justin Dale</Owner>
+        </member>
+        <member name="F:Entities.AI.AIBase.gameWorld">
+            <summary>
+            Gameworld reference
+            </summary>
+        </member>
+        <member name="M:Entities.AI.AIBase.#ctor(Entities.World.GameWorld,Entities.World.Entity)">
+            <summary>
+            Base Constructor
+            </summary>
+            <param name="_gameWorld"></param>
+        </member>
+        <member name="M:Entities.AI.AIBase.update">
+            <summary>
+            Every AI should have an update
+            </summary>
+        </member>
+        <member name="M:Entities.AI.AIBase.load(System.String)">
+            <summary>
+            Every AI will have either its own specific state file or will use a generic type file.
+            </summary>
+            <param name="filename"></param>
+        </member>
+        <member name="M:Entities.AI.AIBase.playCurrentConversation">
+            <summary>
+            Puts the current conversation up on the screen.
+            </summary>
+        </member>
+        <member name="M:Entities.AI.AIBase.getResponse(System.Int32)">
+            <summary>
+            Callback for conversation responses
+            </summary>
+            <param name="i">index of response</param>
+        </member>
+        <member name="M:Entities.AI.AIBase.collide(Entities.World.Entity,System.Boolean)">
+            <summary>
+            Called foreach contact involving this AI's entity.
+            </summary>
+            <param name="otherThing">Entity of other thing</param>
+            <param name="isTouching">Are they touching?</param>
+        </member>
+        <member name="M:Entities.AI.AIBase.nextConversation">
+            <summary>
+            Tries to move to the next conversation.
+            </summary>
+        </member>
+        <member name="M:Entities.AI.AIBase.init">
+            <summary>
+            Init method. Called after the AI has been setup before the first frame.
+            </summary>
+        </member>
+        <member name="M:Entities.AI.DrugAddictAI.#ctor(Entities.World.GameWorld,Entities.World.Entity)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="_gameWorld">Gameworld reference</param>
+            <param name="e">Entity attached to.</param>
+        </member>
+        <member name="M:Entities.AI.DrugAddictAI.collide(Entities.World.Entity,System.Boolean)">
+            <summary>
+            Collide method.  Removes this guy if he collides with the bottom edge.
+            </summary>
+            <param name="otherThing"></param>
+            <param name="isTouching"></param>
+        </member>
+        <member name="M:Entities.AI.DrugAddictAI.update">
+            <summary>
+            Update.  Random back and forth movement with random pausing.
+            </summary>
+        </member>
+        <member name="T:Entities.Singletons.EntityManager">
+            <summary>
+            Manages the game worlds, types and entities.
+            </summary>
+            <Owner>Justin Dale</Owner>
+        </member>
+        <member name="M:Entities.Singletons.EntityManager.#ctor(Microsoft.Xna.Framework.Game)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="_gameWorld"></param>
+        </member>
+        <member name="M:Entities.Singletons.EntityManager.getEntityManager(Microsoft.Xna.Framework.Game)">
+            <summary>
+            Get a reference to the entity manager (Singleton)
+            </summary>
+            <param name="game"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Entities.Singletons.EntityManager.drawEntities(Microsoft.Xna.Framework.Graphics.SpriteBatch,Entities.World.Entity[])">
+            <summary>
+            Draw entities
+            </summary>
+            <param name="sb">SpriteBatch</param>
+            <param name="entities">Array of entities</param>
+        </member>
+        <member name="M:Entities.Singletons.EntityManager.handleEvents(Entities.World.Entity[])">
+            <summary>
+            Calls event handling for each entity
+            </summary>
+            <param name="entities">Array of entities</param>
+        </member>
+        <member name="M:Entities.Singletons.EntityManager.animateEntities(Entities.World.Entity[])">
+            <summary>
+            calls the animate method of each entity
+            </summary>
+            <param name="entities">Array of entities</param>
+        </member>
+        <member name="M:Entities.Singletons.EntityManager.addType(System.String,Entities.World.EntityType)">
+            <summary>
+            Adds an entity type
+            </summary>
+            <param name="typename">Name of type</param>
+            <param name="type">Type</param>
+        </member>
+        <member name="M:Entities.Singletons.EntityManager.addPlayer(Entities.Player.Player)">
+            <summary>
+            Set universal player reference
+            </summary>
+            <param name="entity">Player entity</param>
+        </member>
+        <member name="M:Entities.Singletons.EntityManager.deleteGameWorld(System.String)">
+            <summary>
+            Removes a gameworld.
+            </summary>
+            <param name="name"></param>
+        </member>
+        <member name="M:Entities.Singletons.EntityManager.reloadGameWorld(System.String)">
+            <summary>
+            Reloads the game world.  Cannot be the active game world.
+            </summary>
+            <param name="name"></param>
+        </member>
+        <member name="M:Entities.Singletons.EntityManager.getType(System.String)">
+            <summary>
+            Get entity type from name.
+            </summary>
+            <param name="name">name of type</param>
+            <returns>EntityType</returns>
+        </member>
+        <member name="M:Entities.Singletons.EntityManager.drawString(System.String)">
+            <summary>
+            Adds a debugging string.
+            </summary>
+            <param name="text">String to add</param>
+        </member>
+        <member name="M:Entities.Singletons.EntityManager.clearStringList">
+            <summary>
+            Clears the debugging strings.
+            </summary>
+        </member>
+        <member name="M:Entities.Singletons.EntityManager.processContacts(Box2D.XNA.Contact)">
+            <summary>
+            Recursively calls collision methods on both entities in each collision.
+            </summary>
+            <param name="contact">Contact to be processed</param>
+        </member>
+        <member name="M:Entities.Singletons.EntityManager.updateAIs(Entities.World.Entity[])">
+            <summary>
+            Calls the update method of each ai.
+            </summary>
+            <param name="entities">Array of entities</param>
+        </member>
+        <member name="M:Entities.Singletons.EntityManager.drawCurrentWorld(Microsoft.Xna.Framework.Graphics.SpriteBatch)">
+            <summary>
+            Draws current world.
+            </summary>
+            <param name="sb"></param>
+        </member>
+        <member name="M:Entities.Singletons.EntityManager.setCurrentGameWorld(System.String)">
+            <summary>
+            Sets the current game world.
+            </summary>
+            <param name="key">World name to switch to</param>
+        </member>
+        <member name="M:Entities.Singletons.EntityManager.getCurrentGameWorld">
+            <summary>
+            Return current gameworld
+            </summary>
+            <returns>Return current gameworld</returns>
+        </member>
+        <member name="M:Entities.Singletons.EntityManager.addGameWorld(Entities.World.GameWorld,System.String)">
+            <summary>
+            Adds a gameworld to the list of worlds
+            </summary>
+            <param name="_world">GameWorld</param>
+            <param name="_name">Name of world (key)</param>
+        </member>
+        <member name="M:Entities.Singletons.EntityManager.isWorld(System.String)">
+            <summary>
+            Returns true if string is the name of a gameworld
+            </summary>
+            <param name="s">WorldName</param>
+            <returns>Returns true if string is the name of a gameworld</returns>
+        </member>
+        <member name="M:Entities.Singletons.EntityManager.drawHalo(Microsoft.Xna.Framework.Graphics.SpriteBatch)">
+            <summary>
+            Draws the indicator over the target NPC's head.
+            </summary>
+            <param name="sb"></param>
+        </member>
+        <member name="M:Entities.Singletons.EntityManager.pushAFloater(System.String,Microsoft.Xna.Framework.Color)">
+            <summary>
+            Add a floating text to a queue.
+            </summary>
+            <param name="floatingText"></param>
+            <param name="floatingColor"></param>
+        </member>
+        <member name="T:Entities.World.PowerBar">
+            <summary>
+            This is the main type for your game
+            </summary>
+        </member>
+        <member name="T:Entities.World.Entity">
+            <summary>
+            A game entity such as a player, building, npc, item or anything else that exists physically in a gameworld.
+            </summary>
+            <Owner>Justin Dale</Owner>
+        </member>
+        <member name="M:Entities.World.Entity.#ctor(Entities.World.GameWorld,Entities.World.EntityType)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="gw">Gameworld reference this entity is in</param>
+            <param name="et">The entity type</param>
+            <param name="x">x coordinate in meters</param>
+            <param name="y">y coordinate in meters</param>
+        </member>
+        <member name="M:Entities.World.Entity.collide(Entities.World.Entity,System.Boolean)">
+            <summary>
+            Called when Contacts are processed
+            </summary>
+            <param name="otherThing">Entity that this collided with</param>
+        </member>
+        <member name="M:Entities.World.Entity.handleEvents">
+            <summary>
+            handle control events generated by input or AI
+            </summary>
+        </member>
+        <member name="M:Entities.World.Entity.draw(Microsoft.Xna.Framework.Graphics.SpriteBatch)">
+            <summary>
+            Draws this entity using the current SpriteBatch
+            </summary>
+            <param name="sb">SpriteBatch being used</param>
+        </member>
+        <member name="M:Entities.World.Entity.animate">
+            <summary>
+            Performs animation operations based on state and the specific EntityType information
+            </summary>
+        </member>
+        <member name="M:Entities.World.Entity.load(System.String)">
+            <summary>
+            Will this be used? 
+            </summary>
+            <param name="filename"></param>
+        </member>
+        <member name="M:Entities.World.Entity.addEvent(Entities.Event)">
+            <summary>
+            Adds an event to this entity's eventList
+            </summary>
+            <param name="eventToAdd"></param>
+        </member>
+        <member name="M:Entities.World.Entity.AABBQueryCallback(Box2D.XNA.Fixture)">
+            <summary>
+            
+            </summary>
+            <param name="fixture"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Entities.World.Entity.shouldCollide(Entities.World.Entity)">
+            <summary>
+            Method called from contact filter to see if two things should collide.
+            </summary>
+            <param name="ent">Other thing</param>
+            <returns>True if they should collide.</returns>
+        </member>
+        <member name="M:Entities.World.Entity.areJoined(Box2D.XNA.Body)">
+            <summary>
+            Is this connected to the given body.
+            </summary>
+            <param name="other">Other body.</param>
+            <returns>True if connected by a joint, false if otherwise.</returns>
+        </member>
+        <member name="T:Entities.AI.Conversation">
+            <summary>
+            Represents an in game conversation.
+            </summary>
+            <Owner>Justin Dale</Owner>
+        </member>
+        <member name="M:Entities.AI.Conversation.#ctor(Entities.AI.AIBase)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="_owner"></param>
+        </member>
+        <member name="M:Entities.AI.Conversation.loadConversation(System.String,Entities.AI.AIBase,System.String)">
+            <summary>
+            Starting load method
+            </summary>
+            <param name="filename"></param>
+            <param name="_owner"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Entities.AI.Conversation.loadConversation(Entities.AI.AIBase,System.Xml.XmlReader)">
+            <summary>
+            Inner load method (Recursion and all that)
+            </summary>
+            <param name="_owner"></param>
+            <param name="xmlReader"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Entities.AI.Conversation.getResponseStringArray">
+            <summary>
+            Returns an array of the responses.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Entities.World.Building">
+            <summary>
+            Represents an in game building
+            </summary>
+            <Owner>Justin Dale</Owner>
+        </member>
+        <member name="M:Entities.World.Building.#ctor(Entities.World.GameWorld,Entities.World.EntityType)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="gw"></param>
+            <param name="et"></param>
+        </member>
+        <member name="M:Entities.World.Building.collide(Entities.World.Entity,System.Boolean)">
+            <summary>
+            Collide method
+            </summary>
+            <param name="otherThing"></param>
+            <param name="touching"></param>
+        </member>
+        <member name="M:Entities.World.Building.handleEvents">
+            <summary>
+            Handle Events
+            </summary>
+        </member>
+        <member name="T:Entities.World.Cannon">
+            <summary>
+            Represents a chop able tree
+            </summary>
+            <Owner>Edward Francis Katianie O'Hagan</Owner>
+        </member>
+        <member name="M:Entities.World.Cannon.#ctor(Entities.World.GameWorld,Entities.World.EntityType)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="gw"></param>
+            <param name="et"></param>
+        </member>
+        <member name="M:Entities.World.Cannon.collide(Entities.World.Entity,System.Boolean)">
+            <summary>
+            Collide method
+            </summary>
+            <param name="otherThing"></param>
+            <param name="touching"></param>
+        </member>
+        <member name="M:Entities.World.Cannon.handleEvents">
+            <summary>
+            Handle Events
+            </summary>
+        </member>
+        <member name="T:Entities.QuestList">
+            <summary>
+            List of valid quest names
+            Lets try to keep this in some sort of order
+            </summary>
+        </member>
+        <member name="T:Entities.World.Tile">
+            <summary>
+            Defines a tile with an index to a corresponding texture and a color for variation and debugging.
+            </summary>
+        </member>
+        <member name="T:Entities.World.TiledLayer">
+            <summary>
+            This represents the tiled background layer of a world
+            </summary>
+            <Owner>Ed Linero</Owner>
+        </member>
+        <member name="M:Entities.World.TiledLayer.#ctor(Entities.World.GameWorld)">
+            <summary>
+            
+            </summary>
+            <param name="_gameWorld"></param>
+        </member>
+        <member name="M:Entities.World.TiledLayer.load(System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="tileFile"></param>
+            <param name="mapFile"></param>
+            <param name="_width"></param>
+            <param name="_height"></param>
+        </member>
+        <member name="M:Entities.World.TiledLayer.getCollumnAndRowBounds">
+            <summary>
+            starting row
+            starting collumn
+            ending row
+            ending collumn
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Entities.World.TiledLayer.tileIndex(System.Int32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="row"></param>
+            <param name="collumn"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Entities.World.TiledLayer.getPositionFromIndex(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="index"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Entities.World.TiledLayer.compareTiles(System.String[],Entities.World.Tile[])">
+            <summary>
+            
+            </summary>
+            <param name="row"></param>
+            <param name="collumn"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Entities.World.TiledLayer.draw(Microsoft.Xna.Framework.Graphics.SpriteBatch)">
+            <summary>
+            
+            </summary>
+            <param name="sb"></param>
+        </member>
+        <member name="T:Entities.Singletons.GameLoader">
+            <summary>
+            Class for data loading entry point.
+            </summary>
+            <Owner>Justin Dale</Owner>
+        </member>
+        <member name="M:Entities.Singletons.GameLoader.#ctor(Microsoft.Xna.Framework.Game)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="_gameWorld">Game refernce</param>
+        </member>
+        <member name="M:Entities.Singletons.GameLoader.getGameLoader(Microsoft.Xna.Framework.Game)">
+            <summary>
+            Get a gameloader reference.
+            </summary>
+            <param name="_game"></param>
+            <returns>GameLoader</returns>
+        </member>
+        <member name="M:Entities.Singletons.GameLoader.loadGameFromFile(System.String)">
+            <summary>
+            Entry point for loading a game
+            </summary>
+            <param name="fileName"></param>
+        </member>
+        <member name="M:Entities.Singletons.GameLoader.loadInventory(System.String)">
+            <summary>
+            Loads default inventory from file
+            </summary>
+            <param name="filename"></param>
+        </member>
+        <member name="T:Entities.PCContactFilter">
+            <summary>
+            Contact filter for box2d world,
+            calls the should collide method of both entites if either is false there is no collision
+            </summary>
+            <Owner>Justin Dale</Owner>
+        </member>
+        <member name="T:Entities.PCContactListener">
+            <summary>
+            
+            </summary>
+            <Owner>Justin Dale</Owner>
+        </member>
+        <member name="T:Entities.AI.MazeTraverserAI2">
+            <summary>
+            Works for the 2nd maze.
+            </summary>
+            <Owner>Justin Dale</Owner>
+        </member>
+        <member name="M:Entities.AI.MazeTraverserAI2.#ctor(Entities.World.GameWorld,Entities.World.Entity)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="_gameWorld">Gameworld reference</param>
+            <param name="e">Entity attached to.</param>
+        </member>
+        <member name="M:Entities.AI.MazeTraverserAI2.update">
+            <summary>
+            Update. Checks to see if the objects have been grabbed and the exit can be opened.
+            </summary>
+        </member>
+        <member name="T:Entities.World.WorldEdge">
+            <summary>
+            Representation of a world edge (edge of map) as an entity so collision with the edges can be meaningful.
+            </summary>
+            <Owner>Justin Dale</Owner>
+        </member>
+        <member name="M:Entities.World.WorldEdge.#ctor(Entities.World.GameWorld,Entities.World.SIDE)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="gw"></param>
+            <param name="_side"></param>
+        </member>
+        <member name="M:Entities.World.WorldEdge.animate">
+            <summary>
+            Never does anything
+            </summary>
+        </member>
+        <member name="M:Entities.World.WorldEdge.draw(Microsoft.Xna.Framework.Graphics.SpriteBatch)">
+            <summary>
+            Never does anything
+            </summary>
+        </member>
+        <member name="M:Entities.World.WorldEdge.handleEvents">
+            <summary>
+            Never does anything
+            </summary>
+        </member>
+        <member name="M:Entities.World.WorldEdge.collide(Entities.World.Entity,System.Boolean)">
+            <summary>
+            Passes its collide Event to the thing it is colliding with.
+            </summary>
+            <param name="otherThing"></param>
+            <param name="touching"></param>
+        </member>
+        <member name="T:Entities.World.Projectile">
+            <summary>
+            
+            </summary>
+            <Owner>Justin Dale</Owner>
+        </member>
+        <member name="M:Entities.World.Projectile.#ctor(Entities.World.GameWorld,Entities.World.EntityType,System.Int32,Entities.Event)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="gw">Gameworld reference</param>
+            <param name="et">EntityType</param>
+            <param name="_lifeTime">Lifetime. (Not Implemented)</param>
+            <param name="_passOnCollision">Event to pass on collision.</param>
+        </member>
+        <member name="M:Entities.World.Projectile.collide(Entities.World.Entity,System.Boolean)">
+            <summary>
+            Collision Method
+            </summary>
+            <param name="otherThing"></param>
+            <param name="touching"></param>
+        </member>
+        <member name="T:Entities.AI.NavMeshManager">
+            <summary>
+            Navigation Mesh Management. 
+            Add obstacles.
+            Get Paths.
+            </summary>
+            <Owner>Justin Dale</Owner>
+        </member>
+        <member name="M:Entities.AI.NavMeshManager.#ctor(System.Int32,System.Int32,Microsoft.Xna.Framework.Game)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="width">Width in pixels</param>
+            <param name="height">Height in pixels</param>
+            <param name="g">Game Reference</param>
+            <param name="_gw">GameWorld Reference</param>
+        </member>
+        <member name="M:Entities.AI.NavMeshManager.DebugDraw(Microsoft.Xna.Framework.Graphics.SpriteBatch)">
+            <summary>
+            Draw each polygon with its assigned color.
+            </summary>
+            <param name="sb">SpriteBatch</param>
+        </member>
+        <member name="M:Entities.AI.NavMeshManager.addRectangle(Microsoft.Xna.Framework.Rectangle)">
+            <summary>
+            Add a new unwalkable rectangle
+            </summary>
+            <param name="rect">Rectangle to block.</param>
+        </member>
+        <member name="M:Entities.AI.NavMeshManager.redoAdj(System.Collections.Generic.IEnumerable{Entities.AI.PolygonNode},System.Collections.Generic.IEnumerable{Entities.AI.PolygonNode})">
+            <summary>
+            Redoes the adjacency's of all of the effected polygons.
+            </summary>
+            <param name="oldNodes">Nodes to be deleted</param>
+            <param name="newNodes">New nodes generated</param>
+        </member>
+        <member name="M:Entities.AI.NavMeshManager.getClosestLeft(Microsoft.Xna.Framework.Point,System.Collections.Generic.IEnumerable{Microsoft.Xna.Framework.Point})">
+            <summary>
+            Gets the closest point to the left of the specified point.
+            </summary>
+            <param name="origin">Origin to be checked from.</param>
+            <param name="vertices">List to be checked</param>
+            <returns>Return point if found, if not returns -1,-1</returns>
+        </member>
+        <member name="M:Entities.AI.NavMeshManager.getClosestBottom(Microsoft.Xna.Framework.Point,System.Collections.Generic.IEnumerable{Microsoft.Xna.Framework.Point})">
+            <summary>
+            Gets the closest point under the specified point.
+            </summary>
+            <param name="origin">Origin to be checked from.</param>
+            <param name="vertices">List to be checked</param>
+            <returns>Return point if found, if not returns -1,-1</returns>
+        </member>
+        <member name="M:Entities.AI.NavMeshManager.addOverlapVerts(System.Collections.Generic.List{Microsoft.Xna.Framework.Point},Microsoft.Xna.Framework.Rectangle,Microsoft.Xna.Framework.Rectangle)">
+            <summary>
+            Adds the vertices of where the two given rectangles intersect.
+            </summary>
+            <param name="vertices">List to be amended</param>
+            <param name="oldRect">Rectangle 1</param>
+            <param name="rect">Rectangle 2</param>
+        </member>
+        <member name="M:Entities.AI.NavMeshManager.addVertex(System.Collections.Generic.List{Microsoft.Xna.Framework.Point},Microsoft.Xna.Framework.Point)">
+            <summary>
+            Method for adding a vertex 
+            if it does not already exist.
+            </summary>
+            <param name="vertices">List to be checked and amended</param>
+            <param name="p">Point to add</param>
+        </member>
+        <member name="M:Entities.AI.NavMeshManager.getPath(Microsoft.Xna.Framework.Point,Microsoft.Xna.Framework.Point)">
+            <summary>
+            Returns an array of polygons that form a path
+            between the two provided points from start to finish.
+            </summary>
+            <param name="start">Starting point</param>
+            <param name="finish">Finish</param>
+            <returns>Path</returns>
+        </member>
+        <member name="M:Entities.AI.NavMeshManager.getNodeWithLowestFScore(System.Collections.Generic.IEnumerable{Entities.AI.PolygonNode},System.Int32,Microsoft.Xna.Framework.Point)">
+            <summary>
+            Method for getting the node with the f_score from the given set.
+            </summary>
+            <param name="set">Nodes to check</param>
+            <param name="g_score">Current g_score</param>
+            <param name="end">Finish</param>
+            <returns></returns>
+        </member>
+        <member name="M:Entities.AI.NavMeshManager.getOverlappingNodes(Microsoft.Xna.Framework.Rectangle)">
+            <summary>
+            Gets the nodes which the rectangle overlaps
+            </summary>
+            <param name="rect">Rectangle to check against</param>
+            <returns></returns>
+        </member>
+        <member name="M:Entities.AI.NavMeshManager.getNodeFromPosition(Microsoft.Xna.Framework.Point)">
+            <summary>
+            Gets the polygon from specified position
+            </summary>
+            <param name="position">Position</param>
+            <returns>Polygon point is located in.</returns>
+        </member>
+        <member name="M:Entities.AI.NavMeshManager.nullParents">
+            <summary>
+            Sets the parent of all polygons to null.
+            </summary>
+        </member>
+        <member name="M:Entities.AI.NavMeshManager.getHScore(Microsoft.Xna.Framework.Point,Microsoft.Xna.Framework.Point)">
+            <summary>
+            Gets the h score between the two given points.
+            </summary>
+            <param name="current">Start</param>
+            <param name="end">Finish</param>
+            <returns>H Value</returns>
+        </member>
+        <member name="T:Entities.AI.PointNotOnNodeException">
+            <summary>
+            Point is not on a node and shouldn't be used for NavMesh stuff.
+            </summary>
+        </member>
+        <member name="M:Entities.AI.PointNotOnNodeException.#ctor(System.String)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="s"></param>
+        </member>
+        <member name="T:Entities.AI.RiceGrabber">
+            <summary>
+            Rice grabbing player AI.
+            </summary>
+            <Owner>Justin Dale</Owner>
+        </member>
+        <member name="M:Entities.AI.RiceGrabber.#ctor(Entities.World.GameWorld,Entities.World.Entity)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="_gameWorld"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Entities.AI.RiceGrabber.collide(Entities.World.Entity,System.Boolean)">
+            <summary>
+            Collide method. If item grab it.
+            </summary>
+            <param name="otherThing"></param>
+            <param name="isTouching"></param>
+        </member>
+        <member name="M:Entities.AI.RiceGrabber.grabRice(Entities.World.Item)">
+            <summary>
+            Connects the item to the player with a distance joint.
+            </summary>
+            <param name="itemToGrab">Item to grab.</param>
+        </member>
+        <member name="T:Entities.EventList">
+            <summary>
+            List of valid in-game events
+            Lets try to keep this in some sort of order
+            </summary>
+        </member>
+        <member name="T:Entities.AI.SwingingMonkey">
+            <summary>
+            AI for a randomly swinging monkey.
+            </summary>
+            <Owner>Justin Dale</Owner>
+        </member>
+        <member name="M:Entities.AI.SwingingMonkey.#ctor(Entities.World.GameWorld,Entities.World.Entity)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="_gameWorld">Gameworld this is in</param>
+            <param name="e">Entity to attach to</param>
+        </member>
+        <member name="M:Entities.AI.SwingingMonkey.update">
+            <summary>
+            Update method. Randomly applies force.
+            </summary>
+        </member>
+        <member name="T:Entities.AI.MovingPlatform">
+            <summary>
+            A moving platform.  
+            </summary>
+            <Owner>Justin Dale</Owner>
+        </member>
+        <member name="M:Entities.AI.MovingPlatform.#ctor(Entities.World.GameWorld,Entities.World.Entity)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="_gameWorld">Gameworld reference</param>
+            <param name="e">Entity attached to.</param>
+        </member>
+        <member name="M:Entities.AI.MovingPlatform.update">
+            <summary>
+            Update. Controls the movement of the platform.
+            </summary>
+        </member>
+        <member name="M:Entities.AI.MovingPlatform.lockAxis">
+            <summary>
+            Keeps the platform on its axis.
+            </summary>
+        </member>
+        <member name="M:Entities.AI.MovingPlatform.init">
+            <summary>
+            Read in the movement data from the aiArgs value.
+            </summary>
+        </member>
+        <member name="T:Entities.Player.Quest">
+            <summary>
+            Represents a single quest
+            This is the Quest manager 
+            status states are prevQuest, currQuest, inactiveQuests, activeQuests
+            </summary>
+        </member>
+        <member name="T:Entities.Player.Player">
+             <summary>
+            Player Object.  Currently an ever shifting flow from hacks to solid game logic.
+             </summary>
+             <Owner>Justin Dale</Owner>
+        </member>
+        <member name="M:Entities.Player.Player.#ctor(Entities.World.GameWorld,Entities.World.EntityType)">
+             <summary>
+            Constructor 
+             </summary>
+             <param name="_gameWorld">Gameworld starting in</param>
+             <param name="et">EntityType</param>
+             <param name="x">init X location</param>
+             <param name="y">init Y location</param>
+        </member>
+        <member name="M:Entities.Player.Player.draw(Microsoft.Xna.Framework.Graphics.SpriteBatch)">
+            <summary>
+            Draw method, maintains viewport, draws debug data on position
+            </summary>
+            <param name="sb">SpriteBatch</param>
+        </member>
+        <member name="M:Entities.Player.Player.debugDraw(Microsoft.Xna.Framework.Graphics.SpriteBatch)">
+            <summary>
+            Draws debugging data. Should be called last.
+            </summary>
+            <param name="sb"></param>
+        </member>
+        <member name="M:Entities.Player.Player.handleEvents">
+            <summary>
+            Handle the various events that may have occurred.
+            </summary>
+        </member>
+        <member name="M:Entities.Player.Player.updateViewport">
+            <summary>
+            Centers viewport on player
+            NOTE: Viewport jitters when running into wall, should smooth if possible
+            </summary>
+        </member>
+        <member name="M:Entities.Player.Player.collide(Entities.World.Entity,System.Boolean)">
+            <summary>
+            Collide method
+            </summary>
+            <param name="otherThing"></param>
+        </member>
+        <member name="M:Entities.Player.Player.addAI(Entities.AI.AIBase,System.String)">
+            <summary>
+            Add a player AI
+            </summary>
+            <param name="_ai"></param>
+            <param name="worldName"></param>
+        </member>
+        <member name="M:Entities.Player.Player.removeAPlayer(System.String)">
+            <summary>
+            Removes an instance of the player for the corresponding world
+            </summary>
+            <param name="worldname"></param>
+        </member>
+        <member name="M:Entities.Player.Player.addBody(Box2D.XNA.Body,System.String)">
+            <summary>
+            Add a player body
+            </summary>
+            <param name="_body"></param>
+            <param name="worldName"></param>
+        </member>
+        <member name="M:Entities.Player.Player.deleteBody(System.String)">
+            <summary>
+            remove a player body
+            </summary>
+            <param name="worldName"></param>
+        </member>
+        <member name="M:Entities.Player.Player.addType(Entities.World.EntityType,System.String)">
+            <summary>
+            Add an EntityType a player can be
+            </summary>
+            <param name="_type"></param>
+            <param name="worldName"></param>
+        </member>
+        <member name="M:Entities.Player.Player.switchBody(System.String)">
+            <summary>
+            Switches the player between bodies that exist in different gameworlds.
+            </summary>
+            <param name="worldName"></param>
+        </member>
+        <member name="M:Entities.Player.Player.killJoints">
+            <summary>
+            Kills all joints the player is involved with
+            </summary>
+        </member>
+        <member name="M:Entities.Player.Player.collectItems">
+            <summary>
+            Removes all jointed items and adds them to the inventory
+            </summary>
+        </member>
+        <member name="M:Entities.Player.Player.shouldCollide(Entities.World.Entity)">
+            <summary>
+            Should collide override, checks the list
+            loaded from file of things the player shouldn't collide with
+            </summary>
+            <param name="ent"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Entities.Player.Player.copyInventory">
+            <summary>
+            Copies the current inventory to lastInventory
+            </summary>
+        </member>
+        <member name="M:Entities.Player.Player.resetInventory">
+            <summary>
+            Sets the current inventory to last inventory
+            </summary>
+        </member>
+        <member name="T:Entities.Event">
+            <summary>
+            An in game event 
+            to be passed around.
+            </summary>
+            <Owner>Justin Dale</Owner>
+        </member>
+        <member name="M:Entities.Event.#ctor(System.String,System.Object)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="_type">Type of event</param>
+            <param name="__value">any data that is relevant to the event</param>
+        </member>
+        <member name="P:Entities.Event.type">
+            <summary>
+            Type of event
+            </summary>
+        </member>
+        <member name="P:Entities.Event._value">
+            <summary>
+            any data that is relevant to the event
+            </summary>
+        </member>
+        <member name="T:Entities.World.NonEntity">
+            <summary>
+            Used when an AI is needed but there is no physical entity to attach it to.
+            </summary>
+            <Owner>Justin Dale</Owner>
+        </member>
+        <member name="M:Entities.World.NonEntity.#ctor(Entities.World.GameWorld,Entities.World.EntityType)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="gw"></param>
+            <param name="et"></param>
+        </member>
+        <member name="M:Entities.World.NonEntity.collide(Entities.World.Entity,System.Boolean)">
+            <summary>
+            Doesn't collide 
+            </summary>
+            <param name="otherThing"></param>
+            <param name="touching"></param>
+        </member>
+        <member name="M:Entities.World.NonEntity.draw(Microsoft.Xna.Framework.Graphics.SpriteBatch)">
+            <summary>
+            Not drawn either
+            </summary>
+            <param name="sb"></param>
+        </member>
+        <member name="M:Entities.World.NonEntity.shouldCollide(Entities.World.Entity)">
+            <summary>
+            Never collides with anything
+            </summary>
+            <param name="ent"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Entities.World.NonEntity.animate">
+            <summary>
+            Never animates
+            </summary>
+        </member>
+        <member name="T:Entities.Player.Inventory">
+            <summary>
+            Its basically a dictionary of items.  Names as keys and amounts held as values.  
+            </summary>
+            <Owner>Justin Dale</Owner>
+        </member>
+        <member name="M:Entities.Player.Inventory.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:Entities.Player.Inventory.AddItems(System.String,System.Int32)">
+            <summary>
+            Adds items to inventory.
+            </summary>
+            <param name="name"></param>
+            <param name="count"></param>
+        </member>
+        <member name="M:Entities.Player.Inventory.takeItems(System.String,System.Int32)">
+            <summary>
+            Tries to remove items
+            </summary>
+            <param name="name"></param>
+            <param name="count"></param>
+            <returns>False if there are not enough</returns>
+        </member>
+        <member name="M:Entities.Player.Inventory.removeAllItems(System.String)">
+            <summary>
+            Tries to remove all items from a category
+            </summary>
+            <param name="name"></param>
+            <param name="count"></param>
+            <returns>False if nothing is removed</returns>
+        </member>
+        <member name="T:Entities.Singletons.SoundManager">
+            <summary>
+            
+            </summary>
+            <Owner>Ed Linero</Owner>
+        </member>
+        <member name="T:Entities.AI.HangGliderAI">
+            <summary>
+            HangGliderAI applies a downward impulse on the character
+            </summary>
+            <Owner>Eddie O'Hagan</Owner>
+        </member>
+        <member name="T:Entities.World.Item">
+            <summary>
+            This represents an item or a discrete group of items as it against in the gameworld.
+            </summary>
+            <Owner>Justin Dale</Owner>
+        </member>
+        <member name="M:Entities.World.Item.#ctor(Entities.World.GameWorld,Entities.World.EntityType,System.String)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="gw">Gameworld reference</param>
+            <param name="et">EntityType being used</param>
+            <param name="_type">Type of item.  (This is what is used in the inventory it should be the EntityType name w/o the Item suffix)</param>
+        </member>
+        <member name="M:Entities.World.Item.#ctor(Entities.World.GameWorld,Entities.World.EntityType,System.String,System.Int32)">
+            <summary>
+            Constructor for when a group is being represented by one sprite.
+            </summary>
+            <param name="gw">Gameworld reference</param>
+            <param name="et">EntityType being used</param>
+            <param name="_type">Type of item.  (This is what is used in the inventory it should be the EntityType name w/o the Item suffix)</param>
+            <param name="_count">Amount of items.</param>
+        </member>
+        <member name="M:Entities.World.Item.handleEvents">
+            <summary>
+            Handle events.
+            </summary>
+        </member>
+        <member name="M:Entities.World.Item.collide(Entities.World.Entity,System.Boolean)">
+            <summary>
+            Collision response method
+            </summary>
+            <param name="otherThing">Other entity</param>
+        </member>
+        <member name="M:Entities.World.Item.shouldCollide(Entities.World.Entity)">
+            <summary>
+            Should collide method.  Only the player can collide with items.
+            </summary>
+            <param name="ent"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Entities.World.EntityType">
+            <summary>
+            Represents a type of entity. 
+             When entities are added their data is loaded from here.
+            </summary>
+            <Owner>Justin Dale</Owner>>
+        </member>
+        <member name="M:Entities.World.EntityType.#ctor(System.String,Microsoft.Xna.Framework.Game)">
+            <summary>
+            Constructor.  Loads the entity type from file.
+            </summary>
+            <param name="filename">EntityType file location</param>
+            <param name="game">Game reference</param>
+        </member>
+        <member name="M:Entities.World.EntityType.#ctor(Microsoft.Xna.Framework.Game,Entities.World.TypeOfThing)">
+            <summary>
+            This should only be used for walls
+            </summary>
+            <param name="filename"></param>
+            <param name="game"></param>
+        </member>
+        <member name="M:Entities.World.EntityType.getShapes">
+            <summary>
+            Returns the shapes that make up the body of an entity of this type.
+            </summary>
+            <returns>Returns list of Shapes</returns>
+        </member>
+        <member name="M:Entities.World.EntityType.getBodyType">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Entities.World.EntityType.Load(System.String,Microsoft.Xna.Framework.Game)">
+            <summary>
+            
+            </summary>
+            <param name="filename"></param>
+            <param name="game"></param>
+        </member>
+        <member name="T:Entities.World.Character">
+            <summary>
+            Represents an in game character.
+            Most notably these have four way animation.
+            </summary>
+            <Owner>Justin Dale</Owner>
+        </member>
+        <member name="M:Entities.World.Character.#ctor(Entities.World.GameWorld,Entities.World.EntityType)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="gw">Gameworld</param>
+            <param name="et">Type derived from</param>
+        </member>
+        <member name="M:Entities.World.Character.collide(Entities.World.Entity,System.Boolean)">
+            <summary>
+            Collision override
+            </summary>
+            <param name="otherThing">Other thing</param>
+            <param name="touching">Are they touching?</param>
+        </member>
+        <member name="M:Entities.World.Character.handleEvents">
+            <summary>
+            Handle events override. 
+            Entry point for all quest start events.
+            </summary>
+        </member>
+        <member name="M:Entities.World.Character.questCompletedCallback(System.Object)">
+            <summary>
+            Method called on the character once the last quest it assigned was finished.
+            </summary>
+            <param name="_object"></param>
+        </member>
+        <member name="M:Entities.World.Character.animate">
+            <summary>
+            Four way animation.
+            </summary>
+        </member>
+        <member name="T:Entities.Singletons.QuestManager">
+            <summary>
+            
+            </summary>
+            <Owner>A Carbon baised lifeform</Owner>
+        </member>
+        <member name="M:Entities.AI.PathTester.#ctor(Entities.World.GameWorld,Entities.World.Entity)">
+            <summary>
+            
+            </summary>
+            <param name="_gameworld"></param>
+            <param name="e"></param>
+        </member>
+        <member name="T:Entities.AI.DivingMonkey">
+            <summary>
+            Randomly rising and falling monkey enemy ai.
+            </summary>
+            <Owner>Justin Dale</Owner>
+        </member>
+        <member name="T:Entities.AI.ConversationResponse">
+            <summary>
+            Represents the response to something said by an AI.
+            Can either lead to another convo or an event being passed along.
+            </summary>
+            <Owner>Justin Dale</Owner>
+        </member>
+        <member name="M:Entities.AI.ConversationResponse.#ctor(System.String,Entities.AI.Conversation,Entities.AI.AIBase)">
+            <summary>
+            Next is convo constructor
+            </summary>
+            <param name="_text"></param>
+            <param name="_conversation"></param>
+            <param name="owner"></param>
+        </member>
+        <member name="M:Entities.AI.ConversationResponse.#ctor(System.String,System.Collections.Generic.Stack{Entities.Event},Entities.AI.AIBase)">
+            <summary>
+            Next is event constructor
+            </summary>
+            <param name="_text"></param>
+            <param name="_events"></param>
+            <param name="owner"></param>
+        </member>
+        <member name="T:Entities.World.Explosive">
+            <summary>
+            Represents a chop able tree
+            </summary>
+            <Owner>Edward Francis Katianie O'Hagan</Owner>
+        </member>
+        <member name="M:Entities.World.Explosive.#ctor(Entities.World.GameWorld,Entities.World.EntityType)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="gw"></param>
+            <param name="et"></param>
+        </member>
+        <member name="M:Entities.World.Explosive.collide(Entities.World.Entity,System.Boolean)">
+            <summary>
+            Collide method
+            </summary>
+            <param name="otherThing"></param>
+            <param name="touching"></param>
+        </member>
+        <member name="T:Entities.AI.BarPlacer">
+            <summary>
+            Bar Placer Player for cotton catch game world
+            </summary>
+            <Owner>Justin Dale</Owner>
+        </member>
+        <member name="M:Entities.AI.BarPlacer.#ctor(Entities.World.GameWorld,Entities.World.Entity)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="_gameWorld"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Entities.AI.BarPlacer.placeBar">
+            <summary>
+            Locks current position, leaving a static version behind
+            </summary>
+        </member>
+        <member name="M:Entities.AI.BarPlacer.update">
+            <summary>
+            Update.  Rotates the bar if Q or E are held down.
+            </summary>
+        </member>
+        <member name="F:Entities.World.SoccerGameWorld.ts">
+            <summary>
+            AI for the cotton dropping game.
+            </summary>
+            <Owner>Justin Dale</Owner>
+        </member>
+        <member name="M:Entities.World.SoccerGameWorld.#ctor(Microsoft.Xna.Framework.Game,System.Single,System.Single,System.Int32,System.String)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="_gameWorld"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Entities.World.SoccerGameWorld.update(Microsoft.Xna.Framework.GameTime)">
+            <summary>
+            Update
+            </summary>
+        </member>
+        <member name="T:Entities.World.ChopTree">
+            <summary>
+            Represents a chop able tree
+            </summary>
+            <Owner>Edward Francis Katianie O'Hagan</Owner>
+        </member>
+        <member name="M:Entities.World.ChopTree.#ctor(Entities.World.GameWorld,Entities.World.EntityType)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="gw"></param>
+            <param name="et"></param>
+        </member>
+        <member name="M:Entities.World.ChopTree.collide(Entities.World.Entity,System.Boolean)">
+            <summary>
+            Collide method
+            </summary>
+            <param name="otherThing"></param>
+            <param name="touching"></param>
+        </member>
+        <member name="M:Entities.World.ChopTree.handleEvents">
+            <summary>
+            Handle Events
+            </summary>
+        </member>
+        <member name="T:Entities.AI.CottonShooter">
+            <summary>
+            AI for the cotton shooter game.
+            </summary>
+            <Owner>Justin Dale</Owner>
+        </member>
+        <member name="M:Entities.AI.CottonShooter.#ctor(Entities.World.GameWorld,Entities.World.Entity)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="_gameWorld"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Entities.AI.CottonShooter.spawn">
+            <summary>
+            Spawns a cotton ball with random velocity.
+            </summary>
+        </member>
+        <member name="M:Entities.AI.CottonShooter.update">
+            <summary>
+            Update.  All shooter game logic.
+            </summary>
+        </member>
+        <member name="T:Entities.InputManager">
+            <summary>
+            This converts device input into game logic in the form of Events.
+            </summary>
+            <Owner>Justin Dale</Owner>
+        </member>
+        <member name="M:Entities.InputManager.#ctor(Microsoft.Xna.Framework.Game)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:Entities.InputManager.Update(Microsoft.Xna.Framework.GameTime)">
+            <summary>
+            Called each frame. Reads in keyboard and
+            mouse input and triggers events accordingly.
+            </summary>
+        </member>
+        <member name="M:Entities.InputManager.gameplayKeys(Microsoft.Xna.Framework.Input.KeyboardState)">
+            <summary>
+            Handles all gameplay keys such as shooting and placing buildings
+            </summary>
+            <param name="state"></param>
+        </member>
+        <member name="M:Entities.InputManager.menuKeys(Microsoft.Xna.Framework.Input.KeyboardState)">
+            <summary>
+            Checks for the keys relating to menu states.
+            </summary>
+            <param name="state"></param>
+        </member>
+        <member name="M:Entities.InputManager.cheatKeys(Microsoft.Xna.Framework.Input.KeyboardState)">
+            <summary>
+            Checks for cheat keys.
+            </summary>
+            <param name="state"></param>
+        </member>
+        <member name="P:Entities.InputManager.speed">
+            <summary>
+            Speed, can be changed with 9 and 0 for testing purposes.
+            </summary>
+        </member>
+        <member name="P:Entities.InputManager.lastState">
+            <summary>
+            Last Keyboard state used for checking whether a key is down for the first time.
+            Can be used as current keyboard state by other classes.
+            </summary>
+        </member>
+        <member name="T:Entities.AI.CottonSpawner">
+            <summary>
+            AI for the cotton dropping game.
+            </summary>
+            <Owner>Justin Dale</Owner>
+        </member>
+        <member name="M:Entities.AI.CottonSpawner.#ctor(Entities.World.GameWorld,Entities.World.Entity)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="_gameWorld"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Entities.AI.CottonSpawner.spawn">
+            <summary>
+            Spawn a new cotton ball at a random location.
+            </summary>
+        </member>
+        <member name="M:Entities.AI.CottonSpawner.randomSpawnPosition">
+            <summary>
+            Returns a random spawn position
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Entities.AI.CottonSpawner.update">
+            <summary>
+            Update
+            </summary>
+        </member>
+        <member name="T:Entities.AI.MazeTraverserAI">
+            <summary>
+            Player AI will count the solar panels and open the exit to the maze.
+            Possibly, rearrange the maze all together which would be wicked awesome.
+            Works for the first maze.
+            </summary>
+            <Owner>Justin Dale</Owner>
+        </member>
+        <member name="M:Entities.AI.MazeTraverserAI.#ctor(Entities.World.GameWorld,Entities.World.Entity)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="_gameWorld">Gameworld reference</param>
+            <param name="e">Entity attached to.</param>
+        </member>
+        <member name="M:Entities.AI.MazeTraverserAI.update">
+            <summary>
+            Update. Checks to see if the objects have been grabbed and the exit can be opened.
+            </summary>
+        </member>
+        <member name="T:Entities.AI.EnterableBuilding">
+            <summary>
+            
+            </summary>
+            <Owner>Justin Dale</Owner>
+        </member>
+        <member name="M:Entities.AI.EnterableBuilding.#ctor(Entities.World.GameWorld,Entities.World.Entity)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="_gameWorld">Gameworld reference</param>
+            <param name="e">Entity attached to.</param>
+        </member>
+        <member name="M:Entities.AI.EnterableBuilding.init">
+            <summary>
+            Read in the world to switch to and the location to switch to if it is supplied.
+            </summary>
+        </member>
+        <member name="M:Entities.AI.EnterableBuilding.collide(Entities.World.Entity,System.Boolean)">
+            <summary>
+            Collide method.  If player, switches to the given world and sets the position if specified.
+            </summary>
+            <param name="otherThing"></param>
+            <param name="isTouching"></param>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+<Data Restitution="0.1" Density="100" Friction="1.5"/>
+  <Images>
+	<Image width ="200" height="78">boat</Image>
+    </Images>
+  <States>
+	<State name="Standing Down">0</State>
+	<State name="Standing Up">0</State>
+	<State name="Standing Left">0</State>
+	<State name="Standing Right">0</State>
+	<State name="Walking Up">0</State>
+	<State name="Walking Down">0</State>
+	<State name="Walking Left">0</State>
+	<State name="Walking Right">0</State>
+  </States>
+	<!--<Shape ShapeType="Circle" type="Dynamic">.172</Shape>-->
+ <Shape ShapeType="Polygon" type="Dynamic">
+ 	<Vertex>.125,0</Vertex>
+ 	<Vertex>.125,1</Vertex>
+	<Vertex>0,1</Vertex>
+	<Vertex>0,0</Vertex>
+</Shape>
+	 <Shape ShapeType="Polygon" type="Dynamic">
+	<Vertex>1,.82</Vertex>
+	<Vertex>1,1</Vertex>
+	<Vertex>0,1</Vertex>
+	<Vertex>0,.82</Vertex>
+</Shape>
+ <Shape ShapeType="Polygon" type="Dynamic">
+ 	<Vertex>1,0</Vertex>
+ 	<Vertex>1,1</Vertex>
+	<Vertex>.825,1</Vertex>
+	<Vertex>.825,0</Vertex>
+</Shape>
+</XnaContent>

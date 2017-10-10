@@ -1,0 +1,42 @@
+<Conversation value="We have a problem, Malaria outbreaks are more frequent and we are running low on Tonic Water. It's used to help treat and prevent the disease. Can you get some for us?">
+<Responses>
+	<Response type="Convo" value="No problem, I'll get to work right now.">
+		<Conversation value="Thank you so much, I can't thank you enough for all you have done for us this far. I will need 20 bottles of Tonic Water. Please hurry, I don't know how much longer some of these people have." >
+			<Responses>
+				<Response type="Event" value="Accept Quest">
+					<Events>
+						<Event eventName="Accept_Current_Quest" eventValue="Hang Glide"/>
+					</Events>
+				</Response>			
+			</Responses>
+		</Conversation>
+	</Response>
+	<Response type="Convo" value="I'll try my best.">
+		<Conversation value="Thanks, I appreciate all your help. I will need 20 bottles of Tonic Water. Please hurry, I don't know how much longer some of these people have." >
+			<Responses>
+				<Response type="Event" value="Accept Quest">
+					<Events>
+						<Event eventName="Accept_Current_Quest" eventValue="Hang Glide"/>
+					</Events>
+				</Response>	
+			</Responses>
+		</Conversation>
+	</Response>
+	<Response type="Convo" value="What do you need this time?">
+		<Conversation value="Well in case you didn't know, people sometimes get sick. And in this case they have malaria. I will need 20 bottles of Tonic Water. Hurry!" >
+			<Responses>
+				<Response type="Event" value="Accept Quest">
+					<Events>
+						<Event eventName="Accept_Current_Quest" eventValue="Hang Glide"/>
+					</Events>
+				</Response>	
+			</Responses>
+		</Conversation>
+	</Response>
+	<Response type="Event" value="Not right now (exit).">
+		<Events>
+			<Event eventName="Exit_ConversationSet" eventValue="nil" />
+		</Events>
+	</Response>
+</Responses>
+</Conversation>

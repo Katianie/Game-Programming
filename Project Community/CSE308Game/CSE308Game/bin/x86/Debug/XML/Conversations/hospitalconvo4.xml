@@ -1,0 +1,45 @@
+<Conversation value="Thank you for everything you have done for us. I need one last thing from you. Do you still have time to help us?">
+<Responses>
+	<Response type="Convo" value="Of-course, anything you need.">
+		<Conversation value="If it wasn't for you, some people might have died today. We need 20 bottles of pain killers to help ease some pain for some of the patients suffering from hypersensitivity.  Could you go into the rough neighborhoods where they do drugs and take their painkillers?  Thanks again for the help." >
+			<Responses>
+				<Response type="Event" value="Accept Quest">
+					<Events>
+						<Event eventName="Accept_Current_Quest" eventValue="Drugz and Thugz"/>
+						<Event eventName="Instruct" eventValue="Collect bottles of painkillers. Don't Let The Drug Addicts Touch You!"/>
+					</Events>
+				</Response>			
+			</Responses>
+		</Conversation>
+	</Response>
+	<Response type="Convo" value="Sure, why not?">
+		<Conversation value="Thanks, I appreciate all your help. We need 20 bottles of pain killers to help ease some pain for some of the patients suffering from hypersensitivity. Could you go into the rough neighborhoods where they do drugs and take their painkillers by force?  Thanks again for the help." >
+			<Responses>
+				<Response type="Event" value="Accept Quest">
+					<Events>
+						<Event eventName="Accept_Current_Quest" eventValue="Drugz and Thugz"/>
+						<Event eventName="Instruct" eventValue="Collect bottles of painkillers. Don't Let The Drug Addicts Touch You!"/>
+					</Events>
+				</Response>	
+			</Responses>
+		</Conversation>
+	</Response>
+	<Response type="Convo" value="Yea what?">
+		<Conversation value="We need 20 bottles of pain killers to help ease some pain for some of the patients suffering from hypersensitivity. Go into the rough neighborhoods where they do drugs and take their painkillers by force!" >
+			<Responses>
+				<Response type="Event" value="Accept Quest">
+					<Events>
+						<Event eventName="Accept_Current_Quest" eventValue="Drugz and Thugz"/>
+						<Event eventName="Instruct" eventValue="Collect bottles of painkillers. Don't Let The Drug Addicts Touch You!"/>
+					</Events>
+				</Response>	
+			</Responses>
+		</Conversation>
+	</Response>
+	<Response type="Event" value="Not right now (exit).">
+		<Events>
+			<Event eventName="Exit_ConversationSet" eventValue="nil" />
+		</Events>
+	</Response>
+</Responses>
+</Conversation>

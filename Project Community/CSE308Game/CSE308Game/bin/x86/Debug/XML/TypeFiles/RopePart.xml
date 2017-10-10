@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+<Data Restitution=".3" Density="5" Friction=".2" fixedRotation="false"/>
+  <Images>
+    <Image width="25" height="40">RopePart</Image>
+    </Images>
+  <States>
+  <State name="_">0</State>
+    </States>
+	<Shape ShapeType="Circle" type="Dynamic">.172</Shape>
+</XnaContent>

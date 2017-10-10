@@ -1,0 +1,27 @@
+<Conversation value="Hey there young carbon based lifeform.  Aren't you that kid who was offering to help make the world a better place?">
+<Responses>
+	<Response type="Convo" value="Is there something I can do for you?">
+		<Conversation value="Indeed. I was doing some research on a rather powerful plant capable of saving humanity from communists, AIDS, and drug addicts.  Unfortunatly I lost it while running from some Bonobos monkeys and you know what they're like... Retrieve the specimen for me and I might be able to give you a job as my research assistant." >
+			<Responses>
+				<Response type="Event" value="You had me at saving humanity.">
+											<Events>
+					<Event eventName="Accept_Current_Quest" eventValue="MonkeyRun" />
+					<Event eventName="Instruct" eventValue="Find the plant, exit at the other end.  Don't Let The Monkeys Touch You!"/>
+					<!--<Event eventName="Instruct" eventValue="Play a game of Soccer!"/>-->
+												</Events>
+				</Response>
+				<Response type="Event" value="Bonobos Monkeys...  No thanks.">
+											<Events>
+					<Event eventName="Exit_ConversationSet" eventValue="nil" />
+												</Events>
+				</Response>
+			</Responses>
+		</Conversation>
+	</Response>
+	<Response type="Event" value="Bugger off!">
+								<Events>
+		<Event eventName="Exit_ConversationSet" eventValue="nil" />
+									</Events>
+	</Response>
+</Responses>
+</Conversation>

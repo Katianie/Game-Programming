@@ -1,0 +1,9 @@
+<AIFile>
+<FontToUse value="DoctorVoice" />
+<ConversationList>
+<ConversationFile name="default" next="doctorConvo2">XML\Conversations\hospitalconvo1.xml</ConversationFile>
+<ConversationFile name="doctorConvo2" next="doctorConvo3">XML\Conversations\hospitalconvo2.xml</ConversationFile>
+<ConversationFile name="doctorConvo3" next="doctorConvo4">XML\Conversations\hospitalconvo3.xml</ConversationFile>
+<ConversationFile name="doctorConvo4">XML\Conversations\hospitalconvo4.xml</ConversationFile>
+</ConversationList>
+</AIFile>

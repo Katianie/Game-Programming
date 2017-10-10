@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+<Data Restitution="0" Density="100" Friction=".5"/>
+  <Images>
+      <Image width="178" height="178">building10</Image>
+	      <Image width="178" height="178">building11</Image>
+		      <Image width="178" height="178">building12</Image>
+    <Image width="178" height="178">building19</Image>
+    </Images>
+  <States>
+  <State name="_">0</State>
+    <State name="1">1</State>
+	  <State name="2">2</State>
+	    <State name="3">3</State>
+    </States>
+	<Shape ShapeType="Polygon" type="Static">
+	<Vertex>1,0</Vertex>
+	<Vertex>1,1</Vertex>
+	<Vertex>0,1</Vertex>
+	<Vertex>0,0</Vertex>
+
+	
+	</Shape>
+</XnaContent>

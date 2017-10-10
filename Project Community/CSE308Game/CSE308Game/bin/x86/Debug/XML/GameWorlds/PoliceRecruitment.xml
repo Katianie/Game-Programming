@@ -1,0 +1,131 @@
+<GameWorld> 
+  <BackGround >BackGrounds\boston</BackGround>
+  <Gravity>0,8</Gravity>
+	<Edges>
+		<Bottom type="ResetWorld_Checkpoint" value="nine" />
+		<Left type="Dont" value="Main" />
+		<Top type="DoAnythiing" value="3,4" />
+		<Right type="Quest_Completed_Return" value="Main" />
+	</Edges>
+    <CheckPoints>
+		<CheckPoint xLoc="3" yLoc="3" />
+	</CheckPoints>
+	<Entities>
+		<Entity type ="Player"   locationX ="2" locationY="3"  />
+	<Entity  type ="RecruitCharacter" locationX ="31" locationY="6"  aiName="Base" aiFile="XML\AIFiles\Popo1AI.xml"/>
+	<Entity  type ="RecruitCharacter" locationX ="27" locationY="1.5"  aiName="Base" aiFile="XML\AIFiles\Popo2AI.xml"/>
+	<Entity  type ="RecruitCharacter" locationX ="50" locationY="2"  aiName="Base" aiFile="XML\AIFiles\Popo3AI.xml"/>
+	<Entity  type ="RecruitCharacter" locationX ="59" locationY="6"  aiName="Base" aiFile="XML\AIFiles\Popo4AI.xml"/>
+	<Entity  type ="RecruitCharacter" locationX ="82" locationY="5.5"  aiName="Base" aiFile="XML\AIFiles\Popo5AI.xml"/>
+	<Entity  type ="RecruitCharacter" locationX ="84.5" locationY="2.3"  aiName="Base" aiFile="XML\AIFiles\Popo6AI.xml"/>	
+		<Entity type ="DoorBuilding"   locationX ="117" locationY="4"  aiName="Base" aiFile="XML\AIFiles\DoorAI.xml" />		
+		
+		
+			<Entity id="Anchor" type ="AnchorBlock"   locationX ="40" locationY="3.5"   />
+			<Entity id="Ball1" type ="BallBlock" locationX ="40" locationY="4"  />
+			<Entity id="Ball2" type ="BallBlock" locationX ="40" locationY="4.5"  />
+			<Entity id="Ball3" type ="BallBlock" locationX ="40" locationY="5"  />
+			<Entity id="Ball4" type ="BallBlock" locationX ="40" locationY="5.5"  />
+			<Entity id="hook" type ="BallBlock" locationX ="40" locationY="6"  />	
+		
+		
+			<Entity id="2Anchor" type ="AnchorBlock"   locationX ="44" locationY="1"   />
+			<Entity id="2Ball1" type ="BallBlock" locationX ="44" locationY="1.5"  />
+			<Entity id="2Ball2" type ="BallBlock" locationX ="44" locationY="2"  />
+			<Entity id="2Ball3" type ="BallBlock" locationX ="44" locationY="2.5"  />
+			<Entity id="2Ball4" type ="BallBlock" locationX ="44" locationY="3"  />
+			<Entity id="2hook" type ="BallBlock" locationX ="44" locationY="3.5"  />
+
+		<Entity type ="SteelBuilding"   locationX ="0" locationY="7"   />
+		<Entity type ="SteelBuilding"   locationX ="4.7" locationY="7"   />
+		<Entity type ="SteelBuilding"   locationX ="9.4" locationY="7.5"   /> 
+		<Entity type ="SteelBuilding"   locationX ="14.1" locationY="7.5"   />
+		<Entity type ="SteelBuilding"   locationX ="18.8" locationY="7"   />
+		<Entity type ="SteelBuilding"   locationX ="23.5" locationY="7"   /> 
+		
+
+		<Entity type ="SmallRockBuilding"   locationX ="21.5" locationY="5.7"   /> 
+		<Entity type ="SmallRockBuilding"   locationX ="22.4" locationY="5.7"   /> 
+		<Entity type ="SmallRockBuilding"   locationX ="22.4" locationY="4.5"   /> 		
+		<Entity type ="SmallRockBuilding"   locationX ="23.7" locationY="5.7"   /> 
+		<Entity type ="SmallRockBuilding"   locationX ="23.7" locationY="4.5"   /> 
+		<Entity type ="SmallRockBuilding"   locationX ="23.7" locationY="3.5"   /> 
+
+		
+		<Entity type ="SmallRockBuilding"   locationX ="25" locationY="5.7"   /> 
+		<Entity type ="SmallRockBuilding"   locationX ="25" locationY="4.5"   /> 
+		<Entity type ="SmallRockBuilding"   locationX ="25" locationY="3.5"   /> 
+		<Entity type ="SmallRockBuilding"   locationX ="25" locationY="2.5"   /> 
+
+		<Entity type ="SmallRockBuilding"   locationX ="26.2" locationY="2.5"   /> 
+		<Entity type ="SmallRockBuilding"   locationX ="27.4" locationY="2.5"   /> 
+		<Entity type ="SmallRockBuilding"   locationX ="28.6" locationY="2.5"   /> 
+		<Entity type ="SmallRockBuilding"   locationX ="29.8" locationY="2.5"   /> 
+		<!--<Entity type ="SmallRockBuilding"   locationX ="31" locationY="2.5"   /> -->
+		<Entity type ="SmallRockBuilding"   locationX ="32.2" locationY="2.5"   /> 
+		<Entity type ="SmallRockBuilding"   locationX ="33.4" locationY="2.5"   /> 
+		
+		<Entity type ="SmallRockBuilding"   locationX ="34.5" locationY="2.5"   /> 
+		<Entity type ="SmallRockBuilding"   locationX ="34.5" locationY="1.4"   /> 
+		<Entity type ="SmallRockBuilding"   locationX ="34.5" locationY=".3"   /> 
+		<Entity type ="SmallRockBuilding"   locationX ="34.5" locationY="0"   /> 
+
+
+
+
+
+
+		<Entity type ="SteelBuilding"   locationX ="28" locationY="7"   />
+		<Entity type ="SteelBuilding"   locationX ="32.9" locationY="7"   />
+		<!--<Entity type ="SteelBuilding"   locationX ="37.6" locationY="7"   /> 
+		<Entity type ="SteelBuilding"   locationX ="42.3" locationY="7"   />-->
+		<Entity type ="SteelBuilding"   locationX ="47.5" locationY="3"   />
+		<Entity type ="SteelBuilding"   locationX ="47.5" locationY="7"   />
+		<Entity type ="SteelBuilding"   locationX ="52" locationY="7"   /> 
+		<Entity type ="SteelBuilding"   locationX ="56.4" locationY="7"   />
+		<Entity type ="SteelBuilding"   locationX ="60.1" locationY="7"   />
+		<Entity type ="SteelBuilding"   locationX ="64.8" locationY="7"   /> 
+		<Entity type ="SteelBuilding"   locationX ="69.5" locationY="7.5"   />
+		<!--<Entity type ="SteelBuilding"   locationX ="74.2" locationY="7"   />-->
+		<Entity type ="SteelBuilding"   locationX ="78.9" locationY="6.5"   /> 
+		<Entity type ="SteelBuilding"   locationX ="83.6" locationY="7"   />
+		<Entity type ="SteelBuilding"   locationX ="88.3" locationY="7"   />
+		<Entity type ="SteelBuilding"   locationX ="93" locationY="7.6"   />
+		<Entity type ="SteelBuilding"   locationX ="97.7" locationY="8"   />
+		
+		<Entity type ="PlacedBarBuilding"   locationX ="84.6" locationY="3.3"   />		
+		<Entity type ="PlacedBarBuilding"   locationX ="85.4" locationY="3.5"   />	
+		<Entity type ="PlacedBarBuilding"   locationX ="86.2" locationY="3.5"   />
+		<Entity type ="PlacedBarBuilding"   locationX ="87" locationY="3.3"   />	
+		
+		<Entity  type ="CatcherBlock"   locationX ="102" locationY="6.5" aiName="MovingPlatform" aiArgs="102,0,150,0,1.33,100,0,0,150,0,-1.33,100,0,0" />	
+		<Entity  type ="CatcherBlock"   locationX ="90" locationY="3" aiName="MovingPlatform" aiArgs="0,3,200,-2,0,50,0,0,200,2,0,50,0,0" />	
+		
+		<Entity type ="SteelBuilding"   locationX ="102.4" locationY="8"   />
+		<Entity type ="SteelBuilding"   locationX ="107.1" locationY="7"   />
+		<Entity type ="SteelBuilding"   locationX ="111.8" locationY="7"   />
+		<Entity type ="SteelBuilding"   locationX ="116.5" locationY="7"   />
+		<Entity type ="SteelBuilding"   locationX ="121.2" locationY="7"   />
+			
+
+	</Entities>
+	<Joints>
+		<Joint type="Distance" id1="Anchor" id2="Ball1"/>
+	<Joint type="Distance" id1="Ball1" id2="Ball2"/>
+	<Joint type="Distance" id1="Ball2" id2="Ball3"/>
+	<Joint type="Distance" id1="Ball3" id2="Ball4"/>
+	<Joint type="Distance" id1="Ball4" id2="hook"/>
+	<Joint type="Rope" id1="Anchor" id2="hook"/>
+	
+	<Joint type="Distance" id1="2Anchor" id2="2Ball1"/>
+	<Joint type="Distance" id1="2Ball1" id2="2Ball2"/>
+	<Joint type="Distance" id1="2Ball2" id2="2Ball3"/>
+	<Joint type="Distance" id1="2Ball3" id2="2Ball4"/>
+	<Joint type="Distance" id1="2Ball4" id2="2hook"/>
+	<Joint type="Rope" id1="2Anchor" id2="2hook"/>
+	</Joints>
+<NoPlayerCollision></NoPlayerCollision>
+<Non-CollidingPairs>
+	<Pair id1="catcher6" id2="srb1" />
+</Non-CollidingPairs>
+ </GameWorld>

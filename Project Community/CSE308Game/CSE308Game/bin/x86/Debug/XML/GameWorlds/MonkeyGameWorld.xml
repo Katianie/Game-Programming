@@ -1,0 +1,320 @@
+<GameWorld> 
+
+  <BackGround >BackGrounds\jungleBG</BackGround>
+  <Gravity>0,8</Gravity>
+   <Edges>
+		<Bottom type="GO_TO_POINT" value="3,4" />
+		<Left type="Dont" value="3,4" />
+		<Top type="DoAnythiing" value="3,4" />
+		<Right type="Quest_Completed_Return" value="Main" />
+  </Edges>
+  <CheckPoints>
+	<CheckPoint xLoc="3" yLoc="3" />
+	<CheckPoint xLoc="31" yLoc="3" />
+	<CheckPoint xLoc="82" yLoc="3" />
+  </CheckPoints>
+ <Entities>
+ 			<Entity type ="Player"   locationX ="3" locationY="3"  />
+			
+			
+			 <Entity type ="RockBuilding"   locationX ="0" locationY="9"   />
+			 <Entity type ="RockBuilding"   locationX ="2.78" locationY="9"   />
+			 <Entity type ="RockBuilding"   locationX ="5.56" locationY="9"   />
+			 
+		<!-- <Entity type ="RockBuilding"   locationX ="8.34" locationY="9"   />-->
+			 <Entity type ="RockBuilding"   locationX ="11.12" locationY="8.8"   />
+			 <Entity type ="RockBuilding"   locationX ="14" locationY="8.8"   />
+			  <Entity type ="Block"   locationX ="14" locationY="6"   />			 
+			 <Entity type ="RockBuilding"   locationX ="16.8" locationY="8.8"   />
+			 <Entity type ="RockBuilding"   locationX ="19.6" locationY="9"   />
+			 <Entity type ="RockBuilding"   locationX ="22.4" locationY="9"   />
+			 <Entity type ="RockBuilding"   locationX ="25.15" locationY="9"   />
+			<!-- <Entity type ="RockBuilding"   locationX ="28" locationY="9"   />-->
+			 <Entity type ="RockBuilding"   locationX ="30.9" locationY="9"   />
+			<!-- <Entity type ="RockBuilding"   locationX ="33.6" locationY="9"   />
+			 <Entity type ="RockBuilding"   locationX ="36.4" locationY="9"   />
+			 <Entity type ="RockBuilding"   locationX ="39.2" locationY="9"   />
+			 <Entity type ="RockBuilding"   locationX ="42" locationY="9"   />-->
+			 <Entity id="bar1" type="BarBlockFR" locationX="46.4" locationY="9.5" />
+			 <Entity type ="RockBuilding"   locationX ="43.5" locationY="9"   />
+			 <Entity type ="RockBuilding"   locationX ="47.6" locationY="9"   />
+			 <Entity type ="RockBuilding"   locationX ="50.4" locationY="9"   />
+			 <Entity type ="RockBuilding"   locationX ="53.2" locationY="9"   /> 
+			 <Entity type ="RockBuilding"   locationX ="56" locationY="9"   />
+			 <Entity type ="RockBuilding"   locationX ="58.8" locationY="9"   />
+			 <Entity type ="RockBuilding"   locationX ="61.6" locationY="9"   />
+			<Entity type ="RockBuilding"   locationX ="63.4" locationY="9"   />
+			 <Entity type ="RockBuilding"   locationX ="66.2" locationY="9"   />
+			 <Entity type ="RockBuilding"   locationX ="69" locationY="9"   />						 
+			 <Entity type ="RockBuilding"   locationX ="71.8" locationY="10.5"   />
+			 <Entity type ="RockBuilding"   locationX ="75" locationY="9"   />
+			<!-- <Entity type ="RockBuilding"   locationX ="77.4" locationY="9"   />-->
+			 <Entity type ="RockBuilding"   locationX ="80.2" locationY="9"   />
+			 <Entity type ="RockBuilding"   locationX ="83" locationY="9"   />
+			 <Entity type ="RockBuilding"   locationX ="85.8" locationY="9"   />
+			 <Entity type ="RockBuilding"   locationX ="88.6" locationY="9"   />
+			 <Entity type ="RockBuilding"   locationX ="91.4" locationY="9"   />
+			<!-- <Entity type ="RockBuilding"   locationX ="94.2" locationY="9"   />
+			 <Entity type ="RockBuilding"   locationX ="97" locationY="9"   />-->
+			 <Entity type ="RockBuilding"   locationX ="99" locationY="3.7"   />
+			 <Entity type ="RockBuilding"   locationX ="99" locationY="6.5"   />
+			 <Entity type ="RockBuilding"   locationX ="99" locationY="9.3"   />
+			 <Entity type ="RockBuilding"   locationX ="101.8" locationY="9"   />
+			 <Entity type ="RockBuilding"   locationX ="104.6" locationY="9"   />
+			 <Entity type ="RockBuilding"   locationX ="107.4" locationY="9"   />
+			 <Entity type ="RockBuilding"   locationX ="110" locationY="9"   />			 
+			 
+			 
+			 
+			 <Entity type ="RockBuilding"   locationX ="30.85" locationY="6.26"   />
+			 <Entity type ="RockBuilding"   locationX ="33.6" locationY="5.5"   />
+			 <Entity type ="RockBuilding"   locationX ="36.4" locationY="5.2"   />
+			 <Entity type ="BigBallBlock"   locationX ="36.4" locationY="4.2"   />
+			 <Entity type ="BigBallBlock"   locationX ="36.4" locationY="4.2"   />			 
+			  <Entity type ="BigBallBlock"   locationX ="36.4" locationY="4.2"   />
+			 
+			 <Entity id="AnchorBlock" type ="AnchorBlock"   locationX ="17" locationY=".6"   />
+			<Entity id="Ball1" type ="RopeBlock" locationX ="17" locationY="1.1"  />
+			<Entity id="Ball2" type ="RopeBlock" locationX ="17" locationY="1.7"  />
+			<Entity id="Ball3" type ="RopeBlock" locationX ="17" locationY="2.2"  />
+			<Entity id="Ball4" type ="RopeBlock" locationX ="17" locationY="2.8"  />
+			<Entity id="Ball5" type ="RopeBlock" locationX ="17" locationY="3.3"  />
+			<Entity id="Ball6" type ="RopeBlock" locationX ="17" locationY="3.9"  />	
+			<Entity id="Ball7" type ="MonkeyEnemy" locationX ="17" locationY="4.7"  />
+			
+			
+			
+			
+			 <Entity id="2anchor" type ="AnchorBlock"   locationX ="10" locationY=".5"   />
+			<Entity id="2Ball1" type ="RopeBlock" locationX ="10" locationY="1"  />
+			<Entity id="2Ball2" type ="RopeBlock" locationX ="10" locationY="1.5"  />
+			<Entity id="2Ball3" type ="RopeBlock" locationX ="10" locationY="2"  />
+			<Entity id="2Ball4" type ="RopeBlock" locationX ="10" locationY="2.5"  />
+			<Entity id="2Ball5" type ="RopeBlock" locationX ="10" locationY="3"  />
+			<Entity id="2Ball6" type ="RopeBlock" locationX ="10" locationY="3.5"  />	
+			<Entity id="2Ball7" type ="RopeBlock" locationX ="10" locationY="4"  />
+			<Entity id="2Ball8" type ="RopeBlock" locationX ="10" locationY="4.5"  />
+			<Entity id="2Ball9" type ="RopeBlock" locationX ="10" locationY="5"  />
+			<Entity id="2Ball10" type ="RopeBlock" locationX ="10" locationY="5.5"  />
+			<Entity id="2Ball11" type ="RopeBlock" locationX ="10" locationY="6"  />
+			<Entity id="2Ball12" type ="RopeBlock" locationX ="10" locationY="6.5"  />
+			<Entity id="2Ball13" type ="RopeBlock" locationX ="10" locationY="7"  />
+			<Entity id="2Ball14" type ="RopeBlock" locationX ="10" locationY="7.5"  />
+			<Entity id="2Ball15" type ="RopeBlock" locationX ="10" locationY="8"  />
+			<Entity id="2Ball16" type ="RopeBlock" locationX ="10" locationY="8.5"  />
+			
+			
+			<Entity id="3anchor" type ="AnchorBlock"   locationX ="41.3" locationY=".5"   />
+			<Entity id="3Ball1" type ="RopeBlock" locationX ="41.3" locationY="1"  />
+			<Entity id="3Ball2" type ="RopeBlock" locationX ="41.3" locationY="1.5"  />
+			<Entity id="3Ball3" type ="RopeBlock" locationX ="41.3" locationY="2"  />
+			<Entity id="3Ball4" type ="RopeBlock" locationX ="41.3" locationY="2.5"  />
+			<Entity id="3Ball5" type ="RopeBlock" locationX ="41.3" locationY="3"  />
+			<!--<Entity id="3Ball6" type ="RopeBlock" locationX ="41.3" locationY="3.5"  />	
+			<Entity id="3Ball7" type ="RopeBlock" locationX ="41.3" locationY="4"  />
+			<Entity id="3Ball8" type ="RopeBlock" locationX ="41.3" locationY="4.5"  />-->
+			<Entity id="3Ball9" type ="RopeBlock" locationX ="41.3" locationY="5"  />
+			<Entity id="3Ball10" type ="RopeBlock" locationX ="41.3" locationY="5.5"  />
+			<Entity id="3Ball11" type ="RopeBlock" locationX ="41.3" locationY="6"  />
+			<Entity id="3Ball12" type ="MonkeyEnemy" locationX ="40.6" locationY="6.5"  />
+			
+			
+			<Entity type="BigBallBlock" locationX="48" locationY="7.8"/>
+	
+						
+			<Entity id="4anchor" type ="AnchorBlock"   locationX ="53.3" locationY="1"   />
+			<Entity id="4Ball1" type ="RopeBlock" locationX ="53.3" locationY="1.5"  />
+			<Entity id="4Ball2" type ="RopeBlock" locationX ="53.3" locationY="2"  />
+			<Entity id="4Ball3" type ="RopeBlock" locationX ="53.3" locationY="2.5"  />
+			<Entity id="4Ball4" type ="RopeBlock" locationX ="53.3" locationY="3"  />
+			<Entity id="4Ball5" type ="RopeBlock" locationX ="53.3" locationY="3.5"  />
+			<Entity id="4Ball6" type ="RopeBlock" locationX ="53.3" locationY="4"  />	
+			<Entity id="4Ball7" type ="RopeBlock" locationX ="53.3" locationY="4.5"  />
+			<Entity id="4Ball8" type ="RopeBlock" locationX ="53.3" locationY="5"  />
+			<Entity id="4Ball9" type ="MonkeyEnemy" locationX ="52.6" locationY="5.6"  />
+			
+			
+			
+			<Entity type ="Block"   locationX ="58.9" locationY="3"   />	
+			<Entity id="PBar1" type ="BarBlockFR"   locationX ="58" locationY="4.8"   />				
+			<Entity type ="PlacedBarBuilding"   locationX ="59" locationY="6.2"   />
+			<Entity type ="PlacedBarBuilding"   locationX ="60.5" locationY="6.2"   />
+			<Entity type ="PlacedBarBuilding"   locationX ="61.5" locationY="6.2"   />
+			<Entity type ="PlacedBarBuilding"   locationX ="62.5" locationY="6.8"   />
+			<Entity type ="PlacedBarBuilding"   locationX ="63.5" locationY="7.5"   />
+			<Entity id="PBar2" type ="BarBlockFR"   locationX ="63.5" locationY="5"   />
+				
+				
+
+			<Entity id="5anchor" type ="AnchorBlock"   locationX ="67.3" locationY="1"   />
+			<Entity id="5Ball1" type ="RopeBlock" locationX ="67.3" locationY="1.5"  />
+			<Entity id="5Ball2" type ="RopeBlock" locationX ="67.3" locationY="2"  />
+			<Entity id="5Ball3" type ="RopeBlock" locationX ="67.3" locationY="2.5"  />
+			<Entity id="5Ball4" type ="RopeBlock" locationX ="67.3" locationY="3"  />
+			<Entity id="5Ball5" type ="RopeBlock" locationX ="67.3" locationY="3.5"  />
+			<Entity id="5Ball6" type ="RopeBlock" locationX ="67.3" locationY="4"  />	
+			<Entity id="5Ball7" type ="RopeBlock" locationX ="67.3" locationY="4.5"  />
+			<Entity id="5Ball8" type ="MonkeyEnemy" locationX ="67.6" locationY="4.8"  />
+			
+
+			<Entity type ="PlacedBarBuilding"   locationX ="73" locationY="5"   />	
+			<Entity type ="PlacedBarBuilding"   locationX ="76" locationY="4"   />	
+			<Entity type ="PlacedBarBuilding"   locationX ="75.3" locationY="6.2"   />				
+			<Entity id="6anchor" type ="AnchorBlock"   locationX ="77.3" locationY="1"   />
+			<Entity id="6Ball1" type ="RopeBlock" locationX ="77.3" locationY="1.5"  />
+			<Entity id="6Ball2" type ="RopeBlock" locationX ="77.3" locationY="2"  />
+			<Entity id="6Ball3" type ="RopeBlock" locationX ="77.3" locationY="2.5"  />
+			<!--<Entity id="6Ball4" type ="RopeBlock" locationX ="77.3" locationY="3"  />
+			<Entity id="6Ball5" type ="RopeBlock" locationX ="77.3" locationY="3.5"  />-->
+			<Entity id="6Ball6" type ="RopeBlock" locationX ="77.3" locationY="5.2"  />	
+			<Entity id="6Ball7" type ="RopeBlock" locationX ="77.3" locationY="5.8"  />
+			<Entity id="6Ball8" type ="MonkeyEnemy" locationX ="77.6" locationY="6.3"  />
+			
+			
+			
+			
+			<Entity id="DivingAnchor" type ="AnchorBlock"   locationX ="89.3" locationY="1"   />
+			<Entity id="7Ball1" type ="RopeBlock" locationX ="89.3" locationY="1.5"  />
+			<Entity id="7Ball2" type ="RopeBlock" locationX ="89.3" locationY="2"  />
+			<Entity id="7Ball3" type ="RopeBlock" locationX ="89.3" locationY="2.5"  />
+			<Entity id="7Ball4" type ="RopeBlock" locationX ="89.3" locationY="3"  />
+			<Entity id="7Ball5" type ="RopeBlock" locationX ="89.3" locationY="3.5"  />
+			<Entity id="7Ball6" type ="RopeBlock" locationX ="89.3" locationY="4"  />	
+			<Entity id="7Ball7" type ="RopeBlock" locationX ="89.3" locationY="4.5"  />
+			<Entity id="7Ball8" type ="RopeBlock" locationX ="89.3" locationY="5"  />
+			<Entity id="7Ball9" type ="MonkeyEnemy" locationX ="89.6" locationY="5.5" aiName="DivingMonkey" />
+			
+			
+			<Entity type ="PlacedBarBuilding"   locationX ="94.5" locationY="7.5"   />	
+			<Entity type ="PlacedBarBuilding"   locationX ="97" locationY="6.2"   />
+			<Entity type ="PlacedBarBuilding"   locationX ="97.8" locationY="6.2"   />			
+			<Entity type ="PlacedBarBuilding"   locationX ="94.5" locationY="4.9"   />	
+			<Entity type ="PlacedBarBuilding"   locationX ="97" locationY="3.5"   />			
+			
+			
+			<Entity id="9anchor" type ="AnchorBlock"   locationX ="106.3" locationY="1"   />
+			<Entity id="9Ball1" type ="RopeBlock" locationX ="106.3" locationY="1.5"  />
+			<Entity id="9Ball2" type ="RopeBlock" locationX ="106.3" locationY="2"  />
+			<Entity id="9Ball3" type ="RopeBlock" locationX ="106.3" locationY="2.5"  />
+			<Entity id="9Ball4" type ="RopeBlock" locationX ="106.3" locationY="3"  />
+			<Entity id="9Ball5" type ="RopeBlock" locationX ="106.3" locationY="3.5"  />
+			<Entity id="9Ball6" type ="RopeBlock" locationX ="106.3" locationY="4"  />	
+			<Entity id="9Ball7" type ="MonkeyEnemy" locationX ="106.6" locationY="5"  aiName="SwingingMonkey"/>
+
+						<Entity type ="PlantItem" locationX ="99.3" locationY="2"  />
+			
+</Entities>
+<Joints>
+	<Joint type="Distance" id1="AnchorBlock" id2="Ball1"/>
+	<Joint type="Distance" id1="Ball1" id2="Ball2"/>
+	<Joint type="Distance" id1="Ball2" id2="Ball3"/>
+	<Joint type="Distance" id1="Ball3" id2="Ball4"/>
+	<Joint type="Distance" id1="Ball4" id2="Ball5"/>
+	<Joint type="Distance" id1="Ball5" id2="Ball6"/>
+	<Joint type="Distance" id1="Ball6" id2="Ball7"/>
+	<!-- <Joint type="Rope" id1="AnchorBlock" id2="Ball7" /> -->
+
+
+	<Joint type="Distance" id1="2anchor" id2="2Ball1"/>
+	<Joint type="Distance" id1="2Ball1" id2="2Ball2"/>
+	<Joint type="Distance" id1="2Ball2" id2="2Ball3"/>
+	<Joint type="Distance" id1="2Ball3" id2="2Ball4"/>
+	<Joint type="Distance" id1="2Ball4" id2="2Ball5"/>
+	<Joint type="Distance" id1="2Ball5" id2="2Ball6"/>
+	<Joint type="Distance" id1="2Ball6" id2="2Ball7"/>
+	<Joint type="Distance" id1="2Ball7" id2="2Ball8"/>
+	<Joint type="Distance" id1="2Ball8" id2="2Ball9"/>
+	<Joint type="Distance" id1="2Ball9" id2="2Ball10"/>
+	<Joint type="Distance" id1="2Ball10" id2="2Ball11"/>
+	<Joint type="Distance" id1="2Ball11" id2="2Ball12"/>
+	<Joint type="Distance" id1="2Ball12" id2="2Ball13"/>
+	<Joint type="Distance" id1="2Ball13" id2="2Ball14"/>
+	<Joint type="Distance" id1="2Ball14" id2="2Ball15"/>
+	<Joint type="Distance" id1="2Ball15" id2="2Ball16"/>
+		 <Joint type="Rope" id1="2anchor" id2="2Ball16" /> 
+	
+	
+	<Joint type="Distance" id1="3anchor" id2="3Ball1"/>
+	<Joint type="Distance" id1="3Ball1" id2="3Ball2"/>
+	<Joint type="Distance" id1="3Ball2" id2="3Ball3"/>
+	<Joint type="Distance" id1="3Ball3" id2="3Ball4"/>
+	<Joint type="Distance" id1="3Ball4" id2="3Ball5"/>
+	<Joint type="Distance" id1="3Ball5" id2="3Ball9"/>
+	<!--<Joint type="Distance" id1="3Ball6" id2="3Ball7"/>
+	<Joint type="Distance" id1="3Ball7" id2="3Ball8"/>
+	<Joint type="Distance" id1="3Ball8" id2="3Ball9"/>-->
+	<Joint type="Distance" id1="3Ball9" id2="3Ball10"/>
+	<Joint type="Distance" id1="3Ball10" id2="3Ball11"/>
+	<Joint type="Distance" id1="3Ball11" id2="3Ball12"/>
+			 <Joint type="Rope" id1="3anchor" id2="3Ball12" /> 
+	
+	<Joint type="Distance" id1="4anchor" id2="4Ball1"/>
+	<Joint type="Distance" id1="4Ball1" id2="4Ball2"/>
+	<Joint type="Distance" id1="4Ball2" id2="4Ball3"/>
+	<Joint type="Distance" id1="4Ball3" id2="4Ball4"/>
+	<Joint type="Distance" id1="4Ball4" id2="4Ball5"/>
+	<Joint type="Distance" id1="4Ball5" id2="4Ball6"/>
+	<Joint type="Distance" id1="4Ball6" id2="4Ball7"/>
+	<Joint type="Distance" id1="4Ball7" id2="4Ball8"/>
+	<Joint type="Distance" id1="4Ball8" id2="4Ball9"/>	
+			 
+			 
+			 
+		<Joint type="Distance" id1="5anchor" id2="5Ball1"/>
+	<Joint type="Distance" id1="5Ball1" id2="5Ball2"/>
+	<Joint type="Distance" id1="5Ball2" id2="5Ball3"/>
+	<Joint type="Distance" id1="5Ball3" id2="5Ball4"/>
+	<Joint type="Distance" id1="5Ball4" id2="5Ball5"/>
+	<Joint type="Distance" id1="5Ball5" id2="5Ball6"/>
+	<Joint type="Distance" id1="5Ball6" id2="5Ball7"/>
+	<Joint type="Distance" id1="5Ball7" id2="5Ball8"/>
+			 
+	
+		<Joint type="Distance" id1="6anchor" id2="6Ball1"/>
+	<Joint type="Distance" id1="6Ball1" id2="6Ball2"/>
+	<Joint type="Distance" id1="6Ball2" id2="6Ball3"/>
+<!--	<Joint type="Distance" id1="6Ball3" id2="6Ball4"/>
+	<Joint type="Distance" id1="6Ball4" id2="6Ball5"/>
+	<Joint type="Distance" id1="6Ball5" id2="6Ball6"/>-->
+	<Joint type="Distance" id1="6Ball3" id2="6Ball6"/>
+	<Joint type="Distance" id1="6Ball6" id2="6Ball7"/>
+	<Joint type="Distance" id1="6Ball7" id2="6Ball8"/>
+			 
+			 
+	
+		<Joint type="Distance" id1="DivingAnchor" id2="7Ball1"/>
+	<Joint type="Distance" id1="7Ball1" id2="7Ball2"/>
+	<Joint type="Distance" id1="7Ball2" id2="7Ball3"/>
+	<Joint type="Distance" id1="7Ball3" id2="7Ball4"/>
+	<Joint type="Distance" id1="7Ball4" id2="7Ball5"/>
+	<Joint type="Distance" id1="7Ball5" id2="7Ball6"/>
+	<Joint type="Distance" id1="7Ball6" id2="7Ball7"/>
+	<Joint type="Distance" id1="7Ball7" id2="7Ball8"/>
+	<Joint type="Distance" id1="7Ball8" id2="7Ball9"/>
+			 
+		<!--<Joint type="Distance" id1="4anchor" id2="4Ball1"/>
+	<Joint type="Distance" id1="4Ball1" id2="4Ball2"/>
+	<Joint type="Distance" id1="4Ball2" id2="4Ball3"/>
+	<Joint type="Distance" id1="4Ball3" id2="4Ball4"/>
+	<Joint type="Distance" id1="4Ball4" id2="4Ball5"/>
+	<Joint type="Distance" id1="4Ball5" id2="4Ball6"/>
+	<Joint type="Distance" id1="4Ball6" id2="4Ball7"/>
+	<Joint type="Distance" id1="4Ball7" id2="4Ball8"/>-->
+	
+	<Joint type="Distance" id1="9anchor" id2="9Ball1"/>
+	<Joint type="Distance" id1="9Ball1" id2="9Ball2"/>
+	<Joint type="Distance" id1="9Ball2" id2="9Ball3"/>
+	<Joint type="Distance" id1="9Ball3" id2="9Ball4"/>
+	<Joint type="Distance" id1="9Ball4" id2="9Ball5"/>
+	<Joint type="Distance" id1="9Ball5" id2="9Ball6"/>
+	<Joint type="Distance" id1="9Ball6" id2="9Ball7"/>
+	
+
+	<Joint type="Pulley" id1="4Ball8" id2="bar1" anchor1X="55" anchor1Y="1" anchor2X="46.5" anchor2Y="5" ratio="5.4"/>
+	<Joint type="Pulley" id1="PBar1" id2="PBar2" anchor1X="58" anchor1Y="2.8" anchor2X="63.5" anchor2Y="1" ratio=".5"/>
+</Joints>
+<NoPlayerCollision>4anchor,4Ball1,4Ball2,4Ball3,4Ball4,4Ball5,4Ball6,4Ball7</NoPlayerCollision>
+<Non-CollidingPairs>
+	<Pair id1="" id2="" />
+</Non-CollidingPairs>
+ </GameWorld>

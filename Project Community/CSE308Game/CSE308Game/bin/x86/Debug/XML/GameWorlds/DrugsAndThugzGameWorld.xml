@@ -1,0 +1,109 @@
+<GameWorld> 
+  <BackGround >BackGrounds\istanbul</BackGround>
+  <Gravity>0,8</Gravity>
+	<Edges>
+		<Bottom type="ResetWorld_Checkpoint" value="nine" />
+		<Left type="Dont" value="Main" />
+		<Top type="DoAnythiing" value="3,4" />
+		<Right type="Quest_Completed_Return" value="Main" />
+	</Edges>
+    <CheckPoints>
+		<CheckPoint xLoc="2" yLoc="3" />
+		<CheckPoint xLoc="40" yLoc="3" />
+		<CheckPoint xLoc="140" yLoc="4" />
+		<CheckPoint xLoc="168" yLoc="3" />
+	</CheckPoints>
+	<Entities>
+		<Entity type ="Player"   locationX ="2" locationY="3"  />
+		<Entity id="b1" type ="MovingBlock"   locationX ="31" locationY="5" aiName="MovingPlatform" aiArgs="0,5,230,3,0,60,0,0,138,-5,0,60,0,0" />
+		<Entity  type ="MovingBlock"   locationX ="34" locationY="4.5" aiName="MovingPlatform" aiArgs="34,0,100,0,-2,60,0,0,100,0,2,60,0,0" />
+		<!--	<Entity  type ="MovingBlock"   locationX ="34" locationY="4.5" aiName="MovingPlatform" aiArgs="Xaxis,Yaxis,Time,speedX,speedY" />-->
+		<Entity  type ="CatcherBlock"   locationX ="47" locationY="3.5" aiName="MovingPlatform" aiArgs="47,0,100,0,-2,30,0,0,100,0,2,60,0,0" />	
+		<Entity  type ="CatcherBlock"   locationX ="88" locationY="7.5" aiName="MovingPlatform" aiArgs="0,5,200,2,0,60,0,0,100,-4,0,60,0,0" />	
+		<Entity  type ="CatcherBlock"   locationX ="184" locationY="7.5" aiName="MovingPlatform" aiArgs="184,0,100,0,2,30,0,0,100,0,-2,60,0,0" />	
+		<Entity  type ="CatcherBlock"   locationX ="187.5" locationY="4" aiName="MovingPlatform" aiArgs="0,4,90,-6,0,60,0,0,180,3,0,60,0,0" />	
+		<Entity  type ="CatcherBlock"   locationX ="128" locationY="3.5" aiName="MovingPlatform" aiArgs="128,0,120,0,-2,120,0,0,120,0,2,40,0,0" />
+		<Entity  id="catcher6" type ="CatcherBlock"   locationX ="124.5" locationY="4" aiName="MovingPlatform" aiArgs="0,4,375,2.75,0,50,0,0,375,-2.75,0,0,0,0" />	
+		<Entity   type ="CatcherBlock"   locationX ="120" locationY="2" aiName="MovingPlatform" aiArgs="0,2,400,-3,0,0,0,0,400,3,0,0,0,0" />	
+		<Entity   type ="DrugAddictEnemy" locationX ="12" locationY="3"  aiName="DrugAddictAI" color="Purple"/>
+		<Entity   type ="DrugAddictEnemy" locationX ="56" locationY="6"  aiName="DrugAddictAI" color="Purple"/>	
+		<Entity   type ="DrugAddictEnemy" locationX ="56" locationY="1"  aiName="DrugAddictAI" color="Purple"/>	
+		<Entity   type ="DrugAddictEnemy" locationX ="106" locationY="1"  aiName="DrugAddictAI" color="Purple"/>	
+		<Entity id="srb1" type ="SmallRockBuilding"   locationX ="120" locationY="2.4"   /> 
+		<Entity type ="PillItem" locationX ="110" locationY="3"  />
+		<Entity type ="PillItem" locationX ="112" locationY="3"  />
+		<Entity type ="PillItem" locationX ="114" locationY="3"  />
+		<Entity type ="PillItem" locationX ="17" locationY="3"  />
+		<Entity type ="PillItem" locationX ="25" locationY="3"  />
+		<Entity type ="PillItem" locationX ="50.5" locationY="6"  />
+		<Entity type ="PillItem" locationX ="56" locationY="7"  />
+		<Entity type ="PillItem" locationX ="88" locationY="3"  />
+		<Entity type ="PillItem" locationX ="90" locationY="3"  />
+		<Entity type ="SteelBuilding"   locationX ="0" locationY="7"   />
+		<Entity type ="SteelBuilding"   locationX ="4.7" locationY="7"   />
+		<Entity type ="SteelBuilding"   locationX ="9.4" locationY="5.5"   /> 
+		<Entity id="b2" type ="SteelBuilding"   locationX ="14.1" locationY="5.5"   />
+		<!--<Entity type ="SteelBuilding"   locationX ="18.8" locationY="8"   />
+		<Entity type ="SteelBuilding"   locationX ="23.5" locationY="8"   /> 
+		<Entity type ="SteelBuilding"   locationX ="28.2" locationY="8"   />
+		<Entity type ="SteelBuilding"   locationX ="32.9" locationY="8"   />-->
+		<Entity type ="SteelBuilding"   locationX ="37.6" locationY="4"   /> 
+		<Entity type ="SteelBuilding"   locationX ="42.3" locationY="7"   />
+		<Entity type ="SteelBuilding"   locationX ="47" locationY="7.5"   />
+		<Entity type ="SteelBuilding"   locationX ="51.7" locationY="8"   /> 
+		<Entity type ="SteelBuilding"   locationX ="56.4" locationY="8"   />
+		<Entity type ="SteelBuilding"   locationX ="60.1" locationY="8"   />
+		<Entity type ="SteelBuilding"   locationX ="64.8" locationY="8"   /> 
+		<Entity type ="SteelBuilding"   locationX ="69.5" locationY="6.5"   />
+		<Entity type ="SmallRockBuilding"   locationX ="51.7" locationY="3"   /> 
+		<Entity type ="SmallRockBuilding"   locationX ="51.7" locationY="5.5"   /> 
+		<Entity type ="SmallRockBuilding"   locationX ="53" locationY="3"   />
+		<Entity type ="SmallRockBuilding"   locationX ="54" locationY="3"   />
+		<Entity type ="SmallRockBuilding"   locationX ="55" locationY="3"   /> 
+		<Entity type ="SmallRockBuilding"   locationX ="51.7" locationY="4.2"   /> 
+		<Entity type ="SmallRockBuilding"   locationX ="51.7" locationY="6.7"   /> 
+		<Entity type ="SmallRockBuilding"   locationX ="56" locationY="3"   />
+		<Entity type ="SmallRockBuilding"   locationX ="57" locationY="3"   />
+		<Entity type ="SmallRockBuilding"   locationX ="58" locationY="3"   /> 
+		<Entity type ="SmallRockBuilding"   locationX ="59" locationY="3"   /> 
+		<Entity type ="SmallRockBuilding"   locationX ="60" locationY="3"   /> 
+		<Entity type ="SmallRockBuilding"   locationX ="61" locationY="3"   /> 
+		<Entity type ="SmallRockBuilding"   locationX ="62" locationY="3"   /> 
+		<Entity type ="SmallRockBuilding"   locationX ="63" locationY="3"   /> 
+
+		<Entity type ="SteelBuilding"   locationX ="74.2" locationY="6"   />
+		<Entity type ="SteelBuilding"   locationX ="78.9" locationY="5"   /> 
+		<!--<Entity type ="SteelBuilding"   locationX ="83.6" locationY="8"   />
+		<Entity type ="SteelBuilding"   locationX ="88.3" locationY="8"   />-->
+		<Entity type ="SteelBuilding"   locationX ="93" locationY="7.6"   />
+		<Entity type ="SteelBuilding"   locationX ="97.7" locationY="7.3"   />
+		<Entity type ="SteelBuilding"   locationX ="102.4" locationY="7"   />
+		<Entity type ="SteelBuilding"   locationX ="107.1" locationY="7"   />
+		<Entity type ="SteelBuilding"   locationX ="111.8" locationY="8"   />
+		<Entity type ="SteelBuilding"   locationX ="116.5" locationY="8"   />
+		<Entity type ="SteelBuilding"   locationX ="121.2" locationY="8"   />
+			
+		<!--<Entity type ="SteelBuilding"   locationX ="128.2" locationY="8"   />
+		<Entity type ="SteelBuilding"   locationX ="132.9" locationY="8"   />-->
+		<Entity type ="SteelBuilding"   locationX ="137.6" locationY="6.9"   /> 
+		<Entity type ="SteelBuilding"   locationX ="144" locationY="7"   />
+		<Entity type ="SteelBuilding"   locationX ="149" locationY="7.5"   />
+		<Entity type ="SteelBuilding"   locationX ="158.4" locationY="6.8"   /> 
+		<Entity type ="SteelBuilding"   locationX ="163" locationY="3.6"   />
+		<Entity type ="TowerBuilding"   locationX ="165" locationY="-1.5"  aiName="Gateway" aiArgs="Tower" />
+		<Entity type ="SteelBuilding"   locationX ="160.1" locationY="5"   />
+		<Entity type ="SteelBuilding"   locationX ="164.8" locationY="5.3"   /> 
+		<Entity type ="SteelBuilding"   locationX ="174.2" locationY="6.9"   />
+		<Entity type ="SteelBuilding"   locationX ="178.9" locationY="7.5"   /> 
+		<!--<Entity type ="SteelBuilding"   locationX ="183.6" locationY="8"   />
+		<Entity type ="SteelBuilding"   locationX ="188.3" locationY="8"   />
+		<Entity type ="SteelBuilding"   locationX ="193" locationY="7"   />-->
+		<Entity type ="SteelBuilding"   locationX ="197.7" locationY="7.3"   />	
+	</Entities>
+	<Joints>
+	</Joints>
+<NoPlayerCollision></NoPlayerCollision>
+<Non-CollidingPairs>
+	<Pair id1="catcher6" id2="srb1" />
+</Non-CollidingPairs>
+ </GameWorld>

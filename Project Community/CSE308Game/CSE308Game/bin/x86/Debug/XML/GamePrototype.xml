@@ -1,0 +1,143 @@
+﻿<Game>
+	<Name>Project Community!</Name>
+	<WorldData>
+		<GameWindow fullscreen="false" width="800" height="600"/>
+	</WorldData>
+	<FontFile>XML\FontList.xml</FontFile>
+	<ItemFile>XML\Inventory.xml</ItemFile>
+	<EntityTypes>
+	
+	<!--Players-->
+        <EntityType name="Player">XML\TypeFiles\ProtoPlayerFile.xml</EntityType>
+		<EntityType name="HangGlidePlayer">XML\TypeFiles\HangGliderPlayerFile.xml</EntityType>
+	    <EntityType name="CatcherPlayer">XML\TypeFiles\CatcherPlayerFile.xml</EntityType>
+		<EntityType name="CatcherBlock">XML\TypeFiles\CatcherBlock.xml</EntityType>
+		<EntityType name="BoatPlayer">XML\TypeFiles\BoatPlayerFile.xml</EntityType>		
+		<EntityType name="BarPlayer0">XML\TypeFiles\BarPlacerPlayerFile.xml</EntityType>
+		<EntityType name="BarBuilding0">XML\TypeFiles\PlacedBar.xml</EntityType>
+		<EntityType name="BarPlayer1">XML\TypeFiles\BarPlayerFile1.xml</EntityType>
+		<EntityType name="BarBuilding1">XML\TypeFiles\PlacedBar1.xml</EntityType>
+		<EntityType name="BarPlayer2">XML\TypeFiles\BarPlayerFile2.xml</EntityType>
+		<EntityType name="BarBuilding2">XML\TypeFiles\PlacedBar2.xml</EntityType>
+		<EntityType name="BarPlayer3">XML\TypeFiles\BarPlayerFile3.xml</EntityType>
+		<EntityType name="BarBuilding3">XML\TypeFiles\PlacedBar3.xml</EntityType>
+		<EntityType name="BarPlayer4">XML\TypeFiles\BarPlayerFile4.xml</EntityType>
+		<EntityType name="BarBuilding4">XML\TypeFiles\PlacedBar4.xml</EntityType>	
+		<EntityType name="BarPlayer5">XML\TypeFiles\BarPlayerFile4.xml</EntityType>
+		<EntityType name="BarBuilding5">XML\TypeFiles\PlacedBar4.xml</EntityType>
+		
+
+		<EntityType name="MonkeyEnemy">XML\TypeFiles\TestEnemy.xml</EntityType>
+		
+		<!--Buildings-->
+		<EntityType name="SmlResBuilding">XML\TypeFiles\SmallBuilding.xml</EntityType>
+		<EntityType name="Building">XML\TypeFiles\TestBuilding.xml</EntityType>
+		<EntityType name="RockBuilding">XML\TypeFiles\RockBuilding.xml</EntityType>
+		<EntityType name="DoorBuilding">XML\TypeFiles\DoorBuilding.xml</EntityType>
+		<EntityType name="SmallRockBuilding">XML\TypeFiles\SmallRockBuilding.xml</EntityType>
+		<EntityType name="TowerBuilding">XML\TypeFiles\TowerBuilding.xml</EntityType>
+		<EntityType name="SteelBuilding">XML\TypeFiles\SteelBuilding.xml</EntityType>
+		<EntityType name="TreeBuilding">XML\TypeFiles\MazeTreeBuilding.xml</EntityType>
+		<EntityType name="NewSmallBuilding">XML\TypeFiles\TestBuilding.xml</EntityType>
+		<EntityType name="House1Building">XML\TypeFiles\House1Building.xml</EntityType>
+		<EntityType name="House2Building">XML\TypeFiles\House2Building.xml</EntityType>
+		<EntityType name="House3Building">XML\TypeFiles\House3Building.xml</EntityType>
+		<EntityType name="ExitBuilding">XML\TypeFiles\ExitIstBuilding.xml</EntityType>
+		<EntityType name="RedBrickEnemy">XML\TypeFiles\RedBrickEnemy.xml</EntityType>
+		<EntityType name="SmallRedBrickEnemy">XML\TypeFiles\SmallRedBrickEnemy.xml</EntityType>
+		<EntityType name="BallPlatform">XML\TypeFiles\TestBallPlatform.xml</EntityType>
+		<EntityType name="PlacedBarBuilding">XML\TypeFiles\PlacedBar.xml</EntityType>	
+		<EntityType name="GeneralStoreBuilding">XML\TypeFiles\GeneralStoreBuilding.xml</EntityType>
+		<EntityType name="WTriangleBuilding">XML\TypeFiles\WarningTriangle.xml</EntityType>
+		<EntityType name="CliffBuilding">XML\TypeFiles\CliffBuilding.xml</EntityType>
+		<EntityType name="RampBuilding">XML\TypeFiles\RampBuilding.xml</EntityType>
+		<EntityType name="RedBuilding">XML\TypeFiles\RedBrick.xml</EntityType>
+		<EntityType name="SmallRedBuilding">XML\TypeFiles\SmallRedBrick.xml</EntityType>
+		<EntityType name="StoreCounterBuilding">XML\TypeFiles\StoreCounterBuilding.xml</EntityType>
+		<EntityType name="CarriageBuilding">XML\TypeFiles\CannonCarriageBuilding.xml</EntityType>
+		<EntityType name="CannonBuilding">XML\TypeFiles\CannonBuilding.xml</EntityType>
+		<EntityType name="CanWorldBuilding">XML\TypeFiles\CanWorldBuilding.xml</EntityType>
+		<EntityType name="ChopTree">XML\TypeFiles\ChopTree.xml</EntityType>
+		
+		<!--Blocks-->
+		<EntityType name="Block">XML\TypeFiles\TestBlock.xml</EntityType>
+		<EntityType name="HeavyBlock">XML\TypeFiles\HeavyBlock.xml</EntityType>
+		<EntityType name="MovingBlock">XML\TypeFiles\MovingBlock.xml</EntityType>
+		<EntityType name="BigBallBlock">XML\TypeFiles\TestBigBall.xml</EntityType>
+		<EntityType name="BarBlockFR">XML\TypeFiles\TestBarFR.xml</EntityType>
+		<EntityType name="BarBlock">XML\TypeFiles\TestBar.xml</EntityType>
+		<EntityType name="WBlock">XML\TypeFiles\WarningBlock.xml</EntityType>
+		<EntityType name="BallBlock">XML\TypeFiles\TestBall.xml</EntityType>
+		<EntityType name="VineBlock">XML\TypeFiles\VineBlock.xml</EntityType>
+		<EntityType name="SyringeBlock">XML\TypeFiles\Syringe.xml</EntityType>
+		<EntityType name="RopeBlock">XML\TypeFiles\RopePart.xml</EntityType>
+	    <EntityType name="BulletBlock">XML\TypeFiles\TestBall.xml</EntityType>
+	   	<EntityType name="AnchorBlock">XML\TypeFiles\TestAnchor.xml</EntityType>
+	   	<EntityType name="CottonBallBlock">XML\TypeFiles\CottonBallBlock.xml</EntityType>
+		<EntityType name="PowerBar">XML\TypeFiles\PowerBar.xml</EntityType>
+												
+		<!--Items-->
+		<EntityType name="TonicWaterItem">XML\TypeFiles\TonicWaterPickup.xml</EntityType>
+		<EntityType name="CapacitorItem">XML\TypeFiles\CapacitorPickup.xml</EntityType>
+		<EntityType name="PowerSupplyItem">XML\TypeFiles\CapacitorPickup.xml</EntityType>
+		<EntityType name="SyringeItem">XML\TypeFiles\SyringePickup.xml</EntityType>
+		<EntityType name="LEDItem">XML\TypeFiles\LEDItem.xml</EntityType>
+		<EntityType name="SolarItem">XML\TypeFiles\SolarItem.xml</EntityType>
+		<EntityType name="WireItem">XML\TypeFiles\WireItem.xml</EntityType>
+		<EntityType name="PlantItem">XML\TypeFiles\PlantItem.xml</EntityType>
+		<EntityType name="TNTBalloonExplosive">XML\TypeFiles\Tntballoon.xml</EntityType>
+		<EntityType name="DynamiteExplosive">XML\TypeFiles\Dynamite.xml</EntityType>
+		<EntityType name="TrampolineExplosive">XML\TypeFiles\Trampoline.xml</EntityType>
+		<EntityType name="PillItem">XML\TypeFiles\PillsItem.xml</EntityType>
+
+		
+		<!--Characters and Enemies-->
+		<EntityType name="CottonFarmerCharacter">XML\TypeFiles\CottonFarmerTypeFile.xml</EntityType>
+		<EntityType name="PoorManCharacter">XML\TypeFiles\PoorManTypeFile.xml</EntityType>
+		<EntityType name="PoorWomanCharacter">XML\TypeFiles\PoorWomanTypeFile.xml</EntityType>
+		<EntityType name="CommieManEnemy">XML\TypeFiles\PoorManTypeFile.xml</EntityType>
+		<EntityType name="DoctorCharacter">XML\TypeFiles\DoctorTypeFile.xml</EntityType>
+		<EntityType name="HeroineCharacter">XML\TypeFiles\HerioneTypeFile.xml</EntityType>
+		<EntityType name="DrugAddictEnemy">XML\TypeFiles\HerioneTypeFile.xml</EntityType>
+		<EntityType name="EcoGuyCharacter">XML\TypeFiles\EcoGuyTypeFile.xml</EntityType>
+		<EntityType name="PoliceCheifCharacter">XML\TypeFiles\PoliceCheifTypeFile.xml</EntityType>
+		<EntityType name="RecruitCharacter">XML\TypeFiles\RecruitTypeFile.xml</EntityType>
+		<EntityType name="FireCheifCharacter">XML\TypeFiles\FireCheifTypeFile.xml</EntityType>
+		<EntityType name="MerchantCharacter">XML\TypeFiles\MerchantTypeFile.xml</EntityType>
+		
+
+		<EntityType name="FasterBallBlock">XML\TypeFiles\FasterBall.xml</EntityType>
+
+
+	</EntityTypes>
+  
+	<Worlds>
+		<SubWorld type="TopDown" name="Main" width="100" height="100">XML\GameWorlds\MainGameWorld.xml</SubWorld>
+		
+		<SubWorld type="PictureSideScroller" name="Shoot" width="11.8" height="11">XML\GameWorlds\CottonShootGameWorld.xml</SubWorld>
+		<SubWorld type="PictureSideScroller" name="Cotton Catch" width="11.8" height="9.4">XML\GameWorlds\CottonCatchGameWorld.xml</SubWorld>	
+
+		<SubWorld type="Soccer" name="Soccer" width="22" height="22">XML\GameWorlds\SoccerGameWorld.xml</SubWorld>
+		
+		<SubWorld type="PictureSideScroller" name="MonkeyRun" width="110" height="11">XML\GameWorlds\MonkeyGameWorld.xml</SubWorld>
+		<SubWorld type="TopDown" name="Get Some Sun" width="76" height="64">XML\GameWorlds\MazeGameWorld.xml</SubWorld>
+		<SubWorld type="ParallaxSideScroller" name="Pit Fall" width="11" height="452">XML\GameWorlds\PitFallGameWorld.xml</SubWorld>
+		
+		
+		<SubWorld type="PictureSideScroller" name="Shop" width="12.5" height="9.375">XML\GameWorlds\ShopGameWorld.xml</SubWorld>
+		<SubWorld type="ParallaxSideScroller" name="Cannon Game" width="1925.0" height="1925.0">XML\GameWorlds\CannonGameWorld.xml</SubWorld>
+		
+		<SubWorld type="ParallaxSideScroller" name="Grab Bag" width="138" height="11">XML\GameWorlds\Doctor2GameWorld.xml</SubWorld>
+		<SubWorld type="ParallaxSideScroller" name="Hang Glide" width="246" height="9.375">XML\GameWorlds\Doctor3GameWorld.xml</SubWorld>
+		<SubWorld type="ParallaxSideScroller" name="Drugz and Thugz" width="200" height="9">XML\GameWorlds\DrugsAndThugzGameWorld.xml</SubWorld>
+		<SubWorld type="ParallaxSideScroller" name="Tower" width="12.5" height="80">XML\GameWorlds\TowerGameWorld.xml</SubWorld>
+		
+		<SubWorld type="ParallaxSideScroller" name="Police Recruit" width="120" height="9.375">XML\GameWorlds\PoliceRecruitment.xml</SubWorld>
+		<SubWorld type="TopDown" name="Lights, Commies, Action" width="43" height="114">XML\GameWorlds\Maze3GameWorld.xml</SubWorld>
+		<!--<SubWorld type="PictureSideScroller" name="PoliceCheif3" width="110" height="11">XML\GameWorlds\MonkeyGameWorld.xml</SubWorld>-->
+		
+		<!--<SubWorld type="PictureSideScroller" name="FireCheif1" width="110" height="11">XML\GameWorlds\MonkeyGameWorld.xml</SubWorld>
+		<SubWorld type="PictureSideScroller" name="FireCheif2" width="110" height="11">XML\GameWorlds\MonkeyGameWorld.xml</SubWorld>
+		<SubWorld type="PictureSideScroller" name="FireCheif3" width="110" height="11">XML\GameWorlds\MonkeyGameWorld.xml</SubWorld>-->
+	</Worlds> 
+</Game>

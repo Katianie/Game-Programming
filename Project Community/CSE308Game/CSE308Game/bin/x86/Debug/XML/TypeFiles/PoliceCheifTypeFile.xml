@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+<Data Restitution="0.1" Density="250" Friction="1" fixedRotation="true"/>
+  <Images>
+			<Image width ="64" height="64">Characters\policeCheif\pCheif_back_1</Image>
+			<Image width ="64" height="64">Characters\policeCheif\pCheif_back_2</Image>
+			<Image width ="64" height="64">Characters\policeCheif\pCheif_back_3</Image>
+			<Image width ="64" height="64">Characters\policeCheif\pCheif_front_1</Image>
+			<Image width ="64" height="64">Characters\policeCheif\pCheif_front_2</Image>
+				
+			<Image width ="64" height="64">Characters\policeCheif\pCheif_front_3</Image>
+			<Image width ="64" height="64">Characters\policeCheif\pCheif_left_1</Image>
+			<Image width ="64" height="64">Characters\policeCheif\pCheif_left_2</Image>
+			<Image width ="64" height="64">Characters\policeCheif\pCheif_left_3</Image>
+			<Image width ="64" height="64">Characters\policeCheif\pCheif_right_1</Image>
+				
+			<Image width ="64" height="64">Characters\policeCheif\pCheif_right_2</Image>
+			<Image width ="64" height="64">Characters\policeCheif\pCheif_right_3</Image>
+    </Images>
+  <States>
+  	<State name="Standing Left">6</State>
+	<State name="Standing Right">9</State>
+	<State name="Standing Down">3</State>
+	<State name="Standing Up">0</State>
+	<State name="Walking Left">6,7,6,8</State>
+	<State name="Walking Right">9,10,9,11</State>
+	<State name="Walking Up">0,1,0,2</State>
+	<State name="Walking Down">3,4,3,5</State>
+
+  </States>
+	<!--<Shape ShapeType="Circle" type="Dynamic">.172</Shape>-->
+ <Shape ShapeType="Polygon" type="Dynamic">
+	<Vertex>.8,0</Vertex>
+	<Vertex>.8,1</Vertex>
+	<Vertex>0.2,1</Vertex>
+	<Vertex>0.2,0</Vertex>
+	</Shape>
+</XnaContent>

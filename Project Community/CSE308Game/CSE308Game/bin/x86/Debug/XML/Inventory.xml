@@ -1,0 +1,17 @@
+<Inventory>
+	<Item name="Plant" texture="GUITiles/plantInventory" quantity="0" />
+	<Item name="Cotton" texture="GUITiles/cottonInventory" quantity="0" />
+	<Item name="Pill" texture="GUITiles/pillsInventory" quantity="0" />
+	<Item name="Vaccine" texture="GUITiles/vaccineInventory" quantity="0" />
+	<Item name="Syringe" texture="GUITiles/syringeInventory" quantity="0" />
+	<Item name="Dart Gun" texture="GUITiles/dartgunInventory" quantity="0" />
+	<Item name="Wire" texture="GUITiles/wireInventory" quantity="0" />
+	<Item name="Solar" texture="GUITiles/solarInventory" quantity="0" />
+	<Item name="TonicWater" texture="GUITiles/tonicwaterInventory" quantity="0" />
+	<Item name="Capacitor" texture="GUITiles/capacitorInventory" quantity="0" />
+	<Item name="PowerSupply" texture="GUITiles/capacitorInventory" quantity="0" />
+	<Item name="LED" texture="GUITiles/capacitorInventory" quantity="0" />
+	<Item name="RawWood" texture="GUITiles/woodInventory" quantity="0" />
+	<Item name="Acorn" texture="GUITiles/acornInventory" quantity="0" />
+	<Item name="Axe" texture="GUITiles/axeInventory" quantity="0" />
+</Inventory>

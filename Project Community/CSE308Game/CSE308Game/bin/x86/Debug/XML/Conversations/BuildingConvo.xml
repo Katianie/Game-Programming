@@ -1,0 +1,47 @@
+<Conversation value="Hi, Would You Like To Make Repairs or Paint This Building?">
+	<Responses>
+		<Response type="Convo" value="Paint This Building">
+			<Conversation value="What Color Would You Like To Make This Building?" >
+				<Responses>
+					<Response type="Event" value="Blue">
+						<Events>
+							<Event eventName="Set_Building_Color" eventValue="Blue"/>
+						</Events>
+					</Response>
+					<Response type="Event" value="Greenish">
+						<Events>
+							<Event eventName="Set_Building_Color" eventValue="Green"/>
+						</Events>
+					</Response>
+					<Response type="Event" value="Red">
+						<Events>
+							<Event eventName="Set_Building_Color" eventValue="Red"/>
+						</Events>
+					</Response>
+				</Responses>
+			</Conversation>
+		</Response>
+		<Response type="Convo" value="Repair This Building">
+			<Conversation value="It will take 13 gold to repair this building" >
+				<Responses>
+					<Response type="Event" value="Here you go.">
+						<Events>
+							<Event eventName="TakeItems" eventValue="Kruggerand,13" />
+							<Event eventName="Repair_Building" eventValue="nothing"/>
+						</Events>
+					</Response>
+					<Response type="Event" value="Let it collapse.">
+						<Events>
+							<Event eventName="Exit_ConversationSet" eventValue="nil" />
+						</Events>
+					</Response>
+				</Responses>
+			</Conversation>
+		</Response>
+		<Response type="Event" value="Neither.">
+			<Events>
+				<Event eventName="Exit_ConversationSet" eventValue="nil" />
+			</Events>
+		</Response>
+	</Responses>
+</Conversation>

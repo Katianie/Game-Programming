@@ -1,0 +1,34 @@
+<Conversation value="Who are you?  Why are you here?">
+	<Responses>
+		<Response type="Convo" value="Will you join the police?">
+			<Conversation value="Too many species of animal are at risk of extinction do to over hunting and poaching:  Which of the following island nations was home to the Dodo?" >
+				<Responses>
+					<Response type="Event" value="Madagascar">
+			<Events>
+				<Event eventName="Exit_ConversationSet" eventValue="nil" />
+				<Event eventName="FloatText" eventValue="Wrong!" />
+				</Events>
+					</Response>
+					<Response type="Event" value="Mauritus">
+						<Events>
+							<Event eventName="Join_Police" eventValue="nien"/>
+							<Event eventName="GiveItem" eventValue="Key"/>
+							<Event eventName="TakeItem" eventValue="Police Badge"/>
+						</Events>
+					</Response>
+					<Response type="Event" value="People's Republic of China">
+			<Events>
+				<Event eventName="Exit_ConversationSet" eventValue="nil" />
+				<Event eventName="FloatText" eventValue="Wrong!" />
+			</Events>
+					</Response>
+				</Responses>
+			</Conversation>
+		</Response>
+		<Response type="Event" value="Nevermind.">
+			<Events>
+				<Event eventName="Exit_ConversationSet" eventValue="nil" />
+			</Events>
+		</Response>
+	</Responses>
+</Conversation>

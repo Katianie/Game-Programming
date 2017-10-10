@@ -1,0 +1,609 @@
+list notecards = [];
+
+integer tot_notecards = 0;
+
+integer tot_questions = 0; // might allow for configuration file
+
+list lines = [];
+
+integer diagch;
+
+rotation  avirot;
+
+key curr_user = NULL_KEY;
+
+string questioncard = "IL";  // notecard questions start here
+
+string prizecard ="";
+
+list datakeys = [];
+
+list questions = [];
+
+list choices = [];
+
+list comments = [];
+
+list answers = [];
+
+list players = [];
+
+// all of above index by qnum to ask the question
+
+integer numPlayers = 0;
+
+string curr_question;
+
+list  curr_choices;
+
+list  curr_comments;
+
+string curr_ans;
+
+integer qnum; // current question being asked - index to the above
+
+integer KeyLookup(list keys, key c)
+
+{
+
+    integer i = llGetListLength(keys);
+
+    while(i--)
+
+        if( llList2Key(keys,i) == c)
+
+            return i;
+
+return -1;
+
+}
+
+dumpkeys(string mes, list k)
+
+{
+
+    integer i = llGetListLength(k);
+
+    llSay(0,mes);
+
+    while(i--)
+
+        llSay(0,"key ["+ (string)i + "]=" + (string)llList2Key(k,i));
+
+}
+
+// fix case on cards
+
+GetNoteCards()
+
+{
+
+    string nc;
+
+    string card;
+
+    integer n = llGetInventoryNumber(INVENTORY_NOTECARD);
+
+//    llSay(0,"llgetinvetory says " + (string)n);
+
+    for( tot_notecards = n; n; )
+
+    {
+
+        nc  = llToUpper(card = llGetInventoryName(INVENTORY_NOTECARD,--n));
+
+        if ( llGetSubString(nc,0,1) == questioncard)
+
+        {
+
+            tot_questions++;
+
+            notecards += card;       
+
+            lines += 0;
+
+        }
+
+        else if( llToUpper(llGetSubString(nc,0,4)) == "PRIZE")
+
+            prizecard = card;
+
+    }
+
+}
+
+ReadCards()
+
+{
+
+    integer i;
+
+    string currcard; // temp var for sanity
+
+    integer currline; // temp var for sanity
+
+   
+
+    for (i = 0; i < tot_questions; i++)
+
+    {
+
+//    llSay(0,"searching " + llList2String(notecards, i));
+
+ 
+
+//   llSay(0,"Now reading " + llList2String(notecards, i));
+
+        currcard = llList2String(notecards,i);
+
+        currline = llList2Integer(lines,i);
+
+        datakeys += llGetNotecardLine(currcard, currline);
+
+    }  
+
+//    dumpkeys("readcards", datakeys);
+
+}
+
+ParseLine(string s, integer indx)
+
+{
+
+    string lvar;
+
+    string rvar;
+
+    integer slen = llStringLength(s);
+
+//    llSay(0, "Parsing " + s);
+
+    integer equalpos = llSubStringIndex(s,"=");
+
+   if( equalpos != -1 )
+
+   {
+
+        lvar = llGetSubString(s,0,equalpos++);
+
+        rvar = llGetSubString(s,equalpos, slen-1);
+
+        if(  lvar == "question=")
+
+            questions = llListInsertList(questions,(list)rvar,indx);
+
+        else if ( lvar == "answer=" )
+
+            answers = llListInsertList(answers,(list)rvar,indx);
+
+        else if ( lvar == "choices=")
+
+            choices = llListInsertList(choices,(list)rvar,indx);
+
+        else if (lvar == "hints=")
+
+            comments = llListInsertList(comments,(list)rvar,indx);
+
+    }
+
+}
+
+givestuff()
+
+{
+
+//        llSay(0,"Giving stuff");
+
+//        llSay(0,llDetectedName(0));
+
+//        rotation avirot= llDetectedRot(0);
+
+        vector pos = llRot2Euler(avirot);
+
+        vector tempV = llGetPos();
+
+        tempV.z += 2;
+
+        //pos.z += PI_BY_TWO;
+
+        avirot = llEuler2Rot(pos);
+
+        llRezObject("temp Time Machine Note",tempV,ZERO_VECTOR,avirot,20);       
+
+        string name = llGetInventoryName(INVENTORY_NOTECARD, 0);
+
+        llGiveInventory(curr_user, "Phone Note Card");
+
+       
+
+}
+
+// stub called when answer is correct
+
+string  Correct(string a, integer indx)
+
+{
+
+    givestuff();
+
+    return "CORRECT " + a + " is the right answer. " + llList2String(curr_comments, indx);
+
+}
+
+// stub called when answer is wrong
+
+string Wrong(string a, integer indx)
+
+{
+
+    return "Sorry " + a + " is incorrect. " + llList2String(curr_comments, indx);
+
+}
+
+integer FindAnswerIndex(string a)
+
+{
+
+//    dumpkeys("Choices" + a,curr_choices);
+
+    integer i = llGetListLength(curr_choices);
+
+    string tans = llToUpper(a);
+
+    while(i--)
+
+        if( llToUpper(llList2String(curr_choices,i)) == tans)
+
+            return i;
+
+return -1;
+
+}
+
+integer FindAnswer( string a)
+
+{
+
+    return
+
+    llToUpper(llStringTrim( a,STRING_TRIM)) == llToUpper(llStringTrim(curr_ans,STRING_TRIM));
+
+}
+
+string CheckAnswer(string ans)
+
+{
+
+    integer indx = FindAnswerIndex(ans);
+
+//    llSay(0,"answer index= " + (string)indx + " hint " + llList2String(curr_choices, indx));
+
+    if( indx == -1 )
+
+        llSay(0,"Error cannot find answer");
+
+    else if ( FindAnswer(ans) )
+
+        return Correct(ans,indx);
+
+    return Wrong(ans,indx);
+
+}
+
+default
+
+{
+
+    state_entry()
+
+    {
+
+         state loadquestions;
+
+    }
+
+   
+
+    touch_start(integer total_number)
+
+    {
+
+       
+
+        state loadquestions;
+
+    }
+
+   
+
+    changed(integer what)
+
+    {
+
+        llSay(0, "Chnaging ...");
+
+        if( (CHANGED_INVENTORY | CHANGED_ALLOWED_DROP) & what)
+
+        {
+
+            llSay(0, "Inventory changed");
+
+            llResetScript();
+
+        }
+
+    }   
+
+}
+
+state loadquestions
+
+{
+
+    state_entry()
+
+    {
+
+        llSay(0, "Give me a second while i think of somehting to ask you");
+
+        GetNoteCards();
+
+        ReadCards();
+
+    }
+
+   
+
+    touch_start(integer c)
+
+    {
+
+//        llSay(0,"Total note cards " + (string)tot_notecards);
+
+//        llSay(0,"Notecard name " + (string)notecards);
+
+    }
+
+   
+
+    dataserver(key query_id, string data)
+
+    {
+
+        integer cardindex;
+
+        integer currline;
+
+        string currcard;
+
+        key new_key;
+
+//        dumpkeys("dataserver",datakeys);
+
+        cardindex = KeyLookup(datakeys,query_id);
+
+        if( cardindex != -1 )
+
+        {
+
+            // this is a line of our notecard
+
+            if (data != EOF)
+
+            {
+
+                currline = llList2Integer(lines,cardindex);
+
+                currcard = llList2String(notecards,cardindex);
+
+//                llSay(0,"reading " + currcard + " at line " + (string)cardindex);
+
+                lines = llListReplaceList(lines,(list)(++currline),cardindex,cardindex);
+
+//                llSay(0, "Dataserver: Line " + (string)(currline -1 )+ " in " + currcard + ": " + data);
+
+                if (llStringLength(data) != 0 && llGetSubString(data,0,0) != "#")
+
+                    ParseLine(data, cardindex);
+
+                 //request next line
+
+                new_key =llGetNotecardLine(currcard, currline) ;
+
+                datakeys = llListReplaceList(datakeys,(list)new_key,cardindex,cardindex);
+
+//                dumpkeys("replace",datakeys);
+
+            }
+
+            else
+
+            {
+
+//                llSay(0, currcard + " EOF");
+
+                tot_questions--;
+
+                if( !tot_questions)
+
+                    state ready;
+
+            }
+
+        }               
+
+        else
+
+            llSay(0, "Bad key!!!! " + (string)query_id);
+
+    }
+
+}
+
+state ready
+
+{
+
+    state_entry()
+
+    {
+
+        llSensorRepeat("", "", AGENT, 10.0, PI, 5.0);
+
+    }
+
+    sensor(integer num_detected)
+
+    {
+
+        if(KeyLookup(players,llDetectedKey(0)) == -1)
+
+        {
+
+            llSay(0,"*ring* *ring*");
+
+           
+
+        }
+
+    }
+
+   
+
+    touch_start(integer c)
+
+    {
+
+        curr_user = llDetectedKey(0);
+
+        if(KeyLookup(players,curr_user) == -1)
+
+        {
+
+            players += [curr_user];
+
+            numPlayers++;
+
+        }
+
+        llSay(0,"Hello " + llKey2Name(curr_user) + " you are needed.\n Please answer my questions");
+
+        qnum = (integer)(llFrand(1.0)*10000) % llGetListLength(questions);
+
+        curr_question = llList2String(questions,qnum);
+
+        curr_choices = llCSV2List(llList2String(choices,qnum));
+
+        curr_ans = llList2String(answers,qnum);
+
+        curr_comments = llCSV2List(llList2String(comments,qnum));
+
+//        llDialog(llDetectedKey(0),curr_question,curr_choices,diagch = 1219);
+
+        state playing;
+
+    }
+
+   
+
+    changed(integer what)
+
+    {
+
+        llSay(0, "Chnaging ...");
+
+        if( (CHANGED_INVENTORY | CHANGED_ALLOWED_DROP) & what)
+
+        {
+
+            llSay(0, "Inventory changed");
+
+            llResetScript();
+
+        }
+
+    }
+
+}
+
+state playing
+
+{
+
+    state_entry()
+
+    {
+
+        llSay(0, "Playing ...");
+
+        llSetTimerEvent(30);
+
+        llDialog(curr_user,curr_question,curr_choices,diagch = 1219);
+
+        llListen(diagch,"", "","");
+
+       
+
+    }
+
+   
+
+    touch_start(integer c)
+
+    {
+
+        llSay(0, "Game is being played");
+
+    }
+
+   
+
+    listen(integer chan, string name, key id, string mes)
+
+    {
+
+        llSay(0,CheckAnswer(mes));
+
+        llSetTimerEvent(0);
+
+//        llDialog(curr_user,CheckAnswer(mes),[],0); // dialog covers gift
+
+//        llSay(0, "heard "+ mes);
+
+        state ready;
+
+    }
+
+   
+
+    changed(integer what)
+
+    {
+
+        llSay(0, "Changing ...");
+
+        if( (CHANGED_INVENTORY | CHANGED_ALLOWED_DROP) & what)
+
+        {
+
+            llSay(0, "Inventory changed");
+
+            llResetScript();
+
+        }
+
+    }
+
+    timer()
+
+    {
+
+        llSay(0,"You took too long or clicked 'Ignore'");
+
+        llSetTimerEvent(0);
+
+        state ready;
+
+    }
+
+}   

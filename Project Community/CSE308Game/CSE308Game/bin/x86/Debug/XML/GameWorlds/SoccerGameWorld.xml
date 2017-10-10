@@ -1,0 +1,89 @@
+<GameWorld> 
+
+  <TileFile>XML\TileFile.xml</TileFile>
+  <MapFile name ="MainMap" width="22" height="22">sandy</MapFile>
+  <Gravity>0,0</Gravity>
+    <Edges>
+  		<Bottom type="Dont" value="3,4" />
+		<Left type="Dont" value="3,4" />
+		<Top type="DoAnythiing" value="3,4" />
+		<Right type="Dont" value="3,4" />
+  </Edges>
+   <CheckPoints>
+	<CheckPoint xLoc="15" yLoc="15" />
+  </CheckPoints>
+ <Entities>
+			<Entity id="Player" type ="Player"   locationX ="10" locationY="10"  />
+			<Entity type="SoccerBall" />
+			
+			<Entity id="SoccerBall" type ="BallBlock" locationX ="12" locationY="12"  />
+			
+			
+			<Entity type ="PlacedBarBuilding"   locationX ="7" locationY="3" angle ="90"   />
+			<Entity type ="PlacedBarBuilding"   locationX ="11" locationY="3" angle ="90"   />
+			
+			<Entity type ="PlacedBarBuilding"   locationX ="7" locationY="17" angle ="90"   />
+			<Entity type ="PlacedBarBuilding"   locationX ="11" locationY="17" angle ="90"   />
+			
+			<Entity type ="PlacedBarBuilding"   locationX ="3" locationY="4" angle ="135"   />
+			<Entity type ="PlacedBarBuilding"   locationX ="4" locationY="3" angle ="135"   />
+			<Entity type ="PlacedBarBuilding"   locationX ="5" locationY="2" angle ="135"   />
+			
+			<Entity type ="PlacedBarBuilding"   locationX ="15" locationY="2" angle ="45"   />
+			<Entity type ="PlacedBarBuilding"   locationX ="16" locationY="3" angle ="45"   />
+			<Entity type ="PlacedBarBuilding"   locationX ="17" locationY="4" angle ="45"   />
+			<Entity type ="PlacedBarBuilding"   locationX ="17.9" locationY="5" angle ="45"   />
+			
+			
+			<Entity type ="PlacedBarBuilding"   locationX ="14" locationY="17.9" angle ="135"   />
+			<Entity type ="PlacedBarBuilding"   locationX ="15" locationY="17" angle ="135"   />
+			<Entity type ="PlacedBarBuilding"   locationX ="16" locationY="16" angle ="135"   />
+			<Entity type ="PlacedBarBuilding"   locationX ="17" locationY="15" angle ="135"   />
+			<Entity type ="PlacedBarBuilding"   locationX ="17.9" locationY="14" angle ="135"   />
+			
+			<Entity type ="PlacedBarBuilding"   locationX ="3" locationY="15" angle ="45"   />
+			<Entity type ="PlacedBarBuilding"   locationX ="4" locationY="16" angle ="45"   />
+			<Entity type ="PlacedBarBuilding"   locationX ="5" locationY="17" angle ="45"   />
+			
+			<Entity type ="Building"   locationX ="9" locationY="9" angle ="45"   />
+			
+ 			<Entity type ="Building"   locationX ="-1" locationY="-1"   />
+			<Entity type ="Building"   locationX ="-1" locationY="1.8"   />
+			<Entity type ="Building"   locationX ="-1" locationY="4.6"   />
+ 			<Entity type ="Building"   locationX ="-1" locationY="7.4"   />
+			<Entity type ="Building"   locationX ="-1" locationY="10.2"   />
+			<Entity type ="Building"   locationX ="-1" locationY="13"   />
+ 			<Entity type ="Building"   locationX ="-1" locationY="15.8"   />
+			<Entity type ="Building"   locationX ="-1" locationY="18.6"   />
+ 			<Entity type ="Building"   locationX ="19" locationY="-1"   />
+			<Entity type ="Building"   locationX ="19" locationY="1.8"   />
+			<Entity type ="Building"   locationX ="19" locationY="4.6"   />
+ 			<Entity type ="Building"   locationX ="19" locationY="7.4"   />
+			<Entity type ="Building"   locationX ="19" locationY="10.2"   />
+			<Entity type ="Building"   locationX ="19" locationY="13"   />
+ 			<Entity type ="Building"   locationX ="19" locationY="15.8"   />
+			<Entity type ="Building"   locationX ="19" locationY="18.6"   />
+			
+			<Entity type ="Building"     locationX="-1"  locationY="-1" />
+			<Entity type ="Building"     locationX="1.8" locationY="-1"  />
+			<Entity type ="Building"     locationX="4.6"   locationY="-1" />
+ 			<Entity type ="Building"     locationX="7.4"   locationY="-1" />
+			<Entity type ="Building"     locationX="10.2"  locationY="-1" />
+			<Entity type ="Building"     locationX="13"  locationY="-1" />
+ 			<Entity type ="Building"     locationX="15.8" locationY="-1"  />
+			<Entity type ="Building"     locationX="18.6"  locationY="-1" />
+ 			<Entity type ="Building"     locationX="-1"  locationY="19" />
+			<Entity type ="Building"     locationX="1.8" locationY="19"  />
+			<Entity type ="Building"     locationX="4.6"  locationY="19" />
+ 			<Entity type ="Building"     locationX="7.4"  locationY="19" />
+			<Entity type ="Building"     locationX="10.2"  locationY="19" />
+			<Entity type ="Building"     locationX="13"  locationY="19" />
+ 			<Entity type ="Building"     locationX="15.8"  locationY="19" />
+			<Entity type ="Building"     locationX="18.6"  locationY="19" />
+			
+			</Entities>
+			<Joints>
+				<!--<Joint type="Pulley" id1="Ball1" id2="Ball2" anchor1X="17" anchor1Y="13" anchor2X="13" anchor2Y="13" ratio="10"/>-->
+			</Joints>
+  </GameWorld> 
+  

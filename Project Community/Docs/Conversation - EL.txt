@@ -1,0 +1,99 @@
+Doctor - Look we have alot going on here, 
+people are dying don't waste my time
+
+
+Response 1 - Of course, I just want to know how I may be of service to you. 
+
+Response 2 - I think I can help. 
+
+Response 3 - Yeah whatever (exit).
+
+
+Doctor (1) - Thank you, I don't really run into capable people anymore. 
+I've got a serum I'm working on that will cure alot of the deteriorative 
+ailments people have around town. I need some supplies for this 
+remedy. Can you help me with this?
+
+
+Doctor (2) - You think??? Listen buddy I don't have time
+for people who can only help halfway. I'm working on a 
+very serious chemical compound that can save many people
+from alot of the horrible diseases floating around here.
+I need alot of supplies for this. Are you in Mr. "I think"
+?
+
+Doctor (3) - .........
+
+
+
+Response 4 - Yes sir!
+
+Response 5 - Sure whatcha need?
+
+Response 6 - It seems like a bit much, um I dunno.
+
+Response 7 - uhhh................
+
+
+Doctor (4) - Thats exactly the kind of enthusiam I'm looking 
+for, allright for starters I'll need some honey, nirnroot
+some wild green berry juice, heres a hammer for you to 
+stamp the juice out the berries are usually too hard
+for someone to just jump on ortry to crush themselves. 
+Take this jar to fill it with also. The last thing I'll
+need is a 4 robin's eggs. Their secretion has an 
+strong formulation of a rare substance that....well its 
+allright for now just get the ingrdients.
+
+Doctor (5) - Ok you seem like you might actually want to
+help. For starters I'll need some honey, nirnroot
+some wild green berry juice, heres a hammer for you to 
+stamp the juice out the berries are usually too hard
+for someone to just jump on ortry to crush themselves. 
+Take this jar to fill it with also. The last thing I'll
+need is a 4 robin's eggs. Their secretion has an 
+strong formulation of a rare substance that....well its 
+allright for now just get the ingrdients.
+
+Doctor (6 & 7) - Allright then you're no good to me at all 
+just leave...
+
+
+- after the player finds and brings back all the items. 
+
+
+Doctor - Remarkable!!! I can continue with my work now.
+I just need a guinea pig...Would you mind letting me try
+this on you?
+
+Response 8 - Well...sure that'll be ok. 
+
+Response 9 - No, this scares me. 
+
+Response 10 - Well yeah I'll be going now. 
+
+
+Doctor (8) - Ok sit down and hold still a moment, you
+might feel a slight chill. 
+
+-Player sits down in a chair and we can have some sort
+of gui screen effect to show a change. 
+
+Doctor (8) - Sucess well now I know this works, I'll 
+inform the others in town of your efforts. Thank you
+so much.
+
+-End of Quest 
+
+Doctor (9) - I can certainly see why. Its allright
+you've done enough for me, I'll inform the others in 
+town of what you've done for me. Thank you so much. 
+
+-End of quest
+
+Doctor (10) - Wait !!!! (player leaves (AI controlled?)
+oh well guess I can try it out
+on some test lab rats. Good guy though, a little weird
+but still has a good heart. 
+
+-End of quest

@@ -1,0 +1,56 @@
+<Conversation value="So how is my new research assistant doing on this fine morning? I see you recovered the plant from the bonobos without too much trouble.">
+<Responses>
+	<Response type="Convo" value="Good, can we get to work?">
+		<Conversation value="Thanks to that plant you recovered I think I have perfected my vaccine.  Now I just need to test it ,but it would be unethical for me to give it to people without any idea how they will react. Would you mind conducting these illegal experiments for me?" >
+			<Responses>
+				<Response type="Convo" value="Unethical is my middle name.">
+					<Conversation value="Take this dart gun and 25 darts with the vaccine.  Shoot 10 at risk people here in town with the darts and comeback here.  You will be able to tell who is at risk because they will a little green as the walk about town." >
+						<Responses>
+							<Response type="Event" value="Lock N' Load">
+							<Events>
+								<Event eventName="TakeItem" eventValue="Plant" />
+								<Event eventName="Accept_Current_Quest" eventValue="Vaccine" />
+								<Event eventName="GiveItem" eventValue="DartGun" />
+								<Event eventName="GiveItems" eventValue="Vaccine,25" />
+								<Event eventName="Instruct" eventValue="Shoot using the F key. Those already infected will appear green!"/>
+							</Events>
+							</Response>
+						</Responses>
+					</Conversation>
+				</Response>
+				<Response type="Convo" value="What's the vaccine for?">
+					<Conversation value="It prevents/cures both AIDS and Communism." >
+						<Responses>
+							<Response type="Convo" value="What can I do?">
+								<Conversation value="Take this dart gun and 25 darts with the vaccine.  Shoot 10 at risk people here in town with the darts and comeback here.  You will be able to tell who is at risk because they will a little green as the walk about town." >
+									<Responses>
+										<Response type="Event" value="Lock N' Load">
+										<Events>
+											<Event eventName="TakeItem" eventValue="Plant" />
+											<Event eventName="Accept_Current_Quest" eventValue="Vaccine" />
+											<Event eventName="GiveItem" eventValue="DartGun" />
+											<Event eventName="GiveItems" eventValue="Vaccine,250" />
+											<Event eventName="Instruct" eventValue="Shoot using the F key. Those already infected will appear green!"/>
+										</Events>
+										</Response>
+									</Responses>
+								</Conversation>
+							</Response>
+								<Response type="Event" value="Blah Blah Karl Marx.">
+								<Events>
+									<Event eventName="Exit_ConversationSet" eventValue="nil" />
+									</Events>
+								</Response>
+						</Responses>
+					</Conversation>
+				</Response>
+			</Responses>
+		</Conversation>
+	</Response>
+	<Response type="Event" value="I'll be back when you're wearing pants.">
+	<Events>
+		<Event eventName="Exit_ConversationSet" eventValue="nil" />
+		</Events>
+	</Response>
+</Responses>
+</Conversation>

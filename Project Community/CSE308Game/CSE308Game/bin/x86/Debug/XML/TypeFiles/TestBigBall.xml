@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+<Data Restitution="0" Density="300" Friction="1.9" fixedRotation="false"/>
+  <Images>
+    <Image width="64" height="64">woodball</Image>
+    </Images>
+  <States>
+  <State name="_">0</State>
+    </States>
+	<Shape ShapeType="Circle" type="Dynamic">.5</Shape>
+</XnaContent>

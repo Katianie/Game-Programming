@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+<Data Restitution="0.1" Density="100" Friction="1"/>
+  <Images>
+	<Image width ="80" height="30">horzBar2</Image>
+    </Images>
+  <States>
+	<State name="_">0</State>
+  </States>
+	<!--<Shape ShapeType="Circle" type="Dynamic">.172</Shape>-->
+
+ <Shape ShapeType="Polygon" type="Static">
+	<Vertex>.2,0</Vertex>
+	<Vertex>.2,1</Vertex>
+	<Vertex>0,1</Vertex>
+	<Vertex>0,0</Vertex>
+	</Shape>
+	 <Shape ShapeType="Polygon" type="Static">
+	<Vertex>1,.8</Vertex>
+	<Vertex>1,1</Vertex>
+	<Vertex>0,1</Vertex>
+	<Vertex>0,.8</Vertex>
+	</Shape>
+
+</XnaContent>

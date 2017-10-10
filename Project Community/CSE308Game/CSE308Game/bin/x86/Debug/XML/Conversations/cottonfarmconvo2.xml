@@ -1,0 +1,21 @@
+<Conversation value="I am trying to get my cotton on to this barge here but I am having a lot of trouble doing it by myself.">
+<Responses>
+	<Response type="Convo" value="Well I think I can help you out.">
+		<Conversation value="Thanks, you pilot the barge and I will toss the cotton to you." >
+			<Responses>
+				<Response type="Event" value="Lets Get To It.">
+				<Events>
+					<Event eventName="Accept_Current_Quest" eventValue="Shoot"/>
+					<Event eventName="Instruct" eventValue="Move the barge with the Left and Right arrow keys.  Catch as much cotton as possible."/>
+					</Events>
+				</Response>	
+			</Responses>
+		</Conversation>
+	</Response>
+	<Response type="Event" value="Eat My Shorts. (exit).">
+	<Events>
+		<Event eventName="Exit_ConversationSet" eventValue="nil" />
+		</Events>
+	</Response>
+</Responses>
+</Conversation>

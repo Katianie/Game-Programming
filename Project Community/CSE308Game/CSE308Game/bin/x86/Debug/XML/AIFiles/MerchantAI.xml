@@ -1,0 +1,6 @@
+<AIFile>
+<FontToUse value="Incantation" />
+<ConversationList>
+<ConversationFile name="default">XML\Conversations\merchantconvo1.xml</ConversationFile>
+</ConversationList>
+</AIFile>

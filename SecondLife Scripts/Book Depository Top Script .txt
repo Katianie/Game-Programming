@@ -1,0 +1,149 @@
+key myPlayer = NULL_KEY;
+
+string what2get = "Chapter 11- Epilogue";
+
+string notquite = "The Time Machine";
+
+//notes:
+
+//listen and then put into state playing
+
+//book stand will have data servr and hold the questions
+
+//base gives questions
+
+//all the top will do is receve book and get players key
+
+default
+
+{
+
+    state_entry()
+
+    {
+
+       llAllowInventoryDrop(FALSE);
+
+       myPlayer = NULL_KEY;
+
+      
+
+    }
+
+    touch_start(integer total_number)
+
+    {
+
+       
+
+        myPlayer = llDetectedKey(0);
+
+        llSay(0, "Welcome! Please tell me your story..!");
+
+        llSay(0,"Please insert chapters 11- epolouge of the book");
+
+        llAllowInventoryDrop(TRUE);
+
+    }
+
+    changed(integer change)
+
+    {   
+
+        if(myPlayer != NULL_KEY)
+
+        {
+
+       
+
+            if ( change & (CHANGED_ALLOWED_DROP | CHANGED_INVENTORY))
+
+            {
+
+                if( llGetInventoryType(what2get) == INVENTORY_NOTECARD)
+
+                {
+
+                     llSay(0,"Thank you!");
+
+                     llSay(-99,(key)myPlayer);
+
+                     llRemoveInventory(what2get);
+
+                   
+
+                }
+
+                else if(llGetInventoryType(notquite) == INVENTORY_OBJECT)
+
+                {
+
+                    llSay(0,"I dont want to read the whole book! Please open the book and give me the last chapter.");
+
+                    llRemoveInventory(notquite);
+
+                    llSay(0,what2get);
+
+                    llResetScript();
+
+                }
+
+                else
+
+                {
+
+                    llSay(0,"Sorry, incorect item");
+
+                    llRemoveInventory(llGetInventoryName( INVENTORY_OBJECT, 0 ));
+
+                    llResetScript();
+
+                }
+
+            }
+
+            else
+
+            {
+
+                llSay(0,"Change occured");
+
+                
+
+                
+
+                 llResetScript();
+
+            }
+
+       
+
+        }
+
+        else
+
+        {
+
+            //llRemoveInventory(llGetInventoryName( INVENTORY_OBJECT, 0 ));
+
+            llRemoveInventory(llGetInventoryName( INVENTORY_NOTECARD, 0 ));
+
+            llSay(0,"Please touch first");
+
+            llResetScript();
+
+        }
+
+    }
+
+    timer()
+
+    {
+
+        llSay(0,"You took to long");
+
+        llResetScript();
+
+    } 
+
+}

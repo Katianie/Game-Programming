@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+<Data Restitution=".3" Density="5" Friction=".2" fixedRotation="false"/>
+  <Images>
+    <Image width="25" height="25">upSyringe</Image>
+	<Image width="25" height="25">downSyringe</Image>
+	<Image width="25" height="25">leftSyringe</Image>
+	<Image width="25" height="25">rightSyringe</Image>
+    </Images>
+  <States>
+  <State name="_">0</State>
+    <State name="1">1</State>
+	  <State name="2">2</State>
+	    <State name="3">3</State>
+    </States>
+	<Shape ShapeType="Circle" type="Static">.172</Shape>
+</XnaContent>

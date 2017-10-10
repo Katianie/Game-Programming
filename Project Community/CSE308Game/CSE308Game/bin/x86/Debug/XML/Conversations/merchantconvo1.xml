@@ -1,0 +1,14 @@
+<Conversation value="Hello, would you like to browse my goods?">
+<Responses>
+	<Response type="Event" value="Yes please.">
+		<Events>
+			<Event eventName="Display_Shop_Items" eventValue="nil" />
+		</Events>
+	</Response>
+	<Response type="Event" value="No thanks (exit).">
+		<Events>
+			<Event eventName="Exit_ConversationSet" eventValue="nil" />
+		</Events>
+	</Response>
+</Responses>
+</Conversation>

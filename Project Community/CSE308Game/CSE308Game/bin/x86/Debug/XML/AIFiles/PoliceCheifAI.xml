@@ -1,0 +1,8 @@
+<AIFile>
+<FontToUse value="PopoVoice" />
+<ConversationList>
+<ConversationFile name="default" next="policeCheifConvo2">XML\Conversations\policecheifconvo1.xml</ConversationFile>
+<ConversationFile name="policeCheifConvo2" next="policeCheifConvo3">XML\Conversations\policecheifconvo2.xml</ConversationFile>
+<ConversationFile name="policeCheifConvo3">XML\Conversations\policecheifconvo3.xml</ConversationFile>
+</ConversationList>
+</AIFile>

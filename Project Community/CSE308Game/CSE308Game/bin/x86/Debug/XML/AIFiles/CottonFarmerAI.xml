@@ -1,0 +1,7 @@
+<AIFile>
+<FontToUse value="FarmerVoice" />
+<ConversationList>
+<ConversationFile name="default" next="SecondQuest">XML\Conversations\cottonfarmconvo1.xml</ConversationFile>
+<ConversationFile name="SecondQuest" next="default">XML\Conversations\cottonfarmconvo2.xml</ConversationFile>
+</ConversationList>
+</AIFile>

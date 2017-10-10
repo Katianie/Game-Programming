@@ -1,0 +1,9 @@
+C:\Users\Justin\Documents\Visual Studio 2010\Projects\CSE308Game\CSE308Game\CSE308GameContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Eddie\Desktop\CSE308\CSE308Game\CSE308Game\CSE308GameContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Zero\Desktop\projcom\CSE308Game\CSE308Game\CSE308GameContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Zero\Desktop\projcom\cse308-01\CSE308Game\CSE308Game\CSE308GameContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Zero\Desktop\cse308-01\CSE308Game\CSE308Game\CSE308GameContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Zero\Desktop\cse308-02\CSE308Game\CSE308Game\CSE308GameContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Justin\Desktop\CSE308\CSE308Game\CSE308Game\CSE308GameContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Eddie\Desktop\cse308-01\CSE308Game\CSE308Game\CSE308GameContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Eddie\Desktop\projectcommunity\CSE308Game\CSE308GameContent\obj\x86\Debug\ResolveAssemblyReference.cache

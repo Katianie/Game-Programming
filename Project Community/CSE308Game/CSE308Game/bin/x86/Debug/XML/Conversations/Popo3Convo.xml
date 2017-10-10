@@ -1,0 +1,34 @@
+<Conversation value="Not so loud please? I need a drink.">
+	<Responses>
+		<Response type="Convo" value="Will you join the police?">
+			<Conversation value="You young kids have no apprectation for a fine scotch:  On which continent is ATS (amphetamine type stimulants) abuse more than twice the global percentage (1.3%)?" >
+				<Responses>
+					<Response type="Event" value="North America">
+			<Events>
+				<Event eventName="Exit_ConversationSet" eventValue="nil" />
+				<Event eventName="FloatText" eventValue="Wrong!" />
+				</Events>
+					</Response>
+					<Response type="Event" value="Asia">
+			<Events>
+				<Event eventName="Exit_ConversationSet" eventValue="nil" />
+				<Event eventName="FloatText" eventValue="Wrong!" />
+			</Events>
+					</Response>
+					<Response type="Event" value="Oceania">			
+					<Events>
+							<Event eventName="Join_Police" eventValue="nien"/>
+							<Event eventName="GiveItem" eventValue="FWPD Employee Contract"/>
+							<Event eventName="TakeItem" eventValue="Police Badge"/>
+						</Events>
+					</Response>
+				</Responses>
+			</Conversation>
+		</Response>
+		<Response type="Event" value="Nevermind.">
+			<Events>
+				<Event eventName="Exit_ConversationSet" eventValue="nil" />
+			</Events>
+		</Response>
+	</Responses>
+</Conversation>

@@ -1,0 +1,45 @@
+<Conversation value="I see my favorite research assistant has returned to help me out once again. It's great to see someone trying to make a difference out there. I could use your help if you have the time.">
+<Responses>
+	<Response type="Convo" value="Absolutely! I'd love to help.">
+		<Conversation value="I applaud your enthusiasm, I need you to retrieve 10 solar panels. I intend to construct a solar panel array to allow the city to have street lights. There was supposed to be a delivery sometime ago, but the courier went missing sometime after going into the Forest of Bad Ideas. Thanks again for the help I really appreciate it." >
+			<Responses>
+				<Response type="Event" value="Accept Quest">
+					<Events>
+						<Event eventName="Accept_Current_Quest" eventValue="Get Some Sun"/>
+						<Event eventName="Instruct" eventValue="Collect 10 Panels, Don't Let The Commies Touch You!"/>
+					</Events>
+				</Response>			
+			</Responses>
+		</Conversation>
+	</Response>
+	<Response type="Convo" value="Sure">
+		<Conversation value="Splendid, I need you to retrieve 20 solar panels. I intend to construct a solar panel array to allow the city to have street lights.  There was supposed to be a delivery sometime ago, but the courier went missing sometime after going into the Forest of Bad Ideas. Thanks again for the help I really appreciate it." >
+			<Responses>
+				<Response type="Event" value="Accept Quest">
+					<Events>
+						<Event eventName="Accept_Current_Quest" eventValue="Get Some Sun"/>
+						<Event eventName="Instruct" eventValue="Collect 10 Panels, Don't Let The Commies Touch You!"/>
+					</Events>
+				</Response>	
+			</Responses>
+		</Conversation>
+	</Response>
+<!--	<Response type="Convo" value="Hurrrpp Durrrppp!">
+		<Conversation value="...I need 20 solar panels....I hope for the best..." >
+			<Responses>
+				<Response type="Event" value="Accept Quest">
+					<Events>
+						<Event eventName="Accept_Current_Quest" eventValue="Get Some Sun"/>
+						<Event eventName="Instruct" eventValue="Collect 10 Panels, Don't Let The Commies Touch You!"/>
+					</Events>
+				</Response>	
+			</Responses>
+		</Conversation>
+	</Response>-->
+	<Response type="Event" value="Not right now (exit).">
+		<Events>
+			<Event eventName="Exit_ConversationSet" eventValue="nil" />
+		</Events>
+	</Response>
+</Responses>
+</Conversation>

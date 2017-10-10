@@ -1,0 +1,34 @@
+<Conversation value="What do you want?">
+	<Responses>
+		<Response type="Convo" value="Will you join the police?">
+			<Conversation value="If you can answer this question I will join:  Which of these UN nations has the highest percentage of opiate users (18-64)?" >
+				<Responses>
+					<Response type="Event" value="United States">
+			<Events>
+				<Event eventName="Exit_ConversationSet" eventValue="nil" />
+				<Event eventName="FloatText" eventValue="Wrong!" />
+				</Events>
+					</Response>
+					<Response type="Event" value="Russian Federation">
+						<Events>
+							<Event eventName="Join_Police" eventValue="nien"/>
+							<Event eventName="GiveItem" eventValue="FWPD Employee Contract"/>
+							<Event eventName="TakeItem" eventValue="Police Badge"/>
+						</Events>
+					</Response>
+					<Response type="Event" value="People's Republic of China">
+			<Events>
+				<Event eventName="Exit_ConversationSet" eventValue="nil" />
+				<Event eventName="FloatText" eventValue="Wrong!" />
+			</Events>
+					</Response>
+				</Responses>
+			</Conversation>
+		</Response>
+		<Response type="Event" value="Nevermind.">
+			<Events>
+				<Event eventName="Exit_ConversationSet" eventValue="nil" />
+			</Events>
+		</Response>
+	</Responses>
+</Conversation>

@@ -1,0 +1,55 @@
+<GameWorld> 
+
+  <TileFile>XML\TileFile.xml</TileFile>
+  <MapFile name ="MainMap" width="150" height="150">sandy</MapFile>
+  <Gravity>0,0</Gravity>
+    <Edges>
+  		<Bottom type="Dont" value="3,4" />
+		<Left type="Dont" value="3,4" />
+		<Top type="DoAnythiing" value="3,4" />
+		<Right type="Quest_Completed_Return" value="Main" />
+  </Edges>
+ <Entities>
+			<Entity id="Player" type ="Player"   locationX ="10" locationY="10"  />
+			
+			
+ 			<Entity type ="Building"   locationX ="-1" locationY="-1"   />
+			<Entity type ="Building"   locationX ="-1" locationY="1.8"   />
+			<Entity type ="Building"   locationX ="-1" locationY="4.6"   />
+ 			<Entity type ="Building"   locationX ="-1" locationY="7.4"   />
+			<Entity type ="Building"   locationX ="-1" locationY="10.2"   />
+			<Entity type ="Building"   locationX ="-1" locationY="13"   />
+ 			<Entity type ="Building"   locationX ="-1" locationY="15.8"   />
+			<Entity type ="Building"   locationX ="-1" locationY="18.6"   />
+ 			<Entity type ="Building"   locationX ="19" locationY="-1"   />
+			<Entity type ="Building"   locationX ="19" locationY="1.8"   />
+			<Entity type ="Building"   locationX ="19" locationY="4.6"   />
+ 			<Entity type ="Building"   locationX ="19" locationY="7.4"   />
+			<Entity type ="Building"   locationX ="19" locationY="10.2"   />
+			<Entity type ="Building"   locationX ="19" locationY="13"   />
+<!-- 			<Entity type ="Building"   locationX ="19" locationY="15.8"   />-->
+			<Entity type ="Building"   locationX ="19" locationY="18.6"   />
+			
+			<Entity type ="Building"     locationX="-1"  locationY="-1" />
+			<Entity type ="Building"     locationX="1.8" locationY="-1"  />
+			<Entity type ="Building"     locationX="4.6"   locationY="-1" />
+ 			<Entity type ="Building"     locationX="7.4"   locationY="-1" />
+			<Entity type ="Building"     locationX="10.2"  locationY="-1" />
+			<Entity type ="Building"     locationX="13"  locationY="-1" />
+ 			<Entity type ="Building"     locationX="15.8" locationY="-1"  />
+			<Entity type ="Building"     locationX="18.6"  locationY="-1" />
+ 			<Entity type ="Building"     locationX="-1"  locationY="19" />
+			<Entity type ="Building"     locationX="1.8" locationY="19"  />
+			<Entity type ="Building"     locationX="4.6"  locationY="19" />
+ 			<Entity type ="Building"     locationX="7.4"  locationY="19" />
+			<Entity type ="Building"     locationX="10.2"  locationY="19" />
+			<Entity type ="Building"     locationX="13"  locationY="19" />
+ 			<Entity type ="Building"     locationX="15.8"  locationY="19" />
+			<Entity type ="Building"     locationX="18.6"  locationY="19" />
+			
+			</Entities>
+			<Joints>
+				<!--<Joint type="Pulley" id1="Ball1" id2="Ball2" anchor1X="17" anchor1Y="13" anchor2X="13" anchor2Y="13" ratio="10"/>-->
+			</Joints>
+  </GameWorld> 
+  

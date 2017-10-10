@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type="main"/>
+  <Name>Physics Testing Game</Name>
+  <EntityTypes>
+       <EntityType name="Player">"ProtoPlayerFile.xml"</EntityType>
+  </EntityTypes>
+  <Entities>
+      <Entity type ="Player" locationX ="25" locationY="25" />
+  </Entities>
+  <TileFile>Tiles.xml</TileFile>
+  <MapFile name ="MainMap" width="60" height="60">ProtoMapFile.csv</MapFile>
+  <Control key="UP">FORWARD</Control>
+</XnaContent>

@@ -1,0 +1,12 @@
+C:\Users\Eddie\Desktop\cse308-01\CSE308Game\Particle Engine\bin\x86\Debug\Particle Engine.dll
+C:\Users\Eddie\Desktop\cse308-01\CSE308Game\Particle Engine\bin\x86\Debug\Particle Engine.pdb
+C:\Users\Eddie\Desktop\cse308-01\CSE308Game\Particle Engine\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Eddie\Desktop\cse308-01\CSE308Game\Particle Engine\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Eddie\Desktop\cse308-01\CSE308Game\Particle Engine\obj\x86\Debug\Particle Engine.dll
+C:\Users\Eddie\Desktop\cse308-01\CSE308Game\Particle Engine\obj\x86\Debug\Particle Engine.pdb
+C:\Users\Eddie\Desktop\projectcommunity\Particle Engine\bin\x86\Debug\Particle Engine.dll
+C:\Users\Eddie\Desktop\projectcommunity\Particle Engine\bin\x86\Debug\Particle Engine.pdb
+C:\Users\Eddie\Desktop\projectcommunity\Particle Engine\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Eddie\Desktop\projectcommunity\Particle Engine\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Eddie\Desktop\projectcommunity\Particle Engine\obj\x86\Debug\Particle Engine.dll
+C:\Users\Eddie\Desktop\projectcommunity\Particle Engine\obj\x86\Debug\Particle Engine.pdb

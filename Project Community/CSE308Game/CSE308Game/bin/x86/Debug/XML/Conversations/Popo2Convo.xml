@@ -1,0 +1,35 @@
+<Conversation value="What's a punk like you doing hanging around my property? Do I need to get my gun?">
+	<Responses>
+		<Response type="Convo" value="Will you join the police?">
+			<Conversation value="Well if you can prove this isn't a trick being perputrated by a corrupt public or private official then sure I'll join:  What percentage of Afgani people report paying bribes to cut through beaurocratic red tape?" >
+				<Responses>
+					<Response type="Event" value="Five Percent">
+			<Events>
+				<Event eventName="Exit_ConversationSet" eventValue="nil" />
+				<Event eventName="FloatText" eventValue="Wrong!" />
+				</Events>
+			</Response>
+
+			<Response type="Event" value="Twenty Five Percent">
+				<Events>
+					<Event eventName="Exit_ConversationSet" eventValue="nil" />
+					<Event eventName="FloatText" eventValue="Wrong!" />
+				</Events>
+					</Response>
+						<Response type="Event" value="Forty Percent">
+						<Events>
+							<Event eventName="Join_Police" eventValue="nien"/>
+							<Event eventName="GiveItem" eventValue="FWPD Employee Contract"/>
+							<Event eventName="TakeItem" eventValue="Police Badge"/>
+						</Events>
+					</Response>
+				</Responses>
+			</Conversation>
+		</Response>
+		<Response type="Event" value="Nevermind.">
+			<Events>
+				<Event eventName="Exit_ConversationSet" eventValue="nil" />
+			</Events>
+		</Response>
+	</Responses>
+</Conversation>

@@ -1,0 +1,36 @@
+﻿<EntityType>
+	<Data Restitution="0.1" Density="165" Friction="0.9"/>
+	<Images>
+		<Image width ="64" height="64">Characters\hero\hero_hangglide_1</Image>
+		<Image width ="64" height="64">Characters\hero\hero_hangglide_1</Image>
+		<Image width ="64" height="64">Characters\hero\hero_hangglide_1</Image>
+		<Image width ="64" height="64">Characters\hero\hero_hangglide_1</Image>
+		<Image width ="64" height="64">Characters\hero\hero_hangglide_1</Image>
+			
+		<Image width ="64" height="64">Characters\hero\hero_hangglide_1</Image>
+		<Image width ="64" height="64">Characters\hero\hero_hangglide_1</Image>
+		<Image width ="64" height="64">Characters\hero\hero_hangglide_1</Image>
+		<Image width ="64" height="64">Characters\hero\hero_hangglide_1</Image>
+		<Image width ="64" height="64">Characters\hero\hero_hangglide_1</Image>
+			
+		<Image width ="64" height="64">Characters\hero\hero_hangglide_1</Image>
+		<Image width ="64" height="64">Characters\hero\hero_hangglide_1</Image>
+    </Images>
+	<States>
+		<State name="Standing Left">6</State>
+		<State name="Standing Right">9</State>
+		<State name="Standing Down">3</State>
+		<State name="Standing Up">0</State>
+		<State name="Walking Left">7,6,8,6</State>
+		<State name="Walking Right">10,9,11,9</State>
+		<State name="Walking Up">1,0,2,0</State>
+		<State name="Walking Down">4,3,5,3</State>
+	</States>
+	<!--<Shape ShapeType="Circle" type="Dynamic">.172</Shape>-->
+	<Shape ShapeType="Polygon" type="Dynamic">
+		<Vertex>.8,0</Vertex>
+		<Vertex>.8,1</Vertex>
+		<Vertex>0.2,1</Vertex>
+		<Vertex>0.2,0</Vertex>
+	</Shape>
+</EntityType>

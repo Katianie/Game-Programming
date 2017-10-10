@@ -1,0 +1,205 @@
+<GameWorld> 
+	<TileFile>XML\TileFile.xml</TileFile>
+	<MapFile name ="MainMap" width="150" height="150">sandy</MapFile>
+	<Gravity>0,0</Gravity>
+    <Edges>
+		<Bottom type="None" value="nill" />
+		<Left type="Dont" value="3,4" />
+		<Top type="Nien" value="Nien,Nien" />
+		<Right type="Freemasons" value="Nil" />
+	</Edges>
+    <CheckPoints>
+		<CheckPoint xLoc="16" yLoc="16" />
+	</CheckPoints>
+	<Entities>
+		<Entity id="Player" type ="Player"   locationX ="16" locationY="16"  />
+		<Entity id="CFarmer" type ="HeroineCharacter" locationX ="5" locationY="10"  aiName="StaticPacer" aiFile="XML\AIFiles\CottonFarmerAI.xml"/>
+		<Entity id="EcologyGuy" type ="EcoGuyCharacter" locationX ="30" locationY="30"  aiName="StaticPacer" aiFile="XML\AIFiles\EcoGuyAI.xml"/>
+		<Entity id="Doctor" type ="DoctorCharacter" locationX ="12" locationY="16"  aiName="StaticPacer" aiFile="XML\AIFiles\DoctorAI.xml" />
+		<!--<Entity id="FireCheif" type ="FireCheifCharacter" locationX ="16" locationY="30"  aiName="StaticPacer" aiFile="XML\AIFiles\FireCheifAI.xml"/>-->
+		<Entity id="PoliceCheif" type ="PoliceCheifCharacter" locationX ="29" locationY="10"  aiName="StaticPacer" aiFile="XML\AIFiles\PoliceCheifAI.xml"/>
+		<Entity type ="House1Building"   locationX ="30" locationY="25"   />
+		<Entity type ="House2Building"   locationX ="12" locationY="12"   />
+		<Entity type ="House3Building"   locationX ="30" locationY="5"   />
+		
+		
+				<Entity type ="SmlResBuilding"   locationX ="27" locationY="36.4"    />
+				<Entity type ="SmlResBuilding"   locationX ="31" locationY="36.4"    />
+				<Entity type ="SmlResBuilding"   locationX ="35" locationY="36.4"    />
+				<Entity type ="SmlResBuilding"   locationX ="27" locationY="31.4"    />
+				<Entity type ="SmlResBuilding"   locationX ="31" locationY="31.4"    />
+				<Entity type ="SmlResBuilding"   locationX ="35" locationY="31.4"    />
+				
+				<Entity type ="SmlResBuilding"   locationX ="37" locationY="46.4"    />
+				<Entity type ="SmlResBuilding"   locationX ="41" locationY="41.4"    />
+				<Entity type ="SmlResBuilding"   locationX ="37" locationY="41.4"    />
+				<Entity type ="SmlResBuilding"   locationX ="19" locationY="86.4"    />
+				<Entity type ="SmlResBuilding"   locationX ="66" locationY="64"    />
+				<Entity type ="SmlResBuilding"   locationX ="6" locationY="14.4"    />
+				<Entity type ="SmlResBuilding"   locationX ="76" locationY="46.4"    />
+				<Entity type ="SmlResBuilding"   locationX ="86" locationY="36.4"    />
+		
+		<Entity type ="ChopTree"   locationX ="5" locationY="5"   />
+		
+		<Entity type ="CanWorldBuilding"   locationX ="45" locationY="30" aiName="Gateway" aiArgs="Cannon Game,1,7"/>/>
+		
+		<Entity type ="ChopTree"   locationX ="2" locationY="2"   />
+		<Entity type ="ChopTree"   locationX ="28" locationY="6.4"    />
+		<Entity type ="GeneralStoreBuilding"   locationX ="19.6" locationY="19.25"   aiName="Gateway" aiArgs="Shop,8,6"/>
+		<Entity type ="ChopTree"   locationX ="27" locationY="19.25"     />
+		<Entity type ="ChopTree"   locationX ="6.35" locationY="28"     />
+		<Entity type ="ChopTree"   locationX ="15.2" locationY="28"     />
+		<Entity type ="ChopTree"   locationX ="12" locationY="102"    />
+		<Entity type ="ChopTree"   locationX ="28" locationY="6.4"    />
+		<Entity type ="ChopTree"   locationX ="46.35" locationY="8"     />
+		<Entity type ="ChopTree"   locationX ="55.2" locationY="48"     />
+		
+		<Entity type ="ChopTree"   locationX ="62" locationY="62"   />
+		<Entity type ="ChopTree"   locationX ="88" locationY="76.4"    />
+		<Entity type ="ChopTree"   locationX ="27" locationY="99.5"     />
+		<Entity type ="ChopTree"   locationX ="96.35" locationY="28"     />
+		<Entity type ="ChopTree"   locationX ="45.2" locationY="78"     />
+		<Entity type ="ChopTree"   locationX ="25" locationY="72"    />
+		<Entity type ="ChopTree"   locationX ="28" locationY="66.4"    />
+		<Entity type ="ChopTree"   locationX ="137" locationY="39.25"     />
+		<Entity type ="ChopTree"   locationX ="76.5" locationY="128"     />
+		<Entity type ="ChopTree"   locationX ="55.2" locationY="98"     />
+		<Entity type ="ChopTree"   locationX ="37" locationY="54"     />
+		<Entity type ="ChopTree"   locationX ="80" locationY="56"     />
+		<Entity type ="ChopTree"   locationX ="77" locationY="77"     />	
+		<Entity type ="ChopTree"   locationX ="98" locationY="91"     />		
+		<Entity type ="ChopTree"   locationX ="141" locationY="113"     />				
+		<Entity type ="ChopTree"   locationX ="141" locationY="53"     />		
+		<Entity type ="ChopTree"   locationX ="141" locationY="13"     />
+		<Entity type ="ChopTree"   locationX ="101" locationY="110"     />				
+		<Entity type ="ChopTree"   locationX ="101" locationY="58"     />		
+		<Entity type ="ChopTree"   locationX ="101" locationY="15"     />		
+
+		<Entity type ="ChopTree"   locationX ="-1" locationY="-1"   />
+		<Entity type ="ChopTree"   locationX ="-1" locationY="1.8"   />
+		<Entity type ="ChopTree"   locationX ="-1" locationY="4.6"   />
+		<Entity type ="ChopTree"   locationX ="-1" locationY="7.4"   />
+		<Entity type ="ChopTree"   locationX ="-1" locationY="10.2"   />
+		<Entity type ="ChopTree"   locationX ="-1" locationY="13"   />
+		<Entity type ="ChopTree"   locationX ="-1" locationY="15.8"   />
+		<Entity type ="ChopTree"   locationX ="-1" locationY="18.6"   />
+		<Entity type ="ChopTree"   locationX ="-1" locationY="21.4"   />
+		<Entity type ="ChopTree"   locationX ="-1" locationY="24.2"   />
+		<Entity type ="ChopTree"   locationX ="-1" locationY="27"   />
+		<Entity type ="ChopTree"   locationX ="-1" locationY="29.8"   />
+		<Entity type ="ChopTree"   locationX ="-1" locationY="32.6"   />
+		<Entity type ="ChopTree"   locationX ="-1" locationY="35.4"   />
+		<Entity type ="ChopTree"   locationX ="-1" locationY="38.2"   />
+		<Entity type ="ChopTree"   locationX ="-1" locationY="41"   />
+		<Entity type ="ChopTree"   locationX ="-1" locationY="43.8"   />
+		<Entity type ="ChopTree"   locationX ="-1" locationY="46.6"   />
+		<Entity type ="ChopTree"   locationX ="-1" locationY="49.4"   />
+		
+		<Entity type ="ChopTree"   locationX ="51" locationY="-1"   />
+		<Entity type ="ChopTree"   locationX ="50" locationY="1.8"   />
+		<Entity type ="ChopTree"   locationX ="48.5" locationY="4.6"   />
+		<Entity type ="ChopTree"   locationX ="47.5" locationY="7.4"   />
+		<Entity type ="ChopTree"   locationX ="48.3" locationY="10.2"   />
+		<Entity type ="ChopTree"   locationX ="49" locationY="13"   />
+		<Entity type ="ChopTree"   locationX ="50.2" locationY="15.8"   />
+		<Entity type ="ChopTree"   locationX ="51" locationY="18.6"   />
+		<Entity type ="ChopTree"   locationX ="52" locationY="21.4"   />
+		<Entity type ="ChopTree"   locationX ="52.5" locationY="24.2"   />
+		<Entity type ="ChopTree"   locationX ="53" locationY="27"   />
+		<Entity type ="ChopTree"   locationX ="52" locationY="29.8"   />
+		<Entity type ="ChopTree"   locationX ="51" locationY="32.6"   />
+		<Entity type ="ChopTree"   locationX ="52.5" locationY="35.4"   />
+		<Entity type ="ChopTree"   locationX ="53" locationY="38.2"   />
+		<Entity type ="ChopTree"   locationX ="52" locationY="41"   />
+		<Entity type ="ChopTree"   locationX ="51" locationY="43.8"   />
+
+		<Entity type ="ChopTree"   locationY ="-1" locationX="-1"   />
+		<Entity type ="ChopTree"   locationY ="-1" locationX="1.8"   />
+		<Entity type ="ChopTree"   locationY ="-1" locationX="4.6"   />
+		<Entity type ="ChopTree"   locationY ="-1" locationX="7.4"   />
+		<Entity type ="ChopTree"   locationY ="-1" locationX="10.2"   />
+		<Entity type ="ChopTree"   locationY ="-1" locationX="13"   />
+		<Entity type ="ChopTree"   locationY ="-1" locationX="15.8"   />
+		<Entity type ="ChopTree"   locationY ="-1" locationX="18.6"   />
+		<Entity type ="ChopTree"   locationY ="-1" locationX="21.4"   />
+		<Entity type ="ChopTree"   locationY ="-1" locationX="24.2"   />
+		<Entity type ="ChopTree"   locationY ="-1" locationX="27"   />
+		<Entity type ="ChopTree"   locationY ="-1" locationX="29.8"   />
+		<Entity type ="ChopTree"   locationY ="-1" locationX="32.6"   />
+		<Entity type ="ChopTree"   locationY ="-1" locationX="35.4"   />
+		<Entity type ="ChopTree"   locationY ="-1" locationX="38.2"   />
+		<Entity type ="ChopTree"   locationY ="-1" locationX="41"   />
+		<Entity type ="ChopTree"   locationY ="-1" locationX="43.8"   />
+		<Entity type ="ChopTree"   locationY ="-1" locationX="46.6"   />
+		<Entity type ="ChopTree"   locationY ="-1" locationX="49.4"   />
+		
+		<Entity type ="ChopTree"   locationY ="46" locationX="-1"   />
+		<Entity type ="ChopTree"   locationY ="47" locationX="1.8"   />
+		<Entity type ="ChopTree"   locationY ="47.8" locationX="4.6"   />
+		<Entity type ="ChopTree"   locationY ="49" locationX="7.4"   />
+		<Entity type ="ChopTree"   locationY ="50.3" locationX="10.2"   />
+		<Entity type ="ChopTree"   locationY ="51" locationX="13"   />
+		<Entity type ="ChopTree"   locationY ="51" locationX="15.8"   />
+		<Entity type ="ChopTree"   locationY ="52" locationX="18.6"   />
+		<Entity type ="ChopTree"   locationY ="52.7" locationX="21.4"   />
+		<Entity type ="ChopTree"   locationY ="53.8" locationX="24.2"   />
+		<Entity type ="ChopTree"   locationY ="53" locationX="27"   />
+		<Entity type ="ChopTree"   locationY ="52" locationX="29.8"   />
+		<Entity type ="ChopTree"   locationY ="50.5" locationX="32.6"   />
+		<Entity type ="ChopTree"   locationY ="50" locationX="35.4"   />
+		<Entity type ="ChopTree"   locationY ="50" locationX="38.2"   />
+		<Entity type ="ChopTree"   locationY ="49.4" locationX="41"   />
+		<Entity type ="ChopTree"   locationY ="50.5" locationX="43.8"   />
+		<Entity type ="ChopTree"   locationY ="50" locationX="46.6"   />
+		<Entity type ="ChopTree"   locationY ="50" locationX="49.4"   />
+		<Entity type ="ChopTree"   locationY ="49.4" locationX="52.2"   />
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<!--Random Diseased Poor People-->
+		<Entity   type ="PoorWomanCharacter" locationX ="3" locationY="22"  aiName="StaticPacer" color="Green"/>
+		<Entity   type ="PoorWomanCharacter" locationX ="8" locationY="23"  aiName="StaticPacer" color="Green"/>
+		<Entity   type ="PoorWomanCharacter" locationX ="45" locationY="25"  aiName="StaticPacer" color="Green"/>
+		<Entity   type ="PoorWomanCharacter" locationX ="13" locationY="7"  aiName="StaticPacer" color="Green"/>
+		<Entity   type ="PoorWomanCharacter" locationX ="6" locationY="19"  aiName="StaticPacer" color="Green"/>
+		<Entity   type ="PoorWomanCharacter" locationX ="7" locationY="28"  aiName="StaticPacer" color="Green"/>
+		<Entity   type ="PoorWomanCharacter" locationX ="8" locationY="34"  aiName="StaticPacer" />
+		<Entity   type ="PoorWomanCharacter" locationX ="14" locationY="30"  aiName="StaticPacer" />
+		<Entity   type ="PoorWomanCharacter" locationX ="15" locationY="20"  aiName="StaticPacer" />
+		<Entity   type ="PoorManCharacter" locationX ="26" locationY="18"  aiName="StaticPacer" />
+		<Entity   type ="PoorManCharacter" locationX ="32" locationY="34"  aiName="StaticPacer" />
+		<Entity   type ="PoorManCharacter" locationX ="14" locationY="30"  aiName="StaticPacer" />
+		<Entity   type ="PoorManCharacter" locationX ="28" locationY="11"  aiName="StaticPacer" />
+		<Entity   type ="PoorManCharacter" locationX ="27" locationY="41"  aiName="StaticPacer" />
+		<Entity   type ="PoorManCharacter" locationX ="29" locationY="6"  aiName="StaticPacer" />
+		<Entity   type ="PoorManCharacter" locationX ="5" locationY="36"  aiName="StaticPacer" color="Green"/>
+		<Entity   type ="PoorManCharacter" locationX ="12" locationY="3"  aiName="StaticPacer" color="Green"/>
+		<Entity   type ="PoorManCharacter" locationX ="33" locationY="36"  aiName="StaticPacer" color="Green"/>
+		<Entity   type ="PoorManCharacter" locationX ="27" locationY="21"  aiName="StaticPacer" color="Green"/>
+		<Entity   type ="PoorManCharacter" locationX ="29" locationY="36"  aiName="StaticPacer" color="Green"/>
+		<Entity   type ="PoorManCharacter" locationX ="15" locationY="36"  aiName="StaticPacer" color="Green"/>
+		<Entity   type ="PoorManCharacter" locationX ="12" locationY="33"  aiName="StaticPacer" color="Green"/>
+		<Entity   type ="PoorManCharacter" locationX ="33" locationY="16"  aiName="StaticPacer" color="Green"/>						
+	</Entities>
+	<Joints>
+		<!--<Joint type="Pulley" id1="Ball1" id2="Ball2" anchor1X="17" anchor1Y="13" anchor2X="13" anchor2Y="13" ratio="10"/>-->
+	</Joints>
+</GameWorld> 
+  

@@ -1,0 +1,6 @@
+<AIFile>
+<FontToUse value="default" />
+<ConversationList>
+<ConversationFile name="default">XML\Conversations\BuildingConvo.xml</ConversationFile>
+</ConversationList>
+</AIFile>

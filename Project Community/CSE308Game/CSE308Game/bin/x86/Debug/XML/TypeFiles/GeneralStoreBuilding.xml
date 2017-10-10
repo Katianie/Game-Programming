@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+<Data Restitution="0" Density="100" Friction=".05"/>
+  <Images>
+    <Image width="256" height="128">GameTiles\GeneralStoreOutside</Image>
+    </Images>
+  <States>
+  <State name="_">0</State>
+    </States>
+	<Shape ShapeType="Polygon" type="Static">
+	<Vertex>.95,.2</Vertex>
+	<Vertex>.95,.98</Vertex>
+	<Vertex>.02,.98</Vertex>
+	<Vertex>.02,.2</Vertex>
+
+	
+	</Shape>
+</XnaContent>

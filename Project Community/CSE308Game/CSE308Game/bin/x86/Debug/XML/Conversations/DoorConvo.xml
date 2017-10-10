@@ -1,0 +1,13 @@
+<Conversation value="This door is locked. Use a key to unlock?">
+	<Responses>		<Response type="Event" value="Unlock Door.">
+			<Events>
+				<Event eventName="TakeItem" eventValue="Key" />
+				<Event eventName="Quest_Completed_Return" eventValue="Main" />
+			</Events>
+		</Response>		<Response type="Event" value="My Precious!!!">
+			<Events>
+				<Event eventName="Exit_ConversationSet" eventValue="nil" />
+			</Events>
+		</Response>
+	</Responses>
+</Conversation>

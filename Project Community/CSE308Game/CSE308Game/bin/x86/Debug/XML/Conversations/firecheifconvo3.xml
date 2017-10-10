@@ -1,0 +1,42 @@
+<Conversation value="Thanks for getting me all of that paint, There is one problem though...We need help actually painting these trucks. Do you think you have time to help me out?">
+<Responses>
+	<Response type="Convo" value="Of-course, I'm always ready to help out.">
+		<Conversation value="Thank you so much for everything you've done for us. I need you to go out and recruit as many people as you can to join the fire department. The more you bring to me, the more I'll pay you for. Come back when your all done." >
+			<Responses>
+				<Response type="Event" value="Accept Quest">
+					<Events>
+						<Event eventName="Accept_Current_Quest" eventValue="FireCheif3"/>
+					</Events>
+				</Response>			
+			</Responses>
+		</Conversation>
+	</Response>
+	<Response type="Convo" value="Yea I can help">
+		<Conversation value="I need you to go out and recruit as many people as you can to join the fire department. The more you bring to me, the more I'll pay you for. Come back when your all done" >
+			<Responses>
+				<Response type="Event" value="Accept Quest">
+					<Events>
+						<Event eventName="Accept_Current_Quest" eventValue="FireCheif3"/>
+					</Events>
+				</Response>	
+			</Responses>
+		</Conversation>
+	</Response>
+	<Response type="Convo" value="Don't tell me your going to make me paint all the trucks...">
+		<Conversation value="...Not exactly, I need you to go out and recruit as many people as you can to join the fire department. The more you bring to me, the more I'll pay you for. Don't come back till you get some people." >
+			<Responses>
+				<Response type="Event" value="Accept Quest">
+					<Events>
+						<Event eventName="Accept_Current_Quest" eventValue="FireCheif3"/>
+					</Events>
+				</Response>	
+			</Responses>
+		</Conversation>
+	</Response>
+	<Response type="Event" value="Sorry, Not right now (exit).">
+		<Events>
+			<Event eventName="Exit_ConversationSet" eventValue="nil" />
+		</Events>
+	</Response>
+</Responses>
+</Conversation> 

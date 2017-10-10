@@ -1,0 +1,6 @@
+<AIFile>
+<FontToUse value="FarmerVoice" />
+<ConversationList>
+<ConversationFile name="default">XML\Conversations\EcoGuyMonkeyConvo.xml</ConversationFile>
+</ConversationList>
+</AIFile>

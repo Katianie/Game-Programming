@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+<Data Restitution=".45" Density="5" Friction=".2" fixedRotation="false"/>
+  <Images>
+    <Image width="30" height="30">reaganBall</Image>
+    </Images>
+  <States>
+  <State name="_">0</State>
+    </States>
+	<Shape ShapeType="Circle" type="Dynamic">.24</Shape>
+</XnaContent>

@@ -1,0 +1,42 @@
+<Conversation value="The fire hoses you got me were perfect! Thanks again, I really appreciate all the hard work you've done for the town and myself. I was able to obtain some old fire trucks but we need to paint them to make them stand out. Can you help me?">
+<Responses>
+	<Response type="Convo" value="Absolutely!">
+		<Conversation value="Thanks again, I need you to get me 10 cans of red paint. When you get back I'll give you something for your troubles" >
+			<Responses>
+				<Response type="Event" value="Accept Quest">
+					<Events>
+						<Event eventName="Accept_Current_Quest" eventValue="FireCheif2"/>
+					</Events>
+				</Response>			
+			</Responses>
+		</Conversation>
+	</Response>
+	<Response type="Convo" value="Sure.">
+		<Conversation value="I need you to get me 10 cans of red paint. I don't care how, just come back when your done and I'll pay you for your services." >
+			<Responses>
+				<Response type="Event" value="Accept Quest">
+					<Events>
+						<Event eventName="Accept_Current_Quest" eventValue="FireCheif2"/>
+					</Events>
+				</Response>	
+			</Responses>
+		</Conversation>
+	</Response>
+	<Response type="Convo" value="Uhhhh....what?">
+		<Conversation value="Do you live under power lines? Get me 10 cans of red paint and don't come back till you got em...." >
+			<Responses>
+				<Response type="Event" value="Accept Quest">
+					<Events>
+						<Event eventName="Accept_Current_Quest" eventValue="FireCheif2"/>
+					</Events>
+				</Response>	
+			</Responses>
+		</Conversation>
+	</Response>
+	<Response type="Event" value="Sorry, Not right now (exit).">
+		<Events>
+			<Event eventName="Exit_ConversationSet" eventValue="nil" />
+		</Events>
+	</Response>
+</Responses>
+</Conversation> 

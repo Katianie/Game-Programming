@@ -1,0 +1,31 @@
+<Conversation value="We need to rebuild the old jail cells, can you help us? ">
+<Responses>
+	<Response type="Convo" value="Absolutely!">
+		<Conversation value="Thanks again for everything. When your out in your travels, see if you can find large iron rods and bags of cement. It doesn't matter how many you find, I'll pay you for anything you get." >
+			<Responses>
+				<Response type="Event" value="Accept Quest">
+					<Events>
+						<Event eventName="Accept_Current_Quest" eventValue="PoliceCheif3"/>
+					</Events>
+				</Response>			
+			</Responses>
+		</Conversation>
+	</Response>
+	<Response type="Convo" value="Ok, sure.">
+		<Conversation value="When your out in your travels, see if you can find large iron rods and bags of cement. It doesn't matter how many you find, I'll pay you for anything you get." >
+			<Responses>
+				<Response type="Event" value="Accept Quest">
+					<Events>
+						<Event eventName="Accept_Current_Quest" eventValue="PoliceCheif3"/>
+					</Events>
+				</Response>	
+			</Responses>
+		</Conversation>
+	</Response>
+	<Response type="Event" value="Sorry, Not right now (exit).">
+		<Events>
+			<Event eventName="Exit_ConversationSet" eventValue="nil" />
+		</Events>
+	</Response>
+</Responses>
+</Conversation>

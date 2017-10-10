@@ -1,0 +1,4 @@
+﻿<TileList>
+  <Tile collidable="False">GameTiles\grass</Tile>
+  <Tile collidable="False">GameTiles\sand</Tile>
+</TileList>

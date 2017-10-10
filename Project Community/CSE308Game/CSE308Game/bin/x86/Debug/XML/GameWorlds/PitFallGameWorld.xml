@@ -1,0 +1,1023 @@
+<GameWorld> 
+  <BackGround >BackGrounds\pitBG</BackGround>
+  <Gravity>0,5</Gravity>
+   <Edges>
+		<Bottom type="Dont" value="5,5" />
+		<Left type="Dont" value="5,5" />
+		<Top type="DoAnythiing" value="5,5" />
+		<Right type="Quest_Completed_Return" value="Main" />
+  </Edges>
+  <CheckPoints>
+	<CheckPoint xLoc="0.25" yLoc="1" />
+  </CheckPoints>
+ <Entities>
+			
+	<Entity type ="Player"   locationX ="0.25" locationY="1"  />
+			
+	<Entity type ="CliffBuilding"   locationX ="0.25" locationY="2.75"   />
+	
+	<Entity type ="RedBuilding"   locationX ="0" locationY="450"   />
+	<Entity type ="RedBuilding"   locationX ="2" locationY="450"   />
+	<Entity type ="RedBuilding"   locationX ="4" locationY="450"   />
+	<Entity type ="CapacitorItem" locationX ="5" locationY="448.5" />
+	<Entity type ="RedBuilding"   locationX ="6" locationY="450"   />
+	<Entity type ="RedBuilding"   locationX ="8" locationY="450"   />
+	<Entity type ="RedBuilding"   locationX ="10" locationY="450"   />
+			
+	<!--RIGHTWALL-->
+	
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="-2.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="2.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="5.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="8.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="11.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="13.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="16.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="19.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="22.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="24.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="27.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="30.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="33.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="35.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="38.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="41.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="44.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="46.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="49.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="52.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="55.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="57.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="60.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="63.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="66.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="68.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="71.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="74.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="77.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="79.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="82.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="85.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="88.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="90.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="93.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="96.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="99.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="101.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="104.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="107.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="110.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="112.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="115.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="118.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="121.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="123.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="126.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="129.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="132.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="134.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="137.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="140.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="143.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="145.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="148.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="151.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="154.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="156.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="159.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="162.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="165.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="167.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="170.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="173.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="176.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="178.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="181.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="184.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="187.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="189.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="192.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="195.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="198.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="200.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="203.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="206.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="209.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="211.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="214.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="217.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="220.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="222.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="225.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="228.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="231.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="233.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="236.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="239.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="242.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="244.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="247.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="250.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="253.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="255.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="258.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="261.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="264.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="266.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="269.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="272.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="275.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="277.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="280.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="283.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="286.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="288.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="291.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="294.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="297.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="299.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="302.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="305.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="308.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="310.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="313.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="316.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="319.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="321.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="324.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="327.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="330.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="332.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="335.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="338.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="341.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="343.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="346.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="349.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="352.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="354.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="357.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="360.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="363.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="365.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="368.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="371.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="374.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="376.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="379.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="382.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="385.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="387.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="390.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="393.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="396.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="398.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="401.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="404.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="407.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="409.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="412.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="415.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="418.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="420.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="423.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="426.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="429.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="431.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="434.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="437.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="440.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="442.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="9.5" locationY="445.5"	/>
+
+			
+	<!--LEFTWALL-->
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="-2.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="2.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="5.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="8.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="11.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="13.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="16.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="19.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="22.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="24.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="27.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="30.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="33.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="35.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="38.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="41.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="44.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="46.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="49.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="52.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="55.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="57.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="60.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="63.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="66.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="68.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="71.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="74.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="77.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="79.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="82.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="85.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="88.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="90.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="93.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="96.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="99.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="101.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="104.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="107.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="110.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="112.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="115.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="118.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="121.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="123.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="126.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="129.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="132.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="134.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="137.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="140.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="143.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="145.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="148.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="151.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="154.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="156.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="159.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="162.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="165.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="167.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="170.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="173.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="176.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="178.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="181.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="184.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="187.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="189.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="192.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="195.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="198.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="200.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="203.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="206.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="209.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="211.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="214.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="217.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="220.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="222.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="225.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="228.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="231.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="233.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="236.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="239.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="242.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="244.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="247.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="250.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="253.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="255.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="258.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="261.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="264.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="266.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="269.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="272.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="275.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="277.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="280.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="283.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="286.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="288.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="291.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="294.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="297.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="299.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="302.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="305.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="308.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="310.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="313.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="316.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="319.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="321.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="324.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="327.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="330.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="332.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="335.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="338.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="341.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="343.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="346.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="349.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="352.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="354.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="357.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="360.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="363.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="365.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="368.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="371.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="374.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="376.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="379.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="382.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="385.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="387.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="390.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="393.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="396.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="398.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="401.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="404.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="407.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="409.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="412.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="415.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="418.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="420.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="423.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="426.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="429.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="431.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="434.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="437.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="440.0"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="442.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="445.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="448.25"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="453.75"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="456.5"	/>
+	<Entity type ="RedBrickEnemy"   locationX ="-2.5" locationY="459.25"	/>
+			
+	<!--SMALLROCKS-->
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="17"   />	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="17"   />	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7.5" locationY="18"   />	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8.5" locationY="18"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="24"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="24"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1.5" locationY="25"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0.5" locationY="25"   />	
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="29"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="29"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="29"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="29"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="29"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="29"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="29"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="33"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="33"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="33"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="33"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="4" locationY="33"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="33"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="33"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="37"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="37"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="6" locationY="37"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="37"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="37"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="37"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="4" locationY="41"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="41"   />	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="41"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="41"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="41"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="45"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="45"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="45"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="45"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="45"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="45"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="45"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="49"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="49"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="49"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="49"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="4" locationY="49"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="49"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="49"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="53"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="53"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="6" locationY="53"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="53"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="53"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="53"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="57"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="57"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="57"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="57"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="57"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="57"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="57"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="61"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="61"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="61"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="61"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="61"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="61"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="61"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="65"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="65"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="65"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="65"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="4" locationY="65"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="65"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="65"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="69"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="69"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="6" locationY="69"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="69"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="69"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="69"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="73"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="73"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="73"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="73"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="4" locationY="73"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="73"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="73"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="86"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="86"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="90"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="90"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="90"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="90"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="90"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="90"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="90"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="94"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="94"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="94"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="94"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="94"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="94"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="94"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="98"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="98"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="98"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="98"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="4" locationY="98"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="98"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="98"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="102"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="102"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="6" locationY="102"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="102"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="102"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="102"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="106"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="106"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="106"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="106"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="4" locationY="106"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="106"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="106"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="110"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="110"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="110"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="110"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="110"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="110"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="110"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="114"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="114"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="114"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="114"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="114"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="114"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="114"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="118"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="118"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="118"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="118"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="4" locationY="118"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="118"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="118"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="122"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="122"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="6" locationY="122"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="122"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="122"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="122"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="6" locationY="124"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="124"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="124"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="124"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="129"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="129"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="129"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="129"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="4" locationY="129"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="129"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="129"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="129"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="133"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="133"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="133"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="133"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="133"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="133"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="133"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="137"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="137"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="137"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="137"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="4" locationY="137"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="137"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="137"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="141"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="141"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="6" locationY="141"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="141"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="141"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="141"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="6.3" locationY="146"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7.3" locationY="146"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8.3" locationY="146"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9.3" locationY="146"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="150"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="150"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="150"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="150"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="4" locationY="150"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="150"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="150"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="150"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="154"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="154"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="154"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="154"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="154"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="154"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="154"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="158"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="158"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="158"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="158"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="4" locationY="158"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="158"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="158"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="162"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="162"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="6" locationY="162"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="162"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="162"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="162"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="166"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="166"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="166"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="166"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="166"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="166"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="166"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="170"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="170"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="170"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="170"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="170"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="170"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="170"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="174"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="174"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="174"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="174"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="4" locationY="174"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="174"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="174"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="176"   />	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="176"   />	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7.65" locationY="176"   />	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8.65" locationY="176"   />	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9.65" locationY="176"   />	
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="180"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="180"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="6" locationY="180"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="180"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="180"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="180"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="184"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="184"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="184"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="184"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="4" locationY="184"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="184"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="184"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="188"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="188"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="188"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="188"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="188"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="188"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="188"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="192"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="192"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="192"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="192"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="4" locationY="192"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="192"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="192"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="196"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="196"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="6" locationY="196"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="196"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="196"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="196"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="200"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="200"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="200"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="200"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="4" locationY="200"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="200"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="200"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="200"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="204"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="204"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="204"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="204"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="204"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="204"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="204"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="4" locationY="215"   />	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="215"   />	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="215"   />	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="215"   />	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="215"   />	
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="219"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="219"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="219"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="219"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="4" locationY="219"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="219"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="219"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="219"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="223"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="223"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="223"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="223"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="223"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="223"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="223"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="227"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="227"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="227"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="227"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="4" locationY="227"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="227"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="227"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="227"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="230"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="230"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="230"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="230"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="230"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="230"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="230"   />
+
+	<Entity type ="SmallRedBrickEnemy"   locationX ="4" locationY="245"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="245"   />	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="245"   />	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="245"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="245"   />	
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="250"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="250"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="250"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="250"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="250"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="250"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="250"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="254"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="254"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="254"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="254"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="4" locationY="254"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="254"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="254"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="258"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="258"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="6" locationY="258"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="258"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="258"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="258"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="262"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="262"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="262"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="262"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="262"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="262"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="262"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="266"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="266"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="266"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="266"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="266"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="266"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="266"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="270"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="270"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="270"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="270"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="4" locationY="270"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="270"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="270"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="274"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="274"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="6" locationY="274"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="274"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="274"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="274"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="278"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="278"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="278"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="278"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="4" locationY="278"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="278"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="278"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="282"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="282"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="282"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="282"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="282"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="282"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="282"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="286"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="286"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="286"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="286"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="286"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="286"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="286"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="290"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="290"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="290"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="290"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="4" locationY="290"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="290"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="290"   />
+		
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="304"   />	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="304"   />	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="304"   />	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="304"   />	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="304"   />	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="304"   />	
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="5.2" locationY="317"   />	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="6.2" locationY="317"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7.2" locationY="317"   />	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8.2" locationY="317"   />	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9.2" locationY="317"   />	
+
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="323"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="323"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="323"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="323"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="323"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="323"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="323"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="327"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="327"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="327"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="327"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="4" locationY="327"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="327"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="327"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="332"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="332"   />	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="332"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="332"   />	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="332"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="332"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="336"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="336"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="336"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="336"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="4" locationY="336"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="336"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="336"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="340"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="340"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="6" locationY="340"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="340"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="340"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="340"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="5" locationY="353"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="6" locationY="353"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="353"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="353"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="353"   />
+	
+	<!--GAPS-->
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="369"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="369"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="369"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="369"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="369"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="369"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="369"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="373"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="373"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="373"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="373"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="4" locationY="373"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="373"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="373"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="377"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="377"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="6" locationY="377"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="377"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="377"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="377"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="381"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="381"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="381"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="381"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="4" locationY="381"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="381"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="381"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="381"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="385"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="385"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="385"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="385"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="385"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="385"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="385"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="389"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="389"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="389"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="389"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="4" locationY="389"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="389"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="389"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="393"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="393"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="6" locationY="393"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="393"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="393"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="393"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="397"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="397"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="397"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="397"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="4" locationY="397"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="397"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="397"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="397"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="401"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="401"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="401"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="401"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="401"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="401"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="401"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="405"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="405"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="405"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="405"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="4" locationY="405"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="405"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="405"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="409"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="409"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="6" locationY="409"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="409"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="409"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="409"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="413"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="413"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="413"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="413"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="413"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="413"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="413"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="417"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="417"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="417"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="417"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="417"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="417"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="417"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="421"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="421"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="421"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="421"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="4" locationY="421"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="421"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="421"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="425"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="425"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="6" locationY="425"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="7" locationY="425"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="425"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="425"   />
+	
+	<Entity type ="SmallRedBrickEnemy"   locationX ="0" locationY="429"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="1" locationY="429"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="2" locationY="429"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="3" locationY="429"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="4" locationY="429"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="8" locationY="429"   />
+	<Entity type ="SmallRedBrickEnemy"   locationX ="9" locationY="429"   />
+	
+	
+</Entities>
+<Joints>
+</Joints>
+<!--<NoPlayerCollision>4anchor,4Ball1,4Ball2,4Ball3,4Ball4,4Ball5,4Ball6,4Ball7</NoPlayerCollision>-->
+<Non-CollidingPairs>
+	<Pair id1="" id2="" />
+</Non-CollidingPairs>
+ </GameWorld>

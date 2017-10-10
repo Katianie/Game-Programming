@@ -1,0 +1,8 @@
+<AIFile>
+<FontToUse value="FiremanVoice" />
+<ConversationList>
+<ConversationFile name="default" next="fireCheifConvo2">XML\Conversations\firecheifconvo1.xml</ConversationFile>
+<ConversationFile name="fireCheifConvo2" next="fireCheifConvo3">XML\Conversations\firecheifconvo2.xml</ConversationFile>
+<ConversationFile name="fireCheifConvo3">XML\Conversations\firecheifconvo3.xml</ConversationFile>
+</ConversationList>
+</AIFile>

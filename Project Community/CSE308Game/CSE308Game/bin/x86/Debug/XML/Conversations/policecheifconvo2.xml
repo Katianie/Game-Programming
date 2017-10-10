@@ -1,0 +1,46 @@
+<Conversation value="Thanks for convincing all those people to join the police force. The phones...well phone...has been ringing off the hook since you started recruiting new police officers. I have something else I need help with if you have the time.">
+<Responses>
+	<Response type="Convo" value="Of-course I can help.">
+		<Conversation value="I really appreciate all your doing for the town, and me. We have a 911 switch board but its in bad condition, I need you to get me 3 spools of 20 gauge copper wire, 1 power supply, and 6 LEDs. You should be able to find everything in the woods were the old semiconductor once stood.  I would go myself but those woods have communists in them and I have a family.">
+			<Responses>
+				<Response type="Event" value="Accept Quest">
+					<Events>
+						<Event eventName="Accept_Current_Quest" eventValue="Lights, Commies, Action"/>
+						<Event eventName="Instruct" eventValue="Collect 3 spools of wire, 6 LED's, and a backup power supply. Don't Let The Commies Touch You!"/>
+
+					</Events>
+				</Response>			
+			</Responses>
+		</Conversation>
+	</Response>
+	<Response type="Convo" value="Ok, sure.">
+		<Conversation value="We have a 911 switch board but its in bad condition, I need you to get me 3 spools of 20 gauge copper wire, 1 power supply, and 6 LEDs.  You should be able to find everything in the woods were the old semiconductor once stood.  I would go myself but those woods have communists in them and I have a family." >
+			<Responses>
+				<Response type="Event" value="Accept Quest">
+					<Events>
+						<Event eventName="Accept_Current_Quest" eventValue="Lights, Commies, Action"/>
+						<Event eventName="Instruct" eventValue="Collect 3 spools of wire, 6 LED's, and a backup power supply. Don't Let The Commies Touch You!"/>
+					</Events>
+				</Response>	
+			</Responses>
+		</Conversation>
+	</Response>
+	<Response type="Convo" value="Let me guess, I have to get doughnuts for everyone...">
+		<Conversation value="...I'm going to pretend I didn't hear that...get me 3 spools of 20 gauge copper wire, 1 power supply, and 6 LEDs. Don't come back till you have everything. You should be able to find everything in the woods were the old semiconductor once stood.  I would go myself but those woods have communists in them and I have a family." >
+			<Responses>
+				<Response type="Event" value="Accept Quest">
+					<Events>
+						<Event eventName="Accept_Current_Quest" eventValue="Lights, Commies, Action"/>
+						<Event eventName="Instruct" eventValue="Collect 3 spools of wire, 6 LED's, and a backup power supply. Don't Let The Commies Touch You!"/>
+					</Events>
+				</Response>	
+			</Responses>
+		</Conversation>
+	</Response>
+	<Response type="Event" value="Sorry, Not right now (exit).">
+		<Events>
+			<Event eventName="Exit_ConversationSet" eventValue="nil" />
+		</Events>
+	</Response>
+</Responses>
+</Conversation>

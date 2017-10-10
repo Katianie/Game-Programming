@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Images>
+    <Image width="45" height="45">CartoonMouse</Image>
+    <Image width="45" height="45">CartoonMouse</Image>
+    <Image width="45" height="45">CartoonMouse</Image>
+    <Image width="45" height="45">CartoonMouse</Image>
+    <Image width="45" height="45">CartoonMouse</Image>
+    </Images>
+  <States>
+  <State name="Walking Up">0,1,2,1,0,3,4,3</State>
+    </States>
+</XnaContent>

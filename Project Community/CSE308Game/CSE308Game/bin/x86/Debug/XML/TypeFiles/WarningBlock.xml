@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+<Data Restitution="0" Density="100" Friction="2" fixedRotation="false"/>
+  <Images>
+    <Image width="48" height="48">GameTiles\cotton</Image>
+    </Images>
+  <States>
+  <State name="Ball">0</State>
+    </States>
+	<Shape ShapeType="Polygon" type="Dynamic">
+	<Vertex>1,.02</Vertex>
+	<Vertex>1,.98</Vertex>
+	<Vertex>0,.98</Vertex>
+	<Vertex>0,.02</Vertex>
+	</Shape>
+</XnaContent>

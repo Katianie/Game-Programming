@@ -1,0 +1,6 @@
+<AIFile>
+<FontToUse value="defualt" />
+<ConversationList>
+<ConversationFile name="default">XML\Conversations\DoorConvo.xml</ConversationFile>
+</ConversationList>
+</AIFile>

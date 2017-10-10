@@ -1,0 +1,22 @@
+<GameWorld> 
+
+  <BackGround >DockBG</BackGround>
+  <Gravity>0,11</Gravity>
+  <Edges>
+  <Bottom type="Kill" value="nill" />
+    <Left type="Dont" value="3,4" />
+	<Top type="No_Wall" value="3,4" />
+	<Right type="Freemasons" value="Nil" />
+  </Edges>
+      <CheckPoints>
+	<CheckPoint xLoc="2" yLoc="3" />
+  </CheckPoints>
+ <Entities>
+			<Entity id="Player" type ="BarPlayer0"   locationX ="3" locationY="7"  aiName="BarPlacer" noGrav="true" color="Blue" angle="45"/>
+			<Entity type="CottonSpawner" />			
+			</Entities>
+
+			<Joints>
+			</Joints>
+  </GameWorld> 
+  

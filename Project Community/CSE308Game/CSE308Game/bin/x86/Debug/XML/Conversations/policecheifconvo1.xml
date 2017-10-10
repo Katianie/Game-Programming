@@ -1,0 +1,45 @@
+<Conversation value="Hey I heard a lot about you kid! You've been going around town helpin civilians out. Its great to see someone try to make a difference, this town has had so many problems I wouldn't know where to start....but apparently you do. I could use your help if you have time, what-da say?">
+<Responses>
+	<Response type="Convo" value="Absolutely, Sir!">
+		<Conversation value="Thanks kid, It's nice to see such enthusiasm, not mention respect for ones elders for a change. We need a police force here and we haven't been able to sustain one because of lack of training for people. I know your name carries some weight around here now, Convince 6 to join the police force. Look for those with blue hair and don't be surprised if they interrogate you." >
+			<Responses>
+				<Response type="Event" value="Accept Quest">
+					<Events>
+						<Event eventName="Accept_Current_Quest" eventValue="Police Recruit"/>
+							<Event eventName="GiveItems" eventValue="Police Badge,6"/>
+					</Events>
+				</Response>			
+			</Responses>
+		</Conversation>
+	</Response>
+	<Response type="Convo" value="Sure.">
+		<Conversation value="Thanks, We need a police force here and we haven't been able to sustain one because of lack of training for people. I know your name carries some weight around here now, Convince 6 to join the police force. Look for those with blue hair." >
+			<Responses>
+				<Response type="Event" value="Accept Quest">
+					<Events>
+						<Event eventName="Accept_Current_Quest" eventValue="Police Recruit"/>
+									<Event eventName="GiveItems" eventValue="Police Badge,6"/>
+					</Events>
+				</Response>	
+			</Responses>
+		</Conversation>
+	</Response>
+	<Response type="Convo" value="Uhh ok I guess..">
+		<Conversation value="Uhh We uhh need a police force here and uhh we haven't been able to sustain one because of uhh lack of uhh training for people. Convince 6 to join the police force....uhh. Look for those with blue hair." >
+			<Responses>
+				<Response type="Event" value="Accept Quest">
+					<Events>
+						<Event eventName="Accept_Current_Quest" eventValue="Police Recruit"/>
+									<Event eventName="GiveItems" eventValue="Police Badge,6"/>
+					</Events>
+				</Response>	
+			</Responses>
+		</Conversation>
+	</Response>
+	<Response type="Event" value="Sorry, Not right now (exit).">
+		<Events>
+			<Event eventName="Exit_ConversationSet" eventValue="nil" />
+		</Events>
+	</Response>
+</Responses>
+</Conversation>

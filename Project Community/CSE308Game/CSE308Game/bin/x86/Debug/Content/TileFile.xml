@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- Tiles should be listed in the order they are read into the map editor -->
+  <Tile collidable="True">Black</Tile>
+  <Tile collidable="False">White</Tile>
+</XnaContent>

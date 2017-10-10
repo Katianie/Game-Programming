@@ -1,0 +1,34 @@
+<Conversation value="What do you want?">
+	<Responses>
+		<Response type="Convo" value="Will you join the police?">
+			<Conversation value="You know slavery still exists and occurs in over 160 countries worldwide:  How many people are trafficed each year worldwide?" >
+				<Responses>
+					<Response type="Event" value="250,000">
+			<Events>
+				<Event eventName="Exit_ConversationSet" eventValue="nil" />
+				<Event eventName="FloatText" eventValue="Wrong!" />
+				</Events>
+					</Response>
+					<Response type="Event" value="2,500,000">
+						<Events>
+							<Event eventName="Join_Police" eventValue="nien"/>
+							<Event eventName="GiveItem" eventValue="FWPD Employee Contract"/>
+							<Event eventName="TakeItem" eventValue="Police Badge"/>
+						</Events>
+					</Response>
+					<Response type="Event" value="25,000,000">
+			<Events>
+				<Event eventName="Exit_ConversationSet" eventValue="nil" />
+				<Event eventName="FloatText" eventValue="Wrong!" />
+			</Events>
+					</Response>
+				</Responses>
+			</Conversation>
+		</Response>
+		<Response type="Event" value="Nevermind.">
+			<Events>
+				<Event eventName="Exit_ConversationSet" eventValue="nil" />
+			</Events>
+		</Response>
+	</Responses>
+</Conversation>

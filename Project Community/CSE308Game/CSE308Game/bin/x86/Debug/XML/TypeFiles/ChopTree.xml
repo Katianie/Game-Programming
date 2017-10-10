@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+<Data Restitution="0" Density="100" Friction=".5"/>
+  <Images>
+      <Image width="200" height="200">GameTiles\treebaby</Image>
+	      <Image width="200" height="200">GameTiles\treehalf</Image>
+		      <Image width="200" height="200">GameTiles\treefull</Image>
+    </Images>
+  <States>
+  <State name="baby">0</State>
+    <State name="half">1</State>
+	  <State name="full">2</State>
+    </States>
+	<Shape ShapeType="Polygon" type="Static">
+	<Vertex>1,.3</Vertex>
+	<Vertex>1,.6</Vertex>
+	<Vertex>.6,1</Vertex>
+	<Vertex>0,.6</Vertex>
+	<Vertex>0,.3</Vertex>
+	<Vertex>.6,0</Vertex>
+	</Shape>
+</XnaContent>

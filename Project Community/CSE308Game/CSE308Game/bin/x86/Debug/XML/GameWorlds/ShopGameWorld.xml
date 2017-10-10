@@ -1,0 +1,23 @@
+<GameWorld> 
+	<BackGround>GameTiles/generalstore_floor</BackGround>
+	<Gravity>0,0</Gravity>
+	<Edges>
+		<Bottom type="SWITCH_WORLD" value="Main,22.2,21.3" />
+		<Left type="Dont" value="3,4" />
+		<Top type="n" value="3,4" />
+		<Right type="n" value="Nil" />
+	</Edges>
+	<CheckPoints>
+		<CheckPoint xLoc="2" yLoc="3" />
+	 </CheckPoints>
+	 <Entities>
+		<Entity  type ="Player"   locationX ="3" locationY="7" />	
+		
+		<Entity id="MerchantCharacter" type ="MerchantCharacter" locationX ="3" locationY="4"  aiName="StaticPacer" aiFile="XML\AIFiles\MerchantAI.xml" />
+		
+		<!--<Entity  type ="StoreCounterBuilding"   locationX ="0" locationY="0.5" />-->
+	</Entities>
+	<Joints>
+	</Joints>
+</GameWorld> 
+  

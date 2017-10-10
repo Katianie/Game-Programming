@@ -1,0 +1,16 @@
+<FontList>
+	<Font name="DoctorVoice">Floydian</Font>
+	<Font name="EcoGuyVoice">Beyond Wonderland</Font>
+	<Font name="FarmerVoice">Incantation</Font>
+	<Font name="PopoVoice">1942 report</Font>
+	
+	<Font name="Default">defaultFont</Font>
+	<Font name="quest">quest</Font>
+	<Font name="money">money</Font>
+	<Font name="floating">floating</Font>
+	<Font name="Floydian">Floydian</Font>
+	<Font name="AnglicanText">AnglicanText</Font>
+	<Font name="BeyondWonderland">Beyond Wonderland</Font>
+	<Font name="1942">1942 report</Font>
+	<Font name="Incantation">Incantation</Font>
+</FontList>

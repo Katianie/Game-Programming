@@ -1,0 +1,7 @@
+0 - mountanBackground
+1 - iceBackground
+2 - nightMountantBackground
+3 - redIceBackground
+4 - snow
+5 - ice
+6 - blank tile

@@ -1,0 +1,22 @@
+<Conversation value="Hi, Would You Like To Change Your Color?">
+<Responses>
+	<Response type="Convo" value="Yes">
+		<Conversation value="What Color Would You Like To Be?" >
+			<Responses>
+				<Response type="Event" value="Blue">
+					<Event eventName="Set_Player_Color" eventValue="Black"/>
+				</Response>
+				<Response type="Event" value="Green">
+					<Event eventName="Set_Player_Color" eventValue="Grey"/>
+				</Response>
+				<Response type="Event"  value="Red">
+					<Event eventName="Set_Player_Color" eventValue="Purple"/>
+				</Response>
+			</Responses>
+		</Conversation>
+	</Response>
+	<Response type="Event" value="No">
+		<Event eventName="Exit_Conversation" eventValue="nil" />
+	</Response>
+</Responses>
+</Conversation>

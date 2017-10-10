@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+<Data Restitution="0.1" Density="100" Friction="1" fixedRotation="true"/>
+  <Images>
+			<Image width ="64" height="64">Characters\poorman\poorman_back_1</Image>
+			<Image width ="64" height="64">Characters\poorman\poorman_back_2</Image>
+			<Image width ="64" height="64">Characters\poorman\poorman_back_3</Image>
+			<Image width ="64" height="64">Characters\poorman\poorman_forward_1</Image>
+			<Image width ="64" height="64">Characters\poorman\poorman_forward_2</Image>
+				
+			<Image width ="64" height="64">Characters\poorman\poorman_forward_3</Image>
+			<Image width ="64" height="64">Characters\poorman\poorman_left_1</Image>
+			<Image width ="64" height="64">Characters\poorman\poorman_left_2</Image>
+			<Image width ="64" height="64">Characters\poorman\poorman_left_3</Image>
+			<Image width ="64" height="64">Characters\poorman\poorman_right_1</Image>
+				
+			<Image width ="64" height="64">Characters\poorman\poorman_right_2</Image>
+			<Image width ="64" height="64">Characters\poorman\poorman_right_3</Image>
+    </Images>
+  <States>
+  	<State name="Standing Left">6</State>
+	<State name="Standing Right">9</State>
+	<State name="Standing Down">3</State>
+	<State name="Standing Up">0</State>	
+	<State name="Walking Left">7,6,8,6</State>
+	<State name="Walking Right">10,9,11,9</State>
+	<State name="Walking Up">1,0,2,0</State>
+	<State name="Walking Down">4,3,5,3</State>  </States>
+	<!--<Shape ShapeType="Circle" type="Dynamic">.172</Shape>-->
+ <Shape ShapeType="Polygon" type="Dynamic">
+	<Vertex>.8,0</Vertex>
+	<Vertex>.8,1</Vertex>
+	<Vertex>0.2,1</Vertex>
+	<Vertex>0.2,0</Vertex>
+	</Shape>
+</XnaContent>

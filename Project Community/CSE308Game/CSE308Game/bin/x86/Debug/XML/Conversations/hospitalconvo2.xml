@@ -1,0 +1,46 @@
+<Conversation value="Hey welcome back, thanks again for getting me those bandages. I have another task I need help with if you don't mind.">
+<Responses>
+	<Response type="Convo" value="Of course doc.">
+		<Conversation value="Thanks again, I need you to pick up 10 used syringes and bring them back to me for proper disposal. People can contract HIV/AIDS, Hepatitis B, and Hepatitis C from dirty needles. Make sure to wear gloves when your out there." >
+			<Responses>
+				<Response type="Event" value="Accept Quest">
+					<Events>
+						<Event eventName="Accept_Current_Quest" eventValue="Grab Bag"/>
+						<Event eventName="Instruct" eventValue="Use G to grab ropes, release G to let go. Collect as many syringes as possible!"/>
+
+					</Events>
+				</Response>			
+			</Responses>
+		</Conversation>
+	</Response>
+	<Response type="Convo" value="If I have time I'll see what I can do">
+		<Conversation value="Ok, I need you to pick up 10 used syringes and bring them back to me for proper disposal. People can contract HIV/AIDS, Hepatitis B, and Hepatitis C from dirty needles. Make sure to wear gloves when your out there." >
+			<Responses>
+				<Response type="Event" value="Accept Quest">
+					<Events>
+						<Event eventName="Accept_Current_Quest" eventValue="Grab Bag"/>
+						<Event eventName="Instruct" eventValue="Use G to grab ropes, release G to let go. Collect as many syringes as possible!"/>
+					</Events>
+				</Response>	
+			</Responses>
+		</Conversation>
+	</Response>
+	<Response type="Convo" value="What do you need this time?">
+		<Conversation value="I need you to pick up 10 used syringes and bring them back to me for proper disposal. People can contract HIV/AIDS, Hepatitis B, and Hepatitis C from dirty needles." >
+			<Responses>
+				<Response type="Event" value="Accept Quest">
+					<Events>
+						<Event eventName="Accept_Current_Quest" eventValue="Grab Bag"/>
+						<Event eventName="Instruct" eventValue="Use G to grab ropes, release G to let go. Collect as many syringes as possible!"/>
+					</Events>
+				</Response>	
+			</Responses>
+		</Conversation>
+	</Response>
+	<Response type="Event" value="Not right now (exit).">
+		<Events>
+			<Event eventName="Exit_ConversationSet" eventValue="nil" />
+		</Events>
+	</Response>
+</Responses>
+</Conversation>

@@ -1,0 +1,253 @@
+<GameWorld> 
+
+  <BackGround >BackGrounds\GC</BackGround>
+  <Gravity>0,8</Gravity>
+   <Edges>
+		<Bottom type="ResetWorld_Checkpoint" value="3,3" />
+		<Left type="Dont" value="3,3" />
+		<Top type="DoAnythiing" value="3,3" />
+		<Right type="Quest_Completed_Return" value="Main" />
+  </Edges>
+  <CheckPoints>
+	<CheckPoint xLoc="3" yLoc="3" />
+	<CheckPoint xLoc="64" yLoc="3" />
+	<CheckPoint xLoc="105" yLoc="6" />
+	<CheckPoint xLoc="189" yLoc="6" />
+  </CheckPoints>
+ <Entities>
+ 			<Entity type ="HangGlidePlayer"   locationX ="3" locationY="3" angle="90" aiName="HangGliderAI"/>
+			
+			<Entity type ="RedBrickEnemy"   locationX ="2" locationY="6"   />
+			<Entity type ="CliffBuilding"   locationX ="2.2" locationY="3"   />
+			 
+			<Entity type ="RedBrickEnemy"   locationX ="5" locationY="6"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="7.5" locationY="6"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="10" locationY="6"   />		
+			<Entity type ="RedBrickEnemy"   locationX ="16" locationY="0"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="23" locationY="6"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="30" locationY="7"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="30" locationY="5"   />		
+
+			<Entity type ="TonicWaterItem"   locationX ="30" locationY="4"   />			
+
+			<Entity type ="RedBrickEnemy"   locationX ="38" locationY="1.5"   />
+			<Entity type ="TonicWaterItem"   locationX ="38" locationY="4"   />				
+			<Entity type ="RedBrickEnemy"   locationX ="46" locationY="5.5"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="50" locationY="0"   />
+			<Entity type ="TonicWaterItem"   locationX ="50" locationY="4"   />			
+			<Entity type ="RedBrickEnemy"   locationX ="50" locationY="7"   />				
+			<Entity type ="RedBrickEnemy"   locationX ="60" locationY="6.5"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="60" locationY="4"   />	
+			<Entity type ="TonicWaterItem"   locationX ="60" locationY="2"   />	
+			
+			<Entity type ="RedBrickEnemy"   locationX ="63" locationY="7"   />
+			<Entity type ="RedBrickEnemy"   locationX ="63" locationY="5"   />
+			<Entity type ="CliffBuilding"   locationX ="63" locationY="3"   />
+			<Entity type ="TonicWaterItem"   locationX ="63" locationY="2"   />			
+			
+			<Entity type ="RedBrickEnemy"   locationX ="69" locationY="1"   />			
+			<Entity type ="RedBrickEnemy"   locationX ="77.5" locationY="7"   />
+			<Entity type ="RedBrickEnemy"   locationX ="77.5" locationY="5"   />
+			<Entity type ="TonicWaterItem"   locationX ="78" locationY="4"   />				
+			<Entity type ="RedBrickEnemy"   locationX ="84" locationY="0"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="84" locationY="2"   />	
+			<Entity type ="TonicWaterItem"   locationX ="84" locationY="5"   />			
+			<Entity type ="RedBrickEnemy"   locationX ="84" locationY="8"   />	
+			
+			<Entity type ="RedBrickEnemy"   locationX ="88" locationY="0"   />
+			<Entity type ="TonicWaterItem"   locationX ="88" locationY="4"   />				
+			<Entity type ="RedBrickEnemy"   locationX ="88" locationY="7"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="90" locationY="0"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="90" locationY="7"   />
+			<Entity type ="RedBrickEnemy"   locationX ="92" locationY="0"   />	
+			<Entity type ="TonicWaterItem"   locationX ="92.5" locationY="5"   />				
+			<Entity type ="RedBrickEnemy"   locationX ="92" locationY="7"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="94" locationY="0"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="94" locationY="7"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="96" locationY="0"   />
+			<Entity type ="TonicWaterItem"   locationX ="96" locationY="4"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="96" locationY="7"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="98" locationY="0"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="98" locationY="7"   />
+			<Entity type ="RedBrickEnemy"   locationX ="100" locationY="0"   />
+			<Entity type ="TonicWaterItem"   locationX ="100" locationY="5"   />				
+			<Entity type ="RedBrickEnemy"   locationX ="100" locationY="7"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="102" locationY="0"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="102" locationY="7"   />				
+			
+			<Entity type ="RedBrickEnemy"   locationX ="104" locationY="0"   />	
+			<Entity type ="CliffBuilding"   locationX ="104" locationY="6.5"   />
+			<Entity type ="TonicWaterItem"   locationX ="104" locationY="6"   />	
+			
+			<Entity type ="RedBrickEnemy"   locationX ="112" locationY="0"   />				
+			<Entity type ="RedBrickEnemy"   locationX ="112" locationY="2"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="112" locationY="8"   />
+			
+			<Entity type ="RedBrickEnemy"   locationX ="116" locationY="0"   />				
+			<Entity type ="RedBrickEnemy"   locationX ="116" locationY="6"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="116" locationY="8"   />
+			
+			<Entity type ="RedBrickEnemy"   locationX ="120" locationY="0"   />				
+			<Entity type ="RedBrickEnemy"   locationX ="120" locationY="6"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="120" locationY="8"   />
+			
+			<Entity type ="RedBrickEnemy"   locationX ="124" locationY="0"   />				
+			<Entity type ="RedBrickEnemy"   locationX ="124" locationY="7"   />	
+			<Entity type ="TonicWaterItem"   locationX ="125" locationY="5"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="126" locationY="0"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="126" locationY="7"   />
+			<Entity type ="RedBrickEnemy"   locationX ="128" locationY="0"   />				
+			<Entity type ="RedBrickEnemy"   locationX ="128" locationY="7"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="130" locationY="0"   />	
+			<Entity type ="TonicWaterItem"  locationX ="130" locationY="4"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="130" locationY="7"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="132" locationY="0"   />				
+			<Entity type ="RedBrickEnemy"   locationX ="132" locationY="7"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="134" locationY="0"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="134" locationY="7"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="136" locationY="0"   />
+			<Entity type ="TonicWaterItem"   locationX ="136" locationY="5"   />				
+			<Entity type ="RedBrickEnemy"   locationX ="136" locationY="7"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="138" locationY="0"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="138" locationY="7"   />	
+			
+			<Entity type ="RedBrickEnemy"   locationX ="140" locationY="0"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="140" locationY="5"   />				
+			<Entity type ="RedBrickEnemy"   locationX ="140" locationY="7"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="142" locationY="0"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="142" locationY="5"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="142" locationY="7"   />
+			<Entity type ="RedBrickEnemy"   locationX ="144" locationY="0"   />
+			<Entity type ="TonicWaterItem"   locationX ="144" locationY="4"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="144" locationY="5"   />				
+			<Entity type ="RedBrickEnemy"   locationX ="144" locationY="7"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="146" locationY="0"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="146" locationY="5"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="146" locationY="7"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="148" locationY="0"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="148" locationY="5"   />				
+			<Entity type ="RedBrickEnemy"   locationX ="148" locationY="7"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="150" locationY="0"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="150" locationY="5"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="150" locationY="7"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="152" locationY="0"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="152" locationY="5"   />				
+			<Entity type ="RedBrickEnemy"   locationX ="152" locationY="7"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="154" locationY="0"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="154" locationY="5"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="154" locationY="7"   />	
+			
+			<Entity type ="RedBrickEnemy"   locationX ="156" locationY="0"   />				
+			<Entity type ="RedBrickEnemy"   locationX ="156" locationY="7"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="158" locationY="0"   />	
+			<Entity type ="TonicWaterItem"   locationX ="158" locationY="3"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="158" locationY="7"   />
+			<Entity type ="RedBrickEnemy"   locationX ="160" locationY="0"   />				
+			<Entity type ="RedBrickEnemy"   locationX ="160" locationY="7"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="162" locationY="0"   />
+			<Entity type ="TonicWaterItem"   locationX ="162" locationY="5"   />				
+			<Entity type ="RedBrickEnemy"   locationX ="162" locationY="7"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="164" locationY="0"   />				
+			<Entity type ="RedBrickEnemy"   locationX ="164" locationY="7"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="166" locationY="0"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="166" locationY="7"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="168" locationY="0"   />	
+			<Entity type ="TonicWaterItem"   locationX ="168" locationY="5"   />				
+			<Entity type ="RedBrickEnemy"   locationX ="168" locationY="7"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="170" locationY="0"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="170" locationY="7"   />	
+			
+			<Entity type ="RedBrickEnemy"   locationX ="172" locationY="0"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="172" locationY="2"   />	
+			<Entity type ="TonicWaterItem"   locationX ="172" locationY="5"   />				
+			<Entity type ="RedBrickEnemy"   locationX ="172" locationY="7"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="174" locationY="0"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="174" locationY="2"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="174" locationY="7"   />
+			<Entity type ="RedBrickEnemy"   locationX ="176" locationY="0"   />
+			<Entity type ="RedBrickEnemy"   locationX ="176" locationY="2"   />				
+			<Entity type ="RedBrickEnemy"   locationX ="176" locationY="7"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="178" locationY="0"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="178" locationY="2"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="178" locationY="7"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="180" locationY="0"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="180" locationY="2"   />				
+			<Entity type ="RedBrickEnemy"   locationX ="180" locationY="7"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="182" locationY="0"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="182" locationY="2"   />	
+			<Entity type ="TonicWaterItem"   locationX ="182" locationY="5"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="182" locationY="7"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="184" locationY="0"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="184" locationY="2"   />				
+			<Entity type ="RedBrickEnemy"   locationX ="184" locationY="7"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="186" locationY="0"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="186" locationY="2"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="186" locationY="7"   />	
+			
+			<Entity type ="CliffBuilding"   locationX ="188" locationY="6.8"   />
+			<Entity type ="TonicWaterItem"   locationX ="188" locationY="5.5"   />	
+			
+			<Entity type ="RedBrickEnemy"   locationX ="200" locationY="0"   />				
+			<Entity type ="RedBrickEnemy"   locationX ="200" locationY="7"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="202.5" locationY="0"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="202.5" locationY="7"   />
+			<Entity type ="RedBrickEnemy"   locationX ="205" locationY="0"   />		
+			<Entity type ="TonicWaterItem"   locationX ="205" locationY="3"   />				
+			<Entity type ="RedBrickEnemy"   locationX ="205" locationY="7"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="207.5" locationY="0"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="207.5" locationY="7"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="210" locationY="0"   />	
+			<Entity type ="TonicWaterItem"   locationX ="210" locationY="5"   />				
+			<Entity type ="RedBrickEnemy"   locationX ="210" locationY="7"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="212.5" locationY="0"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="212.5" locationY="7"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="215" locationY="0"   />	
+			<Entity type ="TonicWaterItem"   locationX ="215" locationY="5"   />				
+			<Entity type ="RedBrickEnemy"   locationX ="215" locationY="7"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="217.5" locationY="0"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="217.5" locationY="7"   />
+			
+			<Entity type ="RedBrickEnemy"   locationX ="220" locationY="0"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="220" locationY="2"   />				
+			<Entity type ="RedBrickEnemy"   locationX ="220" locationY="7"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="222.5" locationY="0"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="222.5" locationY="2"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="222.5" locationY="7"   />
+			<Entity type ="RedBrickEnemy"   locationX ="225" locationY="0"   />
+			<Entity type ="RedBrickEnemy"   locationX ="225" locationY="2"   />
+			<Entity type ="TonicWaterItem"   locationX ="225" locationY="5"   />				
+			<Entity type ="RedBrickEnemy"   locationX ="225" locationY="7"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="227.5" locationY="0"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="227.5" locationY="2"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="227.5" locationY="7"   />	
+			
+			<Entity type ="RedBrickEnemy"   locationX ="230" locationY="0"   />	
+			<Entity type ="TonicWaterItem"   locationX ="230" locationY="5"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="230" locationY="7"   />		
+			
+			<Entity type ="RedBrickEnemy"   locationX ="233.5" locationY="0"   />	
+			<Entity type ="TonicWaterItem"   locationX ="233.5" locationY="3"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="233.5" locationY="5"   />				
+			<Entity type ="RedBrickEnemy"   locationX ="233.5" locationY="7"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="236" locationY="0"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="236" locationY="5"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="236" locationY="7"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="238.5" locationY="0"   />	
+			<Entity type ="TonicWaterItem"   locationX ="238" locationY="3"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="238.5" locationY="5"   />				
+			<Entity type ="RedBrickEnemy"   locationX ="238.5" locationY="7"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="241" locationY="0"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="241" locationY="5"   />	
+			<Entity type ="RedBrickEnemy"   locationX ="241" locationY="7"   />	
+			
+			
+			<Entity type ="CliffBuilding"   locationX ="245" locationY="6.0"   />
+
+</Entities>
+<Joints>
+</Joints>
+<!--<NoPlayerCollision>4anchor,4Ball1,4Ball2,4Ball3,4Ball4,4Ball5,4Ball6,4Ball7</NoPlayerCollision>-->
+<Non-CollidingPairs>
+	<Pair id1="" id2="" />
+</Non-CollidingPairs>
+ </GameWorld>
